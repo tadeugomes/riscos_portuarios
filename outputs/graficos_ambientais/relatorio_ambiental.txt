@@ -1,0 +1,37 @@
+RELATÓRIO DE ANÁLISE - DIMENSÃO AMBIENTAL
+============================================================
+
+PERÍODO: 2025
+----------------------------------------
+Total de variáveis analisadas: 16
+Mediana geral da dimensão: 2.00
+Percentual médio de risco alto: 20.8%
+Número de riscos críticos: 0
+
+PERÍODO: Curto prazo (2026 a
+----------------------------------------
+Total de variáveis analisadas: 16
+Mediana geral da dimensão: 2.00
+Percentual médio de risco alto: 26.8%
+Número de riscos críticos: 0
+
+PERÍODO: Longo prazo (até 203
+----------------------------------------
+Total de variáveis analisadas: 16
+Mediana geral da dimensão: 3.00
+Percentual médio de risco alto: 35.6%
+Número de riscos críticos: 1
+
+RISCOS CRÍTICOS IDENTIFICADOS:
+ 1. Mudanças climáticas (intensificação e frequência...
+    Mediana: 4.0 | Risco Alto: 52.0%
+
+RECOMENDAÇÕES:
+--------------------
+1. Monitorar continuamente os riscos críticos identificados
+2. Desenvolver planos de mitigação para riscos com mediana ≥ 4.0
+3. Implementar sistemas de alerta precoce para tendências de aumento
+4. Realizar análises comparativas entre períodos para identificar tendências
+5. Priorizar recursos para as variáveis com maior percentual de risco alto
+
+NOTA: Consulte o apêndice completo em outputs/apendice_variaveis/ para descrições detalhadas das variáveis.

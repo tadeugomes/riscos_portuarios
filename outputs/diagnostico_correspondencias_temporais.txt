@@ -1,0 +1,293 @@
+RELATÓRIO DE DIAGNÓSTICO DE CORRESPONDÊNCIAS TEMPORAIS
+======================================================================
+
+Data do diagnóstico: 31/10/2025 14:49:03
+
+DIMENSÃO: ECONOMICA
+--------------------------------------------------
+
+Variáveis curto prazo: 19
+Variáveis longo prazo: 19
+Correspondências encontradas: 19
+
+DETALHES DAS CORRESPONDÊNCIAS:
+------------------------------
+  1. Método: numero_base_unico
+     Curto: 1.1 Especulação e crise no mercado de ativos financeiros. [Curto prazo (2026 a 2027)]
+     Longo: 1.1 Especulação e crise no mercado de ativos financeiros. [Longo prazo (até 2035)]
+
+  2. Método: numero_base_unico
+     Curto: 1.2 Concentração de recursos estrategicamente importantes (minerais, materiais, tecnologias) entre um pequeno número de indivíduos, empresas ou Estados que podem controlar o acesso e ditar preços discricionários. [Curto prazo (2026 a 2027)]
+     Longo: 1.2 Concentração de recursos estrategicamente importantes (minerais, materiais, tecnologias) entre um pequeno número de indivíduos, empresas ou Estados que podem controlar o acesso e ditar preços discricionários. [Longo prazo (até 2035)]
+
+  3. Método: numero_base_unico
+     Curto: 1.3 Endividamento público. [Curto prazo (2026 a 2027)]
+     Longo: 1.3 Endividamento público. [Longo prazo (até 2035)]
+
+  4. Método: numero_base_unico
+     Curto: 1.4 Endividamento empresarial. [Curto prazo (2026 a 2027)]
+     Longo: 1.4 Endividamento empresarial. [Longo prazo (até 2035)]
+
+  5. Método: numero_base_unico
+     Curto: 1.5 Endividamento das pessoas. [Curto prazo (2026 a 2027)]
+     Longo: 1.5 Endividamento das pessoas. [Longo prazo (até 2035)]
+
+  6. Método: numero_base_unico
+     Curto: 1.6 Falhas, interrupções ou disrupções em cadeias de suprimentos relevantes. [Curto prazo (2026 a 2027)]
+     Longo: 1.6 Falhas, interrupções ou disrupções em cadeias de suprimentos relevantes. [Longo prazo (até 2035)]
+
+  7. Método: numero_base_unico
+     Curto: 1.7 Disrupções em infraestruturas críticas (físicas e digitais) ou serviços que sustentam sistemas críticos (internet, telecomunicações, serviços públicos, sistemas financeiros ou energia). [Curto prazo (2026 a 2027)]
+     Longo: 1.7 Disrupções em infraestruturas críticas (físicas e digitais) ou serviços que sustentam sistemas críticos (internet, telecomunicações, serviços públicos, sistemas financeiros ou energia). [Longo prazo (até 2035)]
+
+  8. Método: numero_base_unico
+     Curto: 1.8 Diminuição (estagnação) do ritmo e da dinâmica das atividades econômicas. [Curto prazo (2026 a 2027)]
+     Longo: 1.8 Diminuição (estagnação) do ritmo e da dinâmica das atividades econômicas. [Longo prazo (até 2035)]
+
+  9. Método: numero_base_unico
+     Curto: 1.9 Ação do crime organizado e atividades ilícitas de empresas e pessoas. [Curto prazo (2026 a 2027)]
+     Longo: 1.9 Ação do crime organizado e atividades ilícitas de empresas e pessoas. [Longo prazo (até 2035)]
+
+ 10. Método: numero_base_unico
+     Curto: 1.10 Aumento da inflação. [Curto prazo (2026 a 2027)]
+     Longo: 1.10 Aumento da inflação. [Longo prazo (até 2035)]
+
+ 11. Método: numero_base_unico
+     Curto: 1.11 Dificuldades de financiamento e obtenção de recursos financeiros para investimento. [Curto prazo (2026 a 2027)]
+     Longo: 1.11 Dificuldades de financiamento e obtenção de recursos financeiros para investimento. [Longo prazo (até 2035)]
+
+ 12. Método: numero_base_unico
+     Curto: 1.14 Aumento de impostos. [Curto prazo (2026 a 2027)]
+     Longo: 1.14 Aumento de impostos. [Longo prazo (até 2035)]
+
+ 13. Método: numero_base_unico
+     Curto: 1.15 Instabilidade política. [Curto prazo (2026 a 2027)]
+     Longo: 1.15 Instabilidade política. [Longo prazo (até 2035)]
+
+ 14. Método: numero_base_unico
+     Curto: 1.16 Excesso regulatório. [Curto prazo (2026 a 2027)]
+     Longo: 1.16 Excesso regulatório. [Longo prazo (até 2035)]
+
+ 15. Método: numero_base_unico
+     Curto: 1.17 Déficit regulatório. [Curto prazo (2026 a 2027)]
+     Longo: 1.17 Déficit regulatório. [Longo prazo (até 2035)]
+
+ 16. Método: numero_base_unico
+     Curto: 1.18 Desemprego. [Curto prazo (2026 a 2027)]
+     Longo: 1.18 Desemprego. [Longo prazo (até 2035)]
+
+ 17. Método: numero_base_unico
+     Curto: 1.19 Corrupção. [Curto prazo (2026 a 2027)]
+     Longo: 1.19 Corrupção. [Longo prazo (até 2035)]
+
+ 18. Método: numero_base_unico
+     Curto: 1.20 Desequilíbrio econômico regional. [Curto prazo (2026 a 2027)]
+     Longo: 1.20 Desequilíbrio econômico regional. [Longo prazo (até 2035)]
+
+ 19. Método: numero_base_unico
+     Curto: 1.21 Conflito ou instabilidade institucional do Estado. [Curto prazo (2026 a 2027)]
+     Longo: 1.21 Conflito ou instabilidade institucional do Estado. [Longo prazo (até 2035)]
+
+
+======================================================================
+
+DIMENSÃO: AMBIENTAL
+--------------------------------------------------
+
+Variáveis curto prazo: 16
+Variáveis longo prazo: 16
+Correspondências encontradas: 16
+
+DETALHES DAS CORRESPONDÊNCIAS:
+------------------------------
+  1. Método: numero_base_unico
+     Curto: 2.1 Perda de biodiversidade e colapso de ecossistemas. [Curto prazo (2026 a 2027)]
+     Longo: 2.1 Perda de biodiversidade e colapso de ecossistemas. [Longo prazo (até 2035)]
+
+  2. Método: numero_base_unico
+     Curto: 2.2 Eventos que possam impactar acessos e operações portuárias, como deslizamentos ou desmoronamentos de encostas e margens (terras caídas) e o assoreamento acelerado de rios e canais de navegação. [Curto prazo (2026 a 2027)]
+     Longo: 2.2 Eventos que possam impactar acessos e operações portuárias, como deslizamentos ou desmoronamentos de encostas e margens (terras caídas) e o assoreamento acelerado de rios e canais de navegação. [Longo prazo (até 2035)]
+
+  3. Método: numero_base_unico
+     Curto: 2.3 Mudanças climáticas (intensificação e aumento da frequência de fenômenos como chuvas, tempestades, vendavais, ondas de calor, secas, ciclones e furacões). [Curto prazo (2026 a 2027)]
+     Longo: 2.3 Mudanças climáticas (intensificação e aumento da frequência de fenômenos como chuvas, tempestades, vendavais, ondas de calor, secas, ciclones e furacões). [Longo prazo (até 2035)]
+
+  4. Método: numero_base_unico
+     Curto: 2.5 Desastres naturais não relacionados ao clima, como terremotos, incêndios florestais, maremotos, subsidência. [Curto prazo (2026 a 2027)]
+     Longo: 2.5 Desastres naturais não relacionados ao clima, como terremotos, incêndios florestais, maremotos, subsidência. [Longo prazo (até 2035)]
+
+  5. Método: numero_base_unico
+     Curto: 2.6 Aumento do nível do mar e processos erosivos costeiros. [Curto prazo (2026 a 2027)]
+     Longo: 2.6 Aumento do nível do mar e processos erosivos costeiros. [Longo prazo (até 2035)]
+
+  6. Método: numero_base_unico
+     Curto: 2.7 Poluição da água e sedimentos em áreas portuárias por contaminantes orgânicos e inorgânicos, tais como hidrocarbonetos, metais, pesticidas e nutrientes. [Curto prazo (2026 a 2027)]
+     Longo: 2.7 Poluição da água e sedimentos em áreas portuárias por contaminantes orgânicos e inorgânicos, tais como hidrocarbonetos, metais, pesticidas e nutrientes. [Longo prazo (até 2035)]
+
+  7. Método: numero_base_unico
+     Curto: 2.8 Movimentação de produtos perigosos.  [Curto prazo (2026 a 2027)]
+     Longo: 2.8 Movimentação de produtos perigosos.  [Longo prazo (até 2035)]
+
+  8. Método: numero_base_unico
+     Curto: 2.9 Presença de agentes patogênicos. Deficiência no tratamento de esgoto ou saneamento. [Curto prazo (2026 a 2027)]
+     Longo: 2.9 Presença de agentes patogênicos. Deficiência no tratamento de esgoto ou saneamento. [Longo prazo (até 2035)]
+
+  9. Método: numero_base_unico
+     Curto: 2.10 Introdução de espécies exóticas, organismos aquáticos nocivos e agentes patogênicos. [Curto prazo (2026 a 2027)]
+     Longo: 2.10 Introdução de espécies exóticas, organismos aquáticos nocivos e agentes patogênicos. [Longo prazo (até 2035)]
+
+ 10. Método: numero_base_unico
+     Curto: 2.11 Poluição atmosférica, [Curto prazo (2026 a 2027)]
+     Longo: 2.11 Poluição atmosférica, [Longo prazo (até 2035)]
+
+ 11. Método: numero_base_unico
+     Curto: 2.12 Ruídos e vibrações. [Curto prazo (2026 a 2027)]
+     Longo: 2.12 Ruídos e vibrações. [Longo prazo (até 2035)]
+
+ 12. Método: numero_base_unico
+     Curto: 2.13 Gerenciamento inadequado dos resíduos sólidos. [Curto prazo (2026 a 2027)]
+     Longo: 2.13 Gerenciamento inadequado dos resíduos sólidos. [Longo prazo (até 2035)]
+
+ 13. Método: numero_base_unico
+     Curto: 2.14 Desmatamento. [Curto prazo (2026 a 2027)]
+     Longo: 2.14 Desmatamento. [Longo prazo (até 2035)]
+
+ 14. Método: numero_base_unico
+     Curto: 2.15 Licenciamento ambiental. [Curto prazo (2026 a 2027)]
+     Longo: 2.15 Licenciamento ambiental. [Longo prazo (até 2035)]
+
+ 15. Método: numero_base_unico
+     Curto: 2.16 Descarbonização do transporte marítimo. [Curto prazo (2026 a 2027)]
+     Longo: 2.16 Descarbonização do transporte marítimo. [Longo prazo (até 2035)]
+
+ 16. Método: numero_base_unico
+     Curto: 2.17 Baixa educação/conscientização ambiental. [Curto prazo (2026 a 2027)]
+     Longo: 2.17 Baixa educação/conscientização ambiental. [Longo prazo (até 2035)]
+
+
+======================================================================
+
+DIMENSÃO: GEOPOLITICA
+--------------------------------------------------
+
+Variáveis curto prazo: 5
+Variáveis longo prazo: 5
+Correspondências encontradas: 5
+
+DETALHES DAS CORRESPONDÊNCIAS:
+------------------------------
+  1. Método: numero_base_unico
+     Curto: 3.1 Liberação intencional ou acidental de contaminante biológico, químico, nuclear ou radiológico. [Curto prazo (2026 a 2027)]
+     Longo: 3.1 Liberação intencional ou acidental de contaminante biológico, químico, nuclear ou radiológico. [Longo prazo (até 2035)]
+
+  2. Método: numero_base_unico
+     Curto: 3.3 Conflitos geoeconômicos (bloqueios, sanções, restrições tarifárias, redução de investimentos). [Curto prazo (2026 a 2027)]
+     Longo: 3.3 Conflitos geoeconômicos (bloqueios, sanções, restrições tarifárias, redução de investimentos). [Longo prazo (até 2035)]
+
+  3. Método: numero_base_unico
+     Curto: 3.4 Conflitos armados entre nações. [Curto prazo (2026 a 2027)]
+     Longo: 3.4 Conflitos armados entre nações. [Longo prazo (até 2035)]
+
+  4. Método: numero_base_unico
+     Curto: 3.5 Violência aberta em países de relação (greves, conflitos internos, golpes de Estado, insegurança pública). [Curto prazo (2026 a 2027)]
+     Longo: 3.5 Violência aberta em países de relação (greves, conflitos internos, golpes de Estado, insegurança pública). [Longo prazo (até 2035)]
+
+  5. Método: numero_base_unico
+     Curto: 3.6 Terrorismo. [Curto prazo (2026 a 2027)]
+     Longo: 3.6 Terrorismo. [Longo prazo (até 2035)]
+
+
+======================================================================
+
+DIMENSÃO: SOCIAL
+--------------------------------------------------
+
+Variáveis curto prazo: 13
+Variáveis longo prazo: 13
+Correspondências encontradas: 13
+
+DETALHES DAS CORRESPONDÊNCIAS:
+------------------------------
+  1. Método: numero_base_unico
+     Curto: 4.1 Ameaças aos direitos humanos e/ou às liberdades individuais ou de grupo. [Curto prazo (2026 a 2027)]
+     Longo: 4.1 Ameaças aos direitos humanos e/ou às liberdades individuais ou de grupo. [Longo prazo (até 2035)]
+
+  2. Método: numero_base_unico
+     Curto: 4.2 Ocorrência de pandemias ou epidemias de doenças de rápida disseminação.  [Curto prazo (2026 a 2027)]
+     Longo: 4.2 Ocorrência de pandemias ou epidemias de doenças de rápida disseminação.  [Longo prazo (até 2035)]
+
+  3. Método: numero_base_unico
+     Curto: 4.3 Insuficiência de serviços públicos essenciais, como saúde, saneamento, transporte, segurança e educação, que impacta diretamente a qualidade de vida da população e a força de trabalho vinculada ao setor portuário.  [Curto prazo (2026 a 2027)]
+     Longo: 4.3 Insuficiência de serviços públicos essenciais, como saúde, saneamento, transporte, segurança e educação, que impacta diretamente a qualidade de vida da população e a força de trabalho vinculada ao setor portuário.  [Longo prazo (até 2035)]
+
+  4. Método: numero_base_unico
+     Curto: 4.5 Acidentes rodoviários e ferroviários de alta severidade em áreas próximas aos portos.  [Curto prazo (2026 a 2027)]
+     Longo: 4.5 Acidentes rodoviários e ferroviários de alta severidade em áreas próximas aos portos.  [Longo prazo (até 2035)]
+
+  5. Método: numero_base_unico
+     Curto: 4.6 Acidentes nas operações portuárias.  [Curto prazo (2026 a 2027)]
+     Longo: 4.6 Acidentes nas operações portuárias.  [Longo prazo (até 2035)]
+
+  6. Método: numero_base_unico
+     Curto: 4.7 Falhas na gestão de crises e na resposta a emergências. [Curto prazo (2026 a 2027)]
+     Longo: 4.7 Falhas na gestão de crises e na resposta a emergências. [Longo prazo (até 2035)]
+
+  7. Método: numero_base_unico
+     Curto: 4.8 Falhas no controle interno: fraudes ou corrupção.  [Curto prazo (2026 a 2027)]
+     Longo: 4.8 Falhas no controle interno: fraudes ou corrupção.  [Longo prazo (até 2035)]
+
+  8. Método: numero_base_unico
+     Curto: 4.10 Falta de recursos humanos capacitados e especializados no setor portuário.  [Curto prazo (2026 a 2027)]
+     Longo: 4.10 Falta de recursos humanos capacitados e especializados no setor portuário.  [Longo prazo (até 2035)]
+
+  9. Método: numero_base_unico
+     Curto: 4.11 Assédio (moral e sexual) no ambiente de trabalho. [Curto prazo (2026 a 2027)]
+     Longo: 4.11 Assédio (moral e sexual) no ambiente de trabalho. [Longo prazo (até 2035)]
+
+ 10. Método: numero_base_unico
+     Curto: 4.12 Desigualdades raciais/étnicas e de gênero. [Curto prazo (2026 a 2027)]
+     Longo: 4.12 Desigualdades raciais/étnicas e de gênero. [Longo prazo (até 2035)]
+
+ 11. Método: numero_base_unico
+     Curto: 4.13 Falta de participação social. [Curto prazo (2026 a 2027)]
+     Longo: 4.13 Falta de participação social. [Longo prazo (até 2035)]
+
+ 12. Método: numero_base_unico
+     Curto: 4.14 Maior uso de tecnologias (IA, mecanização, robotização). [Curto prazo (2026 a 2027)]
+     Longo: 4.14 Maior uso de tecnologias (IA, mecanização, robotização). [Longo prazo (até 2035)]
+
+ 13. Método: numero_base_unico
+     Curto: 4.15 Ausência do Estado junto às populações próximas aos portos. [Curto prazo (2026 a 2027)]
+     Longo: 4.15 Ausência do Estado junto às populações próximas aos portos. [Longo prazo (até 2035)]
+
+
+======================================================================
+
+DIMENSÃO: TECNOLOGICA
+--------------------------------------------------
+
+Variáveis curto prazo: 4
+Variáveis longo prazo: 4
+Correspondências encontradas: 4
+
+DETALHES DAS CORRESPONDÊNCIAS:
+------------------------------
+  1. Método: numero_base_unico
+     Curto: 5.1 Consequências indesejáveis pela aplicação de tecnologias ou IA. [Curto prazo (2026 a 2027)]
+     Longo: 5.1 Consequências indesejáveis pela aplicação de tecnologias ou IA. [Longo prazo (até 2035)]
+
+  2. Método: numero_base_unico
+     Curto: 5.6 Vulnerabilidades dos sistemas de comunicação e dispositivos de Internet das Coisas (IoT) usados nos portos (falhas em cibersegurança). [Curto prazo (2026 a 2027)]
+     Longo: 5.6 Vulnerabilidades dos sistemas de comunicação e dispositivos de Internet das Coisas (IoT) usados nos portos (falhas em cibersegurança). [Longo prazo (até 2035)]
+
+  3. Método: numero_base_unico
+     Curto: 5.7 Atraso no processo de digitalização dos portos. [Curto prazo (2026 a 2027)]
+     Longo: 5.7 Atraso no processo de digitalização dos portos. [Longo prazo (até 2035)]
+
+  4. Método: numero_base_unico
+     Curto: 5.8 Consequências indesejáveis pela aplicação de tecnologias ou IA. Práticas de censura e vigilância adversa. Consequências adversas de tecnologias avançadas (Física, Biotecnologia, Geoengenharia). [Curto prazo (2026 a 2027)]
+     Longo: 5.8 Consequências indesejáveis pela aplicação de tecnologias ou IA. Práticas de censura e vigilância adversa. Consequências adversas de tecnologias avançadas (Física, Biotecnologia, Geoengenharia). [Longo prazo (até 2035)]
+
+
+======================================================================
+

@@ -1,0 +1,61 @@
+RELATÓRIO CONSOLIDADO DE ANÁLISE DE RISCOS PORTUÁRIOS
+======================================================================
+
+SUMÁRIO EXECUTIVO
+--------------------
+Data da análise: 06/11/2025 21:24:56
+Total de respondentes: 125
+Dimensões analisadas: 5
+
+COMPARAÇÃO ENTRE DIMENSÕES
+------------------------------
+
+Economica:
+  Mediana geral: 3.00
+  Percentual médio risco alto: 38.4%
+  Total de riscos críticos: 8
+
+Ambiental:
+  Mediana geral: 2.00
+  Percentual médio risco alto: 27.7%
+  Total de riscos críticos: 1
+
+Geopolitica:
+  Mediana geral: 3.00
+  Percentual médio risco alto: 34.0%
+  Total de riscos críticos: 2
+
+Social:
+  Mediana geral: 3.00
+  Percentual médio risco alto: 28.2%
+  Total de riscos críticos: 0
+
+Tecnologica:
+  Mediana geral: 3.00
+  Percentual médio risco alto: 32.3%
+  Total de riscos críticos: 0
+
+
+RECOMENDAÇÕES ESTRATÉGICAS
+------------------------------
+1. Priorizar ações para dimensões com maior número de riscos críticos
+2. Desenvolver planos de contingência para riscos de alta prioridade
+3. Implementar monitoramento contínuo das tendências temporais
+4. Fortalecer capacidade de resposta para riscos identificados como críticos
+5. Realizar avaliações periódicas para atualização da análise de riscos
+
+REFERÊNCIA COMPLETA DAS VARIÁVEIS
+-----------------------------------
+Para descrições completas de todas as variáveis analisadas,
+consulte o apêndice disponível em:
+outputs/apendice_variaveis/apendice_completo.txt
+outputs/apendice_variaveis/apendice_completo.html
+
+
+PRÓXIMOS PASSOS
+---------------
+1. Detalhar planos de mitigação para cada risco crítico
+2. Alocar recursos baseados na priorização estabelecida
+3. Estabelecer indicadores de monitoramento
+4. Compartilhar resultados com stakeholders relevantes
+5. Integrar análise ao planejamento estratégico portuário

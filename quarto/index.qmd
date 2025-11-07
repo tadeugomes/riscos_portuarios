@@ -1,0 +1,32 @@
+---
+title: "Expediente"
+---
+
+Este capítulo reúne as informações institucionais e os créditos editoriais do livro **Análise de Riscos Portuários**. Atualize os campos abaixo conforme a versão final do projeto.
+
+## Identificação do Projeto
+
+- **Título completo:** <!-- preencher -->
+- **Subtítulo / linha de pesquisa:** <!-- preencher -->
+- **Organização responsável:** <!-- preencher -->
+- **Parcerias e apoio institucional:** <!-- preencher -->
+- **Data de publicação:** <!-- preencher -->
+
+## Créditos Técnicos
+
+- **Coordenação geral:** <!-- preencher -->
+- **Coordenação técnica:** <!-- preencher -->
+- **Curadoria dos dados:** <!-- preencher -->
+- **Análise estatística:** <!-- preencher -->
+- **Visualização de dados:** <!-- preencher -->
+- **Revisão editorial:** <!-- preencher -->
+
+## Informações de Contato
+
+- **E-mail institucional:** <!-- preencher -->
+- **Telefone / WhatsApp:** <!-- preencher -->
+- **Website / repositório do projeto:** <!-- preencher -->
+
+:::{.callout-note title="Observação"}
+Inclua aqui outras informações relevantes para o expediente, como agradecimentos, identificadores digitais (ISBN/DOI) ou aviso de direitos autorais.
+:::

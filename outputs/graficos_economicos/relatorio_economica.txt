@@ -1,0 +1,55 @@
+RELATÓRIO DE ANÁLISE - DIMENSÃO ECONOMICA
+============================================================
+
+PERÍODO: 2025
+----------------------------------------
+Total de variáveis analisadas: 19
+Mediana geral da dimensão: 3.00
+Percentual médio de risco alto: 34.3%
+Número de riscos críticos: 1
+
+RISCOS CRÍTICOS IDENTIFICADOS:
+ 1. Instabilidade política.
+    Mediana: 4.0 | Risco Alto: 50.4%
+
+PERÍODO: Curto prazo (2026 a
+----------------------------------------
+Total de variáveis analisadas: 19
+Mediana geral da dimensão: 3.00
+Percentual médio de risco alto: 39.6%
+Número de riscos críticos: 4
+
+RISCOS CRÍTICOS IDENTIFICADOS:
+ 1. Instabilidade política.
+    Mediana: 4.0 | Risco Alto: 60.8%
+ 2. Excesso regulatório.
+    Mediana: 4.0 | Risco Alto: 53.6%
+ 3. Aumento de impostos.
+    Mediana: 4.0 | Risco Alto: 51.2%
+ 4. Falhas, interrupções ou disrupções suprimentos...
+    Mediana: 4.0 | Risco Alto: 50.4%
+
+PERÍODO: Longo prazo (até 203
+----------------------------------------
+Total de variáveis analisadas: 19
+Mediana geral da dimensão: 3.00
+Percentual médio de risco alto: 41.2%
+Número de riscos críticos: 3
+
+RISCOS CRÍTICOS IDENTIFICADOS:
+ 1. Instabilidade política.
+    Mediana: 4.0 | Risco Alto: 53.6%
+ 2. Excesso regulatório.
+    Mediana: 4.0 | Risco Alto: 52.8%
+ 3. Aumento de impostos.
+    Mediana: 4.0 | Risco Alto: 52.0%
+
+RECOMENDAÇÕES:
+--------------------
+1. Monitorar continuamente os riscos críticos identificados
+2. Desenvolver planos de mitigação para riscos com mediana ≥ 4.0
+3. Implementar sistemas de alerta precoce para tendências de aumento
+4. Realizar análises comparativas entre períodos para identificar tendências
+5. Priorizar recursos para as variáveis com maior percentual de risco alto
+
+NOTA: Consulte o apêndice completo em outputs/apendice_variaveis/ para descrições detalhadas das variáveis.

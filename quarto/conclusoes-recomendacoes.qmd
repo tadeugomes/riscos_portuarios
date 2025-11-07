@@ -1,0 +1,24 @@
+---
+title: "Conclusões e Recomendações"
+---
+
+# Conclusões e Recomendações
+
+Resuma aqui os principais aprendizados do estudo e proponha ações concretas para mitigação dos riscos identificados.
+
+## Síntese dos Achados
+
+- <!-- Destaque 1 -->
+- <!-- Destaque 2 -->
+- <!-- Destaque 3 -->
+
+## Recomendações Prioritárias
+
+1. <!-- Recomendações estratégicas para curto prazo -->
+2. <!-- Recomendações para médio prazo -->
+3. <!-- Recomendações para longo prazo -->
+
+## Próximos Passos
+
+- <!-- Indicar iniciativas de monitoramento -->
+- <!-- Sugerir estudos complementares -->

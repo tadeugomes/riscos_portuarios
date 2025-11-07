@@ -1,0 +1,23 @@
+---
+title: "Apêndices"
+---
+
+# Apêndices
+
+Utilize os apêndices para consolidar materiais de referência, instrumentos de pesquisa e tabelas complementares.
+
+## Documentos de Referência
+
+- <!-- Checklist ou formulários utilizados -->
+- <!-- Mapas ou diagramas adicionais -->
+
+## Tabelas e Dados Complementares
+
+| Descrição | Fonte | Observações |
+|-----------|-------|-------------|
+| <!-- Tabela --> | <!-- Fonte --> | <!-- Notas --> |
+
+## Glossário de Termos
+
+- **Termo:** <!-- definição -->
+- **Termo:** <!-- definição -->

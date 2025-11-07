@@ -1,0 +1,35 @@
+project:
+  type: book
+  output-dir: _book
+
+book:
+  title: "Analise de Riscos Portuarios"
+  author: "Equipe de Pesquisa"
+  date: today
+  chapters:
+    - index.qmd
+    - sumario-executivo.qmd
+    - prefacio.qmd
+    - equipe.qmd
+    - metodologia.qmd
+    - interconexao-riscos.qmd
+    - economic.qmd
+    - ambiental.qmd
+    - geopolitico.qmd
+    - social.qmd
+    - tecnologico.qmd
+    - conclusoes-recomendacoes.qmd
+    - apendices.qmd
+  page-navigation: true
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+    number-sections: true
+  docx:
+    toc: true
+    number-sections: true
+  pdf:
+    toc: true
+    number-sections: true

@@ -1,0 +1,33 @@
+---
+title: "Sumário Executivo"
+---
+
+# Sumário Executivo
+
+Este capítulo sintetiza os principais resultados, aprendizados e próximos passos do estudo de **Análise de Riscos Portuários**. Utilize-o para apresentar uma visão rápida a leitores executivos.
+
+## Destaques Estratégicos
+
+- <!-- Preencha com os principais achados quantitativos -->
+- <!-- Preencha com as tendências críticas identificadas -->
+- <!-- Preencha com recomendações prioritárias -->
+
+## Principais Indicadores
+
+| Dimensão | Indicadores-chave | Situação Atual | Tendência |
+|----------|-------------------|----------------|-----------|
+| Econômica | <!-- indicador --> | <!-- status --> | <!-- tendência --> |
+| Ambiental | <!-- indicador --> | <!-- status --> | <!-- tendência --> |
+| Geopolítica | <!-- indicador --> | <!-- status --> | <!-- tendência --> |
+| Social | <!-- indicador --> | <!-- status --> | <!-- tendência --> |
+| Tecnológica | <!-- indicador --> | <!-- status --> | <!-- tendência --> |
+
+## Agenda Recomendada
+
+1. <!-- Ação prioritária 1 -->
+2. <!-- Ação prioritária 2 -->
+3. <!-- Ação prioritária 3 -->
+
+:::{.callout-tip title="Como usar este capítulo"}
+Adapte o conteúdo para servir como material de apresentação ou briefing rápido para lideranças e stakeholders.
+:::

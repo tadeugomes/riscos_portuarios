@@ -1,0 +1,126 @@
+---
+title: "Metodologia"
+---
+
+# Metodologia
+
+Este capítulo apresenta o desenho metodológico adotado para avaliar os riscos portuários nas diferentes dimensões analisadas no contexto brasileiro.
+
+## Fontes de Dados
+
+- Questionários estruturados aplicados com especialistas do setor portuário.
+- Bases de dados secundárias (indicar fontes específicas).
+- Entrevistas complementares e workshops temáticos (quando aplicável).
+
+## Horizonte Temporal
+
+Os riscos foram avaliados considerando três horizontes:
+
+- Imediato (2025) – riscos que requerem atenção imediata.
+- Curto prazo (2026-2027) – riscos emergentes que demandam planejamento.
+- Longo prazo (até 2035) – riscos estratégicos que requerem visão de futuro.
+
+## Escala Likert e Tratamento Estatístico
+
+### Natureza dos Dados
+
+A coleta de dados utilizou uma escala Likert de 5 pontos para avaliar a percepção de especialistas sobre os riscos portuários:
+
+- 1 - Risco muito baixo
+- 2 - Risco baixo  
+- 3 - Risco moderado
+- 4 - Risco alto
+- 5 - Risco muito alto
+
+### Cálculo de Medidas de Tendência Central
+
+A média foi calculada como a soma de todas as respostas dividida pelo número total de respondentes para cada variável:
+
+$$\bar{x} = \frac{\sum_{i=1}^{n} x_i}{n}$$
+
+Onde:
+- $\bar{x}$ = média da variável
+- $x_i$ = valor da resposta do i-ésimo respondente (1 a 5)
+- $n$ = número total de respondentes
+
+Interpretação da média:
+- 1,0 - 1,9: Percepção de risco muito baixo
+- 2,0 - 2,9: Percepção de risco baixo
+- 3,0 - 3,9: Percepção de risco moderado
+- 4,0 - 4,9: Percepção de risco alto
+- 5,0: Percepção de risco muito alto
+
+A mediana representa o valor central quando todas as respostas são ordenadas. Para dados em escala Likert, a mediana é particularmente útil pois:
+
+- Não é afetada por valores extremos (outliers)
+- Representa a posição típica do grupo
+- É mais robusta para distribuições assimétricas
+
+Foram usadas as duas medidas pois fornecem uma visão complementar:
+
+- Média: Captura a intensidade geral das percepções
+- Mediana: Indica a posição central e é resistente a extremos
+
+#### Interpretação Conjunta
+
+- Média ≈ Mediana: Distribuição simétrica, consenso claro
+- Média > Mediana: Concentração de respostas mais altas, alguns valores extremos elevados
+- Média < Mediana: Concentração de respostas mais baixas, alguns valores extremos reduzidos
+
+### Análise por Dimensão
+
+Para cada dimensão de risco (econômica, ambiental, social, tecnológica e geopolítica), foram calculadas:
+
+1. Médias e medianas individuais para cada variável
+2. Médias e medianas agregadas por dimensão
+3. Desvio padrão para medir a dispersão das respostas
+4. Frequências absolutas e relativas para cada ponto da escala
+
+### Validade Estatística
+
+A abordagem metodológica adotada segue as melhores práticas para análise de dados Likert:
+
+- Preservação da natureza ordinal dos dados
+- Uso adequado de estatísticas descritivas
+- Complementaridade entre medidas para análise 
+- Transparência nos critérios de interpretação
+
+## Abordagem Analítica
+
+1. Tratamento dos dados: limpeza, padronização e consolidação das respostas.
+2. Construção de indicadores: cálculo de percentuais por nível de risco e mediana por horizonte temporal.
+3. Visualização e interpretação: elaboração de gráficos comparativos e sínteses interpretativas.
+
+### Analise Estatistica de Dispersao Temporal
+
+Para avaliar a evolucao percebida dos riscos entre horizontes temporais, foi estruturado um pipeline estatistico de dispersao com manutencao integral dos 57 pares curto vs. longo prazo.
+
+#### Metodologia de Correspondencia Temporal
+
+- Identificacao de pares temporais: correspondencia automatica por codigo da variavel entre curto prazo (2026-2027) e longo prazo (ate 2035).
+- Extracao de estatisticas: para cada par calculamos mediana, intervalo interquartil (IQR), delta temporal com sinal (mediana longo - mediana curto) e delta absoluto.
+- Classificacao de tendencia: o delta com sinal e classificado em melhoria, estabilidade ou piora (leve, moderada, significativa), preservando a direcao da variacao.
+
+#### Criterios de Inclusao na Analise
+
+A analise contempla todas as variaveis com respostas nos dois horizontes, totalizando 57 pares. Essa abordagem garante:
+
+- Cobertura completa: nenhuma variavel elegivel e excluida do grafico ou da analise textual.
+- Comparabilidade por dimensao: calculos agregados por dimensao usam as mesmas metricas (medianas, deltas e IQR medio).
+- Rastreabilidade: cada ponto retém referencias de dimensao, label sucinto e tamanhos de cluster para auditoria posterior.
+
+#### Tecnicas de Visualizacao
+
+- Grafico de dispersao: eixo X = mediana do curto prazo; eixo Y = mediana do longo prazo.
+- Jitter radial: aplica deslocamento polar nos pontos com coordenadas identicas, evitando sobreposicao visual.
+- Contagem de clusters: quando ha multiplas variaveis na mesma posicao original, um multiplicador (ex.: 3x) sinaliza o volume agregado.
+- Dimensionamento dinamico: o raio de cada ponto combina IQR medio e tamanho do cluster, destacando variabilidade.
+- Rotulagem balanceada: ate 20 rotulos sao distribuidos entre quadrantes conforme densidade e variacao, reduzindo vies de destaque.
+
+#### Interpretacao Estatistica
+
+- Correlacao temporal: coeficiente de Pearson calculado para medir a persistencia entre horizontes.
+- Analise de deltas: o delta com sinal identifica agravamentos ou melhorias; o delta absoluto resume a magnitude da mudanca.
+- Quadrantes estrategicos: contagens e percentuais por quadrante alimentam tanto o grafico quanto a narrativa do relatorio.
+
+Essa abordagem torna explicitas as concentracoes de risco, evidencia mudancas relevantes e preserva a comparabilidade entre dimensoes, oferecendo ao leitor uma leitura fiel da evolucao temporal dos indicadores portuarios.

@@ -1,0 +1,41 @@
+{
+  "index.qmd": {
+    "index.html": "539b73cb"
+  },
+  "sumario-executivo.qmd": {
+    "sumario-executivo.html": "3c535425"
+  },
+  "prefacio.qmd": {
+    "prefacio.html": "351b5f77"
+  },
+  "equipe.qmd": {
+    "equipe.html": "bc2e8fd5"
+  },
+  "metodologia.qmd": {
+    "metodologia.html": "10a01eee"
+  },
+  "interconexao-riscos.qmd": {
+    "interconexao-riscos.html": "7963b795"
+  },
+  "economic.qmd": {
+    "economic.html": "b9abbf8d"
+  },
+  "ambiental.qmd": {
+    "ambiental.html": "8cf09a35"
+  },
+  "geopolitico.qmd": {
+    "geopolitico.html": "7d02328b"
+  },
+  "social.qmd": {
+    "social.html": "fc68d9e4"
+  },
+  "tecnologico.qmd": {
+    "tecnologico.html": "379ea865"
+  },
+  "conclusoes-recomendacoes.qmd": {
+    "conclusoes-recomendacoes.html": "373cb0f2"
+  },
+  "apendices.qmd": {
+    "apendices.html": "07f51652"
+  }
+}

@@ -1,0 +1,25 @@
+---
+title: "Equipe"
+---
+
+# Equipe
+
+Apresente a equipe responsável pelo estudo, indicando funções e contatos relevantes.
+
+## Coordenação
+
+- **Nome:** <!-- preencher -->
+  - **Função:** <!-- preencher -->
+  - **Contato:** <!-- e-mail -->
+
+## Especialistas Temáticos
+
+| Nome | Área de Atuação | Responsabilidade |
+|------|-----------------|------------------|
+| <!-- Nome --> | <!-- Especialidade --> | <!-- Responsabilidade --> |
+
+## Suporte Operacional
+
+- <!-- Comunicação -->
+- <!-- Produção editorial -->
+- <!-- Apoio administrativo -->

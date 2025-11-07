@@ -1,0 +1,840 @@
+APÊNDICE - IDENTIFICAÇÃO COMPLETA DAS VARIÁVEIS DE RISCO
+======================================================================
+
+Este apêndice contém a descrição completa de todas as variáveis
+analisadas nos gráficos. Nos gráficos, são usados títulos sucintos
+para melhor visualização. Consulte este apêndice para descrições
+completas.
+
+======================================================================
+
+DIMENSÃO: ECONOMICA
+--------------------------------------------------
+
+1.1 - Especulação e crise no financeiros....
+    Descrição completa: Especulação e crise no mercado de ativos financeiros.
+    Código original: 1.1 Especulação e crise no mercado de ativos financeiros. [Curto prazo (2026 a 2027)]
+
+1.10 - Aumento da inflação.
+    Descrição completa: Aumento da inflação.
+    Código original: 1.10 Aumento da inflação. [Longo prazo (até 2035)]
+
+1.1 - Especulação e crise no financeiros....
+    Descrição completa: Especulação e crise no mercado de ativos financeiros.
+    Código original: 1.1 Especulação e crise no mercado de ativos financeiros. [Longo prazo (até 2035)]
+
+1.1 - Especulação e crise no financeiros....
+    Descrição completa: Especulação e crise no mercado de ativos financeiros.
+    Código original: 1.1 Especulação e crise no mercado de ativos financeiros. [Imediato (2025)]
+
+1.10 - Aumento da inflação.
+    Descrição completa: Aumento da inflação.
+    Código original: 1.10 Aumento da inflação. [Imediato (2025)]
+
+1.10 - Aumento da inflação.
+    Descrição completa: Aumento da inflação.
+    Código original: 1.10 Aumento da inflação. [Curto prazo (2026 a 2027)]
+
+1.11 - Dificuldades de financiamento e financeiros...
+    Descrição completa: Dificuldades de financiamento e obtenção de recursos financeiros para investimento.
+    Código original: 1.11 Dificuldades de financiamento e obtenção de recursos financeiros para investimento. [Imediato (2025)]
+
+1.11 - Dificuldades de financiamento e financeiros...
+    Descrição completa: Dificuldades de financiamento e obtenção de recursos financeiros para investimento.
+    Código original: 1.11 Dificuldades de financiamento e obtenção de recursos financeiros para investimento. [Longo prazo (até 2035)]
+
+1.11 - Dificuldades de financiamento e financeiros...
+    Descrição completa: Dificuldades de financiamento e obtenção de recursos financeiros para investimento.
+    Código original: 1.11 Dificuldades de financiamento e obtenção de recursos financeiros para investimento. [Curto prazo (2026 a 2027)]
+
+1.14 - Aumento de impostos.
+    Descrição completa: Aumento de impostos.
+    Código original: 1.14 Aumento de impostos. [Longo prazo (até 2035)]
+
+1.14 - Aumento de impostos.
+    Descrição completa: Aumento de impostos.
+    Código original: 1.14 Aumento de impostos. [Imediato (2025)]
+
+1.14 - Aumento de impostos.
+    Descrição completa: Aumento de impostos.
+    Código original: 1.14 Aumento de impostos. [Curto prazo (2026 a 2027)]
+
+1.15 - Instabilidade política.
+    Descrição completa: Instabilidade política.
+    Código original: 1.15 Instabilidade política. [Longo prazo (até 2035)]
+
+1.15 - Instabilidade política.
+    Descrição completa: Instabilidade política.
+    Código original: 1.15 Instabilidade política. [Imediato (2025)]
+
+1.15 - Instabilidade política.
+    Descrição completa: Instabilidade política.
+    Código original: 1.15 Instabilidade política. [Curto prazo (2026 a 2027)]
+
+1.16 - Excesso regulatório.
+    Descrição completa: Excesso regulatório.
+    Código original: 1.16 Excesso regulatório. [Imediato (2025)]
+
+1.16 - Excesso regulatório.
+    Descrição completa: Excesso regulatório.
+    Código original: 1.16 Excesso regulatório. [Longo prazo (até 2035)]
+
+1.16 - Excesso regulatório.
+    Descrição completa: Excesso regulatório.
+    Código original: 1.16 Excesso regulatório. [Curto prazo (2026 a 2027)]
+
+1.17 - Déficit regulatório.
+    Descrição completa: Déficit regulatório.
+    Código original: 1.17 Déficit regulatório. [Imediato (2025)]
+
+1.17 - Déficit regulatório.
+    Descrição completa: Déficit regulatório.
+    Código original: 1.17 Déficit regulatório. [Longo prazo (até 2035)]
+
+1.17 - Déficit regulatório.
+    Descrição completa: Déficit regulatório.
+    Código original: 1.17 Déficit regulatório. [Curto prazo (2026 a 2027)]
+
+1.18 - Desemprego.
+    Descrição completa: Desemprego.
+    Código original: 1.18 Desemprego. [Imediato (2025)]
+
+1.18 - Desemprego.
+    Descrição completa: Desemprego.
+    Código original: 1.18 Desemprego. [Longo prazo (até 2035)]
+
+1.18 - Desemprego.
+    Descrição completa: Desemprego.
+    Código original: 1.18 Desemprego. [Curto prazo (2026 a 2027)]
+
+1.19 - Corrupção.
+    Descrição completa: Corrupção.
+    Código original: 1.19 Corrupção. [Imediato (2025)]
+
+1.19 - Corrupção.
+    Descrição completa: Corrupção.
+    Código original: 1.19 Corrupção. [Longo prazo (até 2035)]
+
+1.19 - Corrupção.
+    Descrição completa: Corrupção.
+    Código original: 1.19 Corrupção. [Curto prazo (2026 a 2027)]
+
+1.2 - Concentração de recursos estrategicamente importantes...
+    Descrição completa: Concentração de recursos estrategicamente importantes (minerais, materiais, tecnologias) entre um pequeno número de indivíduos, empresas ou Estados que podem controlar o acesso e ditar preços discricionários.
+    Código original: 1.2 Concentração de recursos estrategicamente importantes (minerais, materiais, tecnologias) entre um pequeno número de indivíduos, empresas ou Estados que podem controlar o acesso e ditar preços discricionários. [Longo prazo (até 2035)]
+
+1.20 - Desequilíbrio econômico regional.
+    Descrição completa: Desequilíbrio econômico regional.
+    Código original: 1.20 Desequilíbrio econômico regional. [Longo prazo (até 2035)]
+
+1.2 - Concentração de recursos estrategicamente importantes...
+    Descrição completa: Concentração de recursos estrategicamente importantes (minerais, materiais, tecnologias) entre um pequeno número de indivíduos, empresas ou Estados que podem controlar o acesso e ditar preços discricionários.
+    Código original: 1.2 Concentração de recursos estrategicamente importantes (minerais, materiais, tecnologias) entre um pequeno número de indivíduos, empresas ou Estados que podem controlar o acesso e ditar preços discricionários. [Curto prazo (2026 a 2027)]
+
+1.20 - Desequilíbrio econômico regional.
+    Descrição completa: Desequilíbrio econômico regional.
+    Código original: 1.20 Desequilíbrio econômico regional. [Curto prazo (2026 a 2027)]
+
+1.20 - Desequilíbrio econômico regional.
+    Descrição completa: Desequilíbrio econômico regional.
+    Código original: 1.20 Desequilíbrio econômico regional. [Imediato (2025)]
+
+1.2 - Concentração de recursos estrategicamente importantes...
+    Descrição completa: Concentração de recursos estrategicamente importantes (minerais, materiais, tecnologias) entre um pequeno número de indivíduos, empresas ou Estados que podem controlar o acesso e ditar preços discricionários.
+    Código original: 1.2 Concentração de recursos estrategicamente importantes (minerais, materiais, tecnologias) entre um pequeno número de indivíduos, empresas ou Estados que podem controlar o acesso e ditar preços discricionários. [Imediato (2025)]
+
+1.21 - Conflito ou instabilidade institucional...
+    Descrição completa: Conflito ou instabilidade institucional do Estado.
+    Código original: 1.21 Conflito ou instabilidade institucional do Estado. [Imediato (2025)]
+
+1.21 - Conflito ou instabilidade institucional...
+    Descrição completa: Conflito ou instabilidade institucional do Estado.
+    Código original: 1.21 Conflito ou instabilidade institucional do Estado. [Curto prazo (2026 a 2027)]
+
+1.21 - Conflito ou instabilidade institucional...
+    Descrição completa: Conflito ou instabilidade institucional do Estado.
+    Código original: 1.21 Conflito ou instabilidade institucional do Estado. [Longo prazo (até 2035)]
+
+1.3 - Endividamento público.
+    Descrição completa: Endividamento público.
+    Código original: 1.3 Endividamento público. [Curto prazo (2026 a 2027)]
+
+1.3 - Endividamento público.
+    Descrição completa: Endividamento público.
+    Código original: 1.3 Endividamento público. [Imediato (2025)]
+
+1.3 - Endividamento público.
+    Descrição completa: Endividamento público.
+    Código original: 1.3 Endividamento público. [Longo prazo (até 2035)]
+
+1.4 - Endividamento empresarial.
+    Descrição completa: Endividamento empresarial.
+    Código original: 1.4 Endividamento empresarial. [Curto prazo (2026 a 2027)]
+
+1.4 - Endividamento empresarial.
+    Descrição completa: Endividamento empresarial.
+    Código original: 1.4 Endividamento empresarial. [Longo prazo (até 2035)]
+
+1.4 - Endividamento empresarial.
+    Descrição completa: Endividamento empresarial.
+    Código original: 1.4 Endividamento empresarial. [Imediato (2025)]
+
+1.5 - Endividamento das pessoas.
+    Descrição completa: Endividamento das pessoas.
+    Código original: 1.5 Endividamento das pessoas. [Longo prazo (até 2035)]
+
+1.5 - Endividamento das pessoas.
+    Descrição completa: Endividamento das pessoas.
+    Código original: 1.5 Endividamento das pessoas. [Imediato (2025)]
+
+1.5 - Endividamento das pessoas.
+    Descrição completa: Endividamento das pessoas.
+    Código original: 1.5 Endividamento das pessoas. [Curto prazo (2026 a 2027)]
+
+1.6 - Falhas, interrupções ou disrupções suprimentos...
+    Descrição completa: Falhas, interrupções ou disrupções em cadeias de suprimentos relevantes.
+    Código original: 1.6 Falhas, interrupções ou disrupções em cadeias de suprimentos relevantes. [Curto prazo (2026 a 2027)]
+
+1.6 - Falhas, interrupções ou disrupções suprimentos...
+    Descrição completa: Falhas, interrupções ou disrupções em cadeias de suprimentos relevantes.
+    Código original: 1.6 Falhas, interrupções ou disrupções em cadeias de suprimentos relevantes. [Imediato (2025)]
+
+1.6 - Falhas, interrupções ou disrupções suprimentos...
+    Descrição completa: Falhas, interrupções ou disrupções em cadeias de suprimentos relevantes.
+    Código original: 1.6 Falhas, interrupções ou disrupções em cadeias de suprimentos relevantes. [Longo prazo (até 2035)]
+
+1.7 - Disrupções em infraestruturas críticas digitais)...
+    Descrição completa: Disrupções em infraestruturas críticas (físicas e digitais) ou serviços que sustentam sistemas críticos (internet, telecomunicações, serviços públicos, sistemas financeiros ou energia).
+    Código original: 1.7 Disrupções em infraestruturas críticas (físicas e digitais) ou serviços que sustentam sistemas críticos (internet, telecomunicações, serviços públicos, sistemas financeiros ou energia). [Curto prazo (2026 a 2027)]
+
+1.7 - Disrupções em infraestruturas críticas digitais)...
+    Descrição completa: Disrupções em infraestruturas críticas (físicas e digitais) ou serviços que sustentam sistemas críticos (internet, telecomunicações, serviços públicos, sistemas financeiros ou energia).
+    Código original: 1.7 Disrupções em infraestruturas críticas (físicas e digitais) ou serviços que sustentam sistemas críticos (internet, telecomunicações, serviços públicos, sistemas financeiros ou energia). [Imediato (2025)]
+
+1.7 - Disrupções em infraestruturas críticas digitais)...
+    Descrição completa: Disrupções em infraestruturas críticas (físicas e digitais) ou serviços que sustentam sistemas críticos (internet, telecomunicações, serviços públicos, sistemas financeiros ou energia).
+    Código original: 1.7 Disrupções em infraestruturas críticas (físicas e digitais) ou serviços que sustentam sistemas críticos (internet, telecomunicações, serviços públicos, sistemas financeiros ou energia). [Longo prazo (até 2035)]
+
+1.8 - Diminuição (estagnação) do ritmo atividades...
+    Descrição completa: Diminuição (estagnação) do ritmo e da dinâmica das atividades econômicas.
+    Código original: 1.8 Diminuição (estagnação) do ritmo e da dinâmica das atividades econômicas. [Imediato (2025)]
+
+1.8 - Diminuição (estagnação) do ritmo atividades...
+    Descrição completa: Diminuição (estagnação) do ritmo e da dinâmica das atividades econômicas.
+    Código original: 1.8 Diminuição (estagnação) do ritmo e da dinâmica das atividades econômicas. [Curto prazo (2026 a 2027)]
+
+1.8 - Diminuição (estagnação) do ritmo atividades...
+    Descrição completa: Diminuição (estagnação) do ritmo e da dinâmica das atividades econômicas.
+    Código original: 1.8 Diminuição (estagnação) do ritmo e da dinâmica das atividades econômicas. [Longo prazo (até 2035)]
+
+1.9 - Ação do crime organizado atividades...
+    Descrição completa: Ação do crime organizado e atividades ilícitas de empresas e pessoas.
+    Código original: 1.9 Ação do crime organizado e atividades ilícitas de empresas e pessoas. [Imediato (2025)]
+
+1.9 - Ação do crime organizado atividades...
+    Descrição completa: Ação do crime organizado e atividades ilícitas de empresas e pessoas.
+    Código original: 1.9 Ação do crime organizado e atividades ilícitas de empresas e pessoas. [Curto prazo (2026 a 2027)]
+
+1.9 - Ação do crime organizado atividades...
+    Descrição completa: Ação do crime organizado e atividades ilícitas de empresas e pessoas.
+    Código original: 1.9 Ação do crime organizado e atividades ilícitas de empresas e pessoas. [Longo prazo (até 2035)]
+
+
+======================================================================
+
+DIMENSÃO: AMBIENTAL
+--------------------------------------------------
+
+2.10 - Introdução de espécies exóticas, organismos...
+    Descrição completa: Introdução de espécies exóticas, organismos aquáticos nocivos e agentes patogênicos.
+    Código original: 2.10 Introdução de espécies exóticas, organismos aquáticos nocivos e agentes patogênicos. [Longo prazo (até 2035)]
+
+2.1 - Perda de biodiversidade e ecossistemas....
+    Descrição completa: Perda de biodiversidade e colapso de ecossistemas.
+    Código original: 2.1 Perda de biodiversidade e colapso de ecossistemas. [Curto prazo (2026 a 2027)]
+
+2.10 - Introdução de espécies exóticas, organismos...
+    Descrição completa: Introdução de espécies exóticas, organismos aquáticos nocivos e agentes patogênicos.
+    Código original: 2.10 Introdução de espécies exóticas, organismos aquáticos nocivos e agentes patogênicos. [Curto prazo (2026 a 2027)]
+
+2.1 - Perda de biodiversidade e ecossistemas....
+    Descrição completa: Perda de biodiversidade e colapso de ecossistemas.
+    Código original: 2.1 Perda de biodiversidade e colapso de ecossistemas. [Longo prazo (até 2035)]
+
+2.10 - Introdução de espécies exóticas, organismos...
+    Descrição completa: Introdução de espécies exóticas, organismos aquáticos nocivos e agentes patogênicos.
+    Código original: 2.10 Introdução de espécies exóticas, organismos aquáticos nocivos e agentes patogênicos. [Imediato (2025)]
+
+2.1 - Perda de biodiversidade e ecossistemas....
+    Descrição completa: Perda de biodiversidade e colapso de ecossistemas.
+    Código original: 2.1 Perda de biodiversidade e colapso de ecossistemas. [Imediato (2025)]
+
+2.11 - Poluição atmosférica,
+    Descrição completa: Poluição atmosférica,
+    Código original: 2.11 Poluição atmosférica, [Longo prazo (até 2035)]
+
+2.11 - Poluição atmosférica,
+    Descrição completa: Poluição atmosférica,
+    Código original: 2.11 Poluição atmosférica, [Imediato (2025)]
+
+2.11 - Poluição atmosférica,
+    Descrição completa: Poluição atmosférica,
+    Código original: 2.11 Poluição atmosférica, [Curto prazo (2026 a 2027)]
+
+2.12 - Ruídos e vibrações.
+    Descrição completa: Ruídos e vibrações.
+    Código original: 2.12 Ruídos e vibrações. [Longo prazo (até 2035)]
+
+2.12 - Ruídos e vibrações.
+    Descrição completa: Ruídos e vibrações.
+    Código original: 2.12 Ruídos e vibrações. [Curto prazo (2026 a 2027)]
+
+2.12 - Ruídos e vibrações.
+    Descrição completa: Ruídos e vibrações.
+    Código original: 2.12 Ruídos e vibrações. [Imediato (2025)]
+
+2.13 - Gerenciamento inadequado dos resíduos sólidos.
+    Descrição completa: Gerenciamento inadequado dos resíduos sólidos.
+    Código original: 2.13 Gerenciamento inadequado dos resíduos sólidos. [Longo prazo (até 2035)]
+
+2.13 - Gerenciamento inadequado dos resíduos sólidos.
+    Descrição completa: Gerenciamento inadequado dos resíduos sólidos.
+    Código original: 2.13 Gerenciamento inadequado dos resíduos sólidos. [Imediato (2025)]
+
+2.13 - Gerenciamento inadequado dos resíduos sólidos.
+    Descrição completa: Gerenciamento inadequado dos resíduos sólidos.
+    Código original: 2.13 Gerenciamento inadequado dos resíduos sólidos. [Curto prazo (2026 a 2027)]
+
+2.14 - Desmatamento.
+    Descrição completa: Desmatamento.
+    Código original: 2.14 Desmatamento. [Longo prazo (até 2035)]
+
+2.14 - Desmatamento.
+    Descrição completa: Desmatamento.
+    Código original: 2.14 Desmatamento. [Curto prazo (2026 a 2027)]
+
+2.14 - Desmatamento.
+    Descrição completa: Desmatamento.
+    Código original: 2.14 Desmatamento. [Imediato (2025)]
+
+2.15 - Licenciamento ambiental.
+    Descrição completa: Licenciamento ambiental.
+    Código original: 2.15 Licenciamento ambiental. [Longo prazo (até 2035)]
+
+2.15 - Licenciamento ambiental.
+    Descrição completa: Licenciamento ambiental.
+    Código original: 2.15 Licenciamento ambiental. [Imediato (2025)]
+
+2.15 - Licenciamento ambiental.
+    Descrição completa: Licenciamento ambiental.
+    Código original: 2.15 Licenciamento ambiental. [Curto prazo (2026 a 2027)]
+
+2.16 - Descarbonização do transporte marítimo.
+    Descrição completa: Descarbonização do transporte marítimo.
+    Código original: 2.16 Descarbonização do transporte marítimo. [Imediato (2025)]
+
+2.16 - Descarbonização do transporte marítimo.
+    Descrição completa: Descarbonização do transporte marítimo.
+    Código original: 2.16 Descarbonização do transporte marítimo. [Curto prazo (2026 a 2027)]
+
+2.16 - Descarbonização do transporte marítimo.
+    Descrição completa: Descarbonização do transporte marítimo.
+    Código original: 2.16 Descarbonização do transporte marítimo. [Longo prazo (até 2035)]
+
+2.17 - Baixa educação/conscientização ambiental.
+    Descrição completa: Baixa educação/conscientização ambiental.
+    Código original: 2.17 Baixa educação/conscientização ambiental. [Curto prazo (2026 a 2027)]
+
+2.17 - Baixa educação/conscientização ambiental.
+    Descrição completa: Baixa educação/conscientização ambiental.
+    Código original: 2.17 Baixa educação/conscientização ambiental. [Longo prazo (até 2035)]
+
+2.17 - Baixa educação/conscientização ambiental.
+    Descrição completa: Baixa educação/conscientização ambiental.
+    Código original: 2.17 Baixa educação/conscientização ambiental. [Imediato (2025)]
+
+2.2 - Eventos que possam impactar operações...
+    Descrição completa: Eventos que possam impactar acessos e operações portuárias, como deslizamentos ou desmoronamentos de encostas e margens (terras caídas) e o assoreamento acelerado de rios e canais de navegação.
+    Código original: 2.2 Eventos que possam impactar acessos e operações portuárias, como deslizamentos ou desmoronamentos de encostas e margens (terras caídas) e o assoreamento acelerado de rios e canais de navegação. [Curto prazo (2026 a 2027)]
+
+2.2 - Eventos que possam impactar operações...
+    Descrição completa: Eventos que possam impactar acessos e operações portuárias, como deslizamentos ou desmoronamentos de encostas e margens (terras caídas) e o assoreamento acelerado de rios e canais de navegação.
+    Código original: 2.2 Eventos que possam impactar acessos e operações portuárias, como deslizamentos ou desmoronamentos de encostas e margens (terras caídas) e o assoreamento acelerado de rios e canais de navegação. [Longo prazo (até 2035)]
+
+2.2 - Eventos que possam impactar operações...
+    Descrição completa: Eventos que possam impactar acessos e operações portuárias, como deslizamentos ou desmoronamentos de encostas e margens (terras caídas) e o assoreamento acelerado de rios e canais de navegação.
+    Código original: 2.2 Eventos que possam impactar acessos e operações portuárias, como deslizamentos ou desmoronamentos de encostas e margens (terras caídas) e o assoreamento acelerado de rios e canais de navegação. [Imediato (2025)]
+
+2.3 - Mudanças climáticas (intensificação e frequência...
+    Descrição completa: Mudanças climáticas (intensificação e aumento da frequência de fenômenos como chuvas, tempestades, vendavais, ondas de calor, secas, ciclones e furacões).
+    Código original: 2.3 Mudanças climáticas (intensificação e aumento da frequência de fenômenos como chuvas, tempestades, vendavais, ondas de calor, secas, ciclones e furacões). [Curto prazo (2026 a 2027)]
+
+2.3 - Mudanças climáticas (intensificação e frequência...
+    Descrição completa: Mudanças climáticas (intensificação e aumento da frequência de fenômenos como chuvas, tempestades, vendavais, ondas de calor, secas, ciclones e furacões).
+    Código original: 2.3 Mudanças climáticas (intensificação e aumento da frequência de fenômenos como chuvas, tempestades, vendavais, ondas de calor, secas, ciclones e furacões). [Longo prazo (até 2035)]
+
+2.3 - Mudanças climáticas (intensificação e frequência...
+    Descrição completa: Mudanças climáticas (intensificação e aumento da frequência de fenômenos como chuvas, tempestades, vendavais, ondas de calor, secas, ciclones e furacões).
+    Código original: 2.3 Mudanças climáticas (intensificação e aumento da frequência de fenômenos como chuvas, tempestades, vendavais, ondas de calor, secas, ciclones e furacões). [Imediato (2025)]
+
+2.5 - Desastres naturais não relacionados terremotos,...
+    Descrição completa: Desastres naturais não relacionados ao clima, como terremotos, incêndios florestais, maremotos, subsidência.
+    Código original: 2.5 Desastres naturais não relacionados ao clima, como terremotos, incêndios florestais, maremotos, subsidência. [Curto prazo (2026 a 2027)]
+
+2.5 - Desastres naturais não relacionados terremotos,...
+    Descrição completa: Desastres naturais não relacionados ao clima, como terremotos, incêndios florestais, maremotos, subsidência.
+    Código original: 2.5 Desastres naturais não relacionados ao clima, como terremotos, incêndios florestais, maremotos, subsidência. [Imediato (2025)]
+
+2.5 - Desastres naturais não relacionados terremotos,...
+    Descrição completa: Desastres naturais não relacionados ao clima, como terremotos, incêndios florestais, maremotos, subsidência.
+    Código original: 2.5 Desastres naturais não relacionados ao clima, como terremotos, incêndios florestais, maremotos, subsidência. [Longo prazo (até 2035)]
+
+2.6 - Aumento do nível do processos...
+    Descrição completa: Aumento do nível do mar e processos erosivos costeiros.
+    Código original: 2.6 Aumento do nível do mar e processos erosivos costeiros. [Longo prazo (até 2035)]
+
+2.6 - Aumento do nível do processos...
+    Descrição completa: Aumento do nível do mar e processos erosivos costeiros.
+    Código original: 2.6 Aumento do nível do mar e processos erosivos costeiros. [Imediato (2025)]
+
+2.6 - Aumento do nível do processos...
+    Descrição completa: Aumento do nível do mar e processos erosivos costeiros.
+    Código original: 2.6 Aumento do nível do mar e processos erosivos costeiros. [Curto prazo (2026 a 2027)]
+
+2.7 - Poluição da água e sedimentos...
+    Descrição completa: Poluição da água e sedimentos em áreas portuárias por contaminantes orgânicos e inorgânicos, tais como hidrocarbonetos, metais, pesticidas e nutrientes.
+    Código original: 2.7 Poluição da água e sedimentos em áreas portuárias por contaminantes orgânicos e inorgânicos, tais como hidrocarbonetos, metais, pesticidas e nutrientes. [Imediato (2025)]
+
+2.7 - Poluição da água e sedimentos...
+    Descrição completa: Poluição da água e sedimentos em áreas portuárias por contaminantes orgânicos e inorgânicos, tais como hidrocarbonetos, metais, pesticidas e nutrientes.
+    Código original: 2.7 Poluição da água e sedimentos em áreas portuárias por contaminantes orgânicos e inorgânicos, tais como hidrocarbonetos, metais, pesticidas e nutrientes. [Curto prazo (2026 a 2027)]
+
+2.7 - Poluição da água e sedimentos...
+    Descrição completa: Poluição da água e sedimentos em áreas portuárias por contaminantes orgânicos e inorgânicos, tais como hidrocarbonetos, metais, pesticidas e nutrientes.
+    Código original: 2.7 Poluição da água e sedimentos em áreas portuárias por contaminantes orgânicos e inorgânicos, tais como hidrocarbonetos, metais, pesticidas e nutrientes. [Longo prazo (até 2035)]
+
+2.8 - Movimentação de produtos perigosos.
+    Descrição completa: Movimentação de produtos perigosos.
+    Código original: 2.8 Movimentação de produtos perigosos.  [Longo prazo (até 2035)]
+
+2.8 - Movimentação de produtos perigosos.
+    Descrição completa: Movimentação de produtos perigosos.
+    Código original: 2.8 Movimentação de produtos perigosos.  [Curto prazo (2026 a 2027)]
+
+2.8 - Movimentação de produtos perigosos.
+    Descrição completa: Movimentação de produtos perigosos.
+    Código original: 2.8 Movimentação de produtos perigosos.  [Imediato (2025)]
+
+2.9 - Presença de agentes patogênicos. Deficiência...
+    Descrição completa: Presença de agentes patogênicos. Deficiência no tratamento de esgoto ou saneamento.
+    Código original: 2.9 Presença de agentes patogênicos. Deficiência no tratamento de esgoto ou saneamento. [Imediato (2025)]
+
+2.9 - Presença de agentes patogênicos. Deficiência...
+    Descrição completa: Presença de agentes patogênicos. Deficiência no tratamento de esgoto ou saneamento.
+    Código original: 2.9 Presença de agentes patogênicos. Deficiência no tratamento de esgoto ou saneamento. [Longo prazo (até 2035)]
+
+2.9 - Presença de agentes patogênicos. Deficiência...
+    Descrição completa: Presença de agentes patogênicos. Deficiência no tratamento de esgoto ou saneamento.
+    Código original: 2.9 Presença de agentes patogênicos. Deficiência no tratamento de esgoto ou saneamento. [Curto prazo (2026 a 2027)]
+
+
+======================================================================
+
+DIMENSÃO: GEOPOLITICA
+--------------------------------------------------
+
+3.1 - Liberação intencional ou acidental contaminante...
+    Descrição completa: Liberação intencional ou acidental de contaminante biológico, químico, nuclear ou radiológico.
+    Código original: 3.1 Liberação intencional ou acidental de contaminante biológico, químico, nuclear ou radiológico. [Imediato (2025)]
+
+3.1 - Liberação intencional ou acidental contaminante...
+    Descrição completa: Liberação intencional ou acidental de contaminante biológico, químico, nuclear ou radiológico.
+    Código original: 3.1 Liberação intencional ou acidental de contaminante biológico, químico, nuclear ou radiológico. [Longo prazo (até 2035)]
+
+3.1 - Liberação intencional ou acidental contaminante...
+    Descrição completa: Liberação intencional ou acidental de contaminante biológico, químico, nuclear ou radiológico.
+    Código original: 3.1 Liberação intencional ou acidental de contaminante biológico, químico, nuclear ou radiológico. [Curto prazo (2026 a 2027)]
+
+3.2 - Alterações em condições de terrestres...
+    Descrição completa: Alterações em condições de sistemas terrestres
+    Código original: 3.2 Alterações em condições de sistemas terrestres [Curto prazo (2026 a 2027)]
+
+3.2 - Alterações em condições de terrestres...
+    Descrição completa: Alterações em condições de sistemas terrestres
+    Código original: 3.2 Alterações em condições de sistemas terrestres [Longo prazo (até 2035)]
+
+3.3 - Conflitos geoeconômicos (bloqueios, sanções, restrições...
+    Descrição completa: Conflitos geoeconômicos (bloqueios, sanções, restrições tarifárias, redução de investimentos).
+    Código original: 3.3 Conflitos geoeconômicos (bloqueios, sanções, restrições tarifárias, redução de investimentos). [Curto prazo (2026 a 2027)]
+
+3.3 - Conflitos geoeconômicos (bloqueios, sanções, restrições...
+    Descrição completa: Conflitos geoeconômicos (bloqueios, sanções, restrições tarifárias, redução de investimentos).
+    Código original: 3.3 Conflitos geoeconômicos (bloqueios, sanções, restrições tarifárias, redução de investimentos). [Imediato (2025)]
+
+3.3 - Conflitos geoeconômicos (bloqueios, sanções, restrições...
+    Descrição completa: Conflitos geoeconômicos (bloqueios, sanções, restrições tarifárias, redução de investimentos).
+    Código original: 3.3 Conflitos geoeconômicos (bloqueios, sanções, restrições tarifárias, redução de investimentos). [Longo prazo (até 2035)]
+
+3.4 - Conflitos armados entre nações.
+    Descrição completa: Conflitos armados entre nações.
+    Código original: 3.4 Conflitos armados entre nações. [Longo prazo (até 2035)]
+
+3.4 - Conflitos armados entre nações.
+    Descrição completa: Conflitos armados entre nações.
+    Código original: 3.4 Conflitos armados entre nações. [Curto prazo (2026 a 2027)]
+
+3.4 - Conflitos armados entre nações.
+    Descrição completa: Conflitos armados entre nações.
+    Código original: 3.4 Conflitos armados entre nações. [Imediato (2025)]
+
+3.5 - Violência aberta em países conflitos...
+    Descrição completa: Violência aberta em países de relação (greves, conflitos internos, golpes de Estado, insegurança pública).
+    Código original: 3.5 Violência aberta em países de relação (greves, conflitos internos, golpes de Estado, insegurança pública). [Imediato (2025)]
+
+3.5 - Violência aberta em países conflitos...
+    Descrição completa: Violência aberta em países de relação (greves, conflitos internos, golpes de Estado, insegurança pública).
+    Código original: 3.5 Violência aberta em países de relação (greves, conflitos internos, golpes de Estado, insegurança pública). [Curto prazo (2026 a 2027)]
+
+3.5 - Violência aberta em países conflitos...
+    Descrição completa: Violência aberta em países de relação (greves, conflitos internos, golpes de Estado, insegurança pública).
+    Código original: 3.5 Violência aberta em países de relação (greves, conflitos internos, golpes de Estado, insegurança pública). [Longo prazo (até 2035)]
+
+3.6 - Terrorismo.
+    Descrição completa: Terrorismo.
+    Código original: 3.6 Terrorismo. [Imediato (2025)]
+
+3.6 - Terrorismo.
+    Descrição completa: Terrorismo.
+    Código original: 3.6 Terrorismo. [Longo prazo (até 2035)]
+
+3.6 - Terrorismo.
+    Descrição completa: Terrorismo.
+    Código original: 3.6 Terrorismo. [Curto prazo (2026 a 2027)]
+
+3.7 - Migração ou deslocamento forçado
+    Descrição completa: Migração ou deslocamento forçado
+    Código original: 3.7 Migração ou deslocamento forçado [Longo prazo (até 2035)]
+
+3.7 - Migração ou deslocamento forçado
+    Descrição completa: Migração ou deslocamento forçado
+    Código original: 3.7 Migração ou deslocamento forçado [Curto prazo (2026 a 2027)]
+
+
+======================================================================
+
+DIMENSÃO: SOCIAL
+--------------------------------------------------
+
+4.10 - Falta de recursos humanos capacitados...
+    Descrição completa: Falta de recursos humanos capacitados e especializados no setor portuário.
+    Código original: 4.10 Falta de recursos humanos capacitados e especializados no setor portuário.  [Curto prazo (2026 a 2027)]
+
+4.10 - Falta de recursos humanos capacitados...
+    Descrição completa: Falta de recursos humanos capacitados e especializados no setor portuário.
+    Código original: 4.10 Falta de recursos humanos capacitados e especializados no setor portuário.  [Imediato (2025)]
+
+4.1 - Ameaças aos direitos humanos liberdades...
+    Descrição completa: Ameaças aos direitos humanos e/ou às liberdades individuais ou de grupo.
+    Código original: 4.1 Ameaças aos direitos humanos e/ou às liberdades individuais ou de grupo. [Imediato (2025)]
+
+4.1 - Ameaças aos direitos humanos liberdades...
+    Descrição completa: Ameaças aos direitos humanos e/ou às liberdades individuais ou de grupo.
+    Código original: 4.1 Ameaças aos direitos humanos e/ou às liberdades individuais ou de grupo. [Curto prazo (2026 a 2027)]
+
+4.1 - Ameaças aos direitos humanos liberdades...
+    Descrição completa: Ameaças aos direitos humanos e/ou às liberdades individuais ou de grupo.
+    Código original: 4.1 Ameaças aos direitos humanos e/ou às liberdades individuais ou de grupo. [Longo prazo (até 2035)]
+
+4.10 - Falta de recursos humanos capacitados...
+    Descrição completa: Falta de recursos humanos capacitados e especializados no setor portuário.
+    Código original: 4.10 Falta de recursos humanos capacitados e especializados no setor portuário.  [Longo prazo (até 2035)]
+
+4.11 - Assédio (moral e sexual) trabalho....
+    Descrição completa: Assédio (moral e sexual) no ambiente de trabalho.
+    Código original: 4.11 Assédio (moral e sexual) no ambiente de trabalho. [Curto prazo (2026 a 2027)]
+
+4.11 - Assédio (moral e sexual) trabalho....
+    Descrição completa: Assédio (moral e sexual) no ambiente de trabalho.
+    Código original: 4.11 Assédio (moral e sexual) no ambiente de trabalho. [Imediato (2025)]
+
+4.11 - Assédio (moral e sexual) trabalho....
+    Descrição completa: Assédio (moral e sexual) no ambiente de trabalho.
+    Código original: 4.11 Assédio (moral e sexual) no ambiente de trabalho. [Longo prazo (até 2035)]
+
+4.12 - Desigualdades raciais/étnicas e de gênero.
+    Descrição completa: Desigualdades raciais/étnicas e de gênero.
+    Código original: 4.12 Desigualdades raciais/étnicas e de gênero. [Curto prazo (2026 a 2027)]
+
+4.12 - Desigualdades raciais/étnicas e de gênero.
+    Descrição completa: Desigualdades raciais/étnicas e de gênero.
+    Código original: 4.12 Desigualdades raciais/étnicas e de gênero. [Imediato (2025)]
+
+4.12 - Desigualdades raciais/étnicas e de gênero.
+    Descrição completa: Desigualdades raciais/étnicas e de gênero.
+    Código original: 4.12 Desigualdades raciais/étnicas e de gênero. [Longo prazo (até 2035)]
+
+4.13 - Falta de participação social.
+    Descrição completa: Falta de participação social.
+    Código original: 4.13 Falta de participação social. [Curto prazo (2026 a 2027)]
+
+4.13 - Falta de participação social.
+    Descrição completa: Falta de participação social.
+    Código original: 4.13 Falta de participação social. [Imediato (2025)]
+
+4.13 - Falta de participação social.
+    Descrição completa: Falta de participação social.
+    Código original: 4.13 Falta de participação social. [Longo prazo (até 2035)]
+
+4.14 - Maior uso de tecnologias mecanização,...
+    Descrição completa: Maior uso de tecnologias (IA, mecanização, robotização).
+    Código original: 4.14 Maior uso de tecnologias (IA, mecanização, robotização). [Longo prazo (até 2035)]
+
+4.14 - Maior uso de tecnologias mecanização,...
+    Descrição completa: Maior uso de tecnologias (IA, mecanização, robotização).
+    Código original: 4.14 Maior uso de tecnologias (IA, mecanização, robotização). [Curto prazo (2026 a 2027)]
+
+4.14 - Maior uso de tecnologias mecanização,...
+    Descrição completa: Maior uso de tecnologias (IA, mecanização, robotização).
+    Código original: 4.14 Maior uso de tecnologias (IA, mecanização, robotização). [Imediato (2025)]
+
+4.15 - Ausência do Estado junto populações...
+    Descrição completa: Ausência do Estado junto às populações próximas aos portos.
+    Código original: 4.15 Ausência do Estado junto às populações próximas aos portos. [Longo prazo (até 2035)]
+
+4.15 - Ausência do Estado junto populações...
+    Descrição completa: Ausência do Estado junto às populações próximas aos portos.
+    Código original: 4.15 Ausência do Estado junto às populações próximas aos portos. [Imediato (2025)]
+
+4.15 - Ausência do Estado junto populações...
+    Descrição completa: Ausência do Estado junto às populações próximas aos portos.
+    Código original: 4.15 Ausência do Estado junto às populações próximas aos portos. [Curto prazo (2026 a 2027)]
+
+4.2 - Ocorrência de pandemias ou epidemias...
+    Descrição completa: Ocorrência de pandemias ou epidemias de doenças de rápida disseminação.
+    Código original: 4.2 Ocorrência de pandemias ou epidemias de doenças de rápida disseminação.  [Imediato (2025)]
+
+4.2 - Ocorrência de pandemias ou epidemias...
+    Descrição completa: Ocorrência de pandemias ou epidemias de doenças de rápida disseminação.
+    Código original: 4.2 Ocorrência de pandemias ou epidemias de doenças de rápida disseminação.  [Curto prazo (2026 a 2027)]
+
+4.2 - Ocorrência de pandemias ou epidemias...
+    Descrição completa: Ocorrência de pandemias ou epidemias de doenças de rápida disseminação.
+    Código original: 4.2 Ocorrência de pandemias ou epidemias de doenças de rápida disseminação.  [Longo prazo (até 2035)]
+
+4.3 - Insuficiência de serviços públicos essenciais,...
+    Descrição completa: Insuficiência de serviços públicos essenciais, como saúde, saneamento, transporte, segurança e educação, que impacta diretamente a qualidade de vida da população e a força de trabalho vinculada ao setor portuário.
+    Código original: 4.3 Insuficiência de serviços públicos essenciais, como saúde, saneamento, transporte, segurança e educação, que impacta diretamente a qualidade de vida da população e a força de trabalho vinculada ao setor portuário.  [Curto prazo (2026 a 2027)]
+
+4.3 - Insuficiência de serviços públicos essenciais,...
+    Descrição completa: Insuficiência de serviços públicos essenciais, como saúde, saneamento, transporte, segurança e educação, que impacta diretamente a qualidade de vida da população e a força de trabalho vinculada ao setor portuário.
+    Código original: 4.3 Insuficiência de serviços públicos essenciais, como saúde, saneamento, transporte, segurança e educação, que impacta diretamente a qualidade de vida da população e a força de trabalho vinculada ao setor portuário.  [Longo prazo (até 2035)]
+
+4.3 - Insuficiência de serviços públicos essenciais,...
+    Descrição completa: Insuficiência de serviços públicos essenciais, como saúde, saneamento, transporte, segurança e educação, que impacta diretamente a qualidade de vida da população e a força de trabalho vinculada ao setor portuário.
+    Código original: 4.3 Insuficiência de serviços públicos essenciais, como saúde, saneamento, transporte, segurança e educação, que impacta diretamente a qualidade de vida da população e a força de trabalho vinculada ao setor portuário.  [Imediato (2025)]
+
+4.5 - Acidentes rodoviários e ferroviários severidade...
+    Descrição completa: Acidentes rodoviários e ferroviários de alta severidade em áreas próximas aos portos.
+    Código original: 4.5 Acidentes rodoviários e ferroviários de alta severidade em áreas próximas aos portos.  [Curto prazo (2026 a 2027)]
+
+4.5 - Acidentes rodoviários e ferroviários severidade...
+    Descrição completa: Acidentes rodoviários e ferroviários de alta severidade em áreas próximas aos portos.
+    Código original: 4.5 Acidentes rodoviários e ferroviários de alta severidade em áreas próximas aos portos.  [Imediato (2025)]
+
+4.5 - Acidentes rodoviários e ferroviários severidade...
+    Descrição completa: Acidentes rodoviários e ferroviários de alta severidade em áreas próximas aos portos.
+    Código original: 4.5 Acidentes rodoviários e ferroviários de alta severidade em áreas próximas aos portos.  [Longo prazo (até 2035)]
+
+4.6 - Acidentes nas operações portuárias.
+    Descrição completa: Acidentes nas operações portuárias.
+    Código original: 4.6 Acidentes nas operações portuárias.  [Curto prazo (2026 a 2027)]
+
+4.6 - Acidentes nas operações portuárias.
+    Descrição completa: Acidentes nas operações portuárias.
+    Código original: 4.6 Acidentes nas operações portuárias.  [Imediato (2025)]
+
+4.6 - Acidentes nas operações portuárias.
+    Descrição completa: Acidentes nas operações portuárias.
+    Código original: 4.6 Acidentes nas operações portuárias.  [Longo prazo (até 2035)]
+
+4.7 - Falhas na gestão de emergências....
+    Descrição completa: Falhas na gestão de crises e na resposta a emergências.
+    Código original: 4.7 Falhas na gestão de crises e na resposta a emergências. [Longo prazo (até 2035)]
+
+4.7 - Falhas na gestão de emergências....
+    Descrição completa: Falhas na gestão de crises e na resposta a emergências.
+    Código original: 4.7 Falhas na gestão de crises e na resposta a emergências. [Curto prazo (2026 a 2027)]
+
+4.7 - Falhas na gestão de emergências....
+    Descrição completa: Falhas na gestão de crises e na resposta a emergências.
+    Código original: 4.7 Falhas na gestão de crises e na resposta a emergências. [Imediato (2025)]
+
+4.8 - Falhas no controle interno: corrupção....
+    Descrição completa: Falhas no controle interno: fraudes ou corrupção.
+    Código original: 4.8 Falhas no controle interno: fraudes ou corrupção.  [Longo prazo (até 2035)]
+
+4.8 - Falhas no controle interno: corrupção....
+    Descrição completa: Falhas no controle interno: fraudes ou corrupção.
+    Código original: 4.8 Falhas no controle interno: fraudes ou corrupção.  [Imediato (2025)]
+
+4.8 - Falhas no controle interno: corrupção....
+    Descrição completa: Falhas no controle interno: fraudes ou corrupção.
+    Código original: 4.8 Falhas no controle interno: fraudes ou corrupção.  [Curto prazo (2026 a 2027)]
+
+
+======================================================================
+
+DIMENSÃO: TECNOLOGICA
+--------------------------------------------------
+
+5.1 - Consequências indesejáveis pela aplicação tecnologias...
+    Descrição completa: Consequências indesejáveis pela aplicação de tecnologias ou IA.
+    Código original: 5.1 Consequências indesejáveis pela aplicação de tecnologias ou IA. [Longo prazo (até 2035)]
+
+5.1 - Consequências indesejáveis pela aplicação tecnologias...
+    Descrição completa: Consequências indesejáveis pela aplicação de tecnologias ou IA.
+    Código original: 5.1 Consequências indesejáveis pela aplicação de tecnologias ou IA. [Imediato (2025)]
+
+5.10 - Riscos associados às tecnologias espaciais
+    Descrição completa: Riscos associados às tecnologias espaciais
+    Código original: 5.10 Riscos associados às tecnologias espaciais [Curto prazo (2026 a 2027)]
+
+5.10 - Riscos associados às tecnologias espaciais
+    Descrição completa: Riscos associados às tecnologias espaciais
+    Código original: 5.10 Riscos associados às tecnologias espaciais [Longo prazo (até 2035)]
+
+5.1 - Consequências indesejáveis pela aplicação tecnologias...
+    Descrição completa: Consequências indesejáveis pela aplicação de tecnologias ou IA.
+    Código original: 5.1 Consequências indesejáveis pela aplicação de tecnologias ou IA. [Curto prazo (2026 a 2027)]
+
+5.10 - Riscos associados às tecnologias espaciais
+    Descrição completa: Riscos associados às tecnologias espaciais
+    Código original: 5.10 Riscos associados às tecnologias espaciais [Imediato (2025)]
+
+5.11 - Riscos associados à automação portuária
+    Descrição completa: Riscos associados à automação portuária
+    Código original: 5.11 Riscos associados à automação portuária [Curto prazo (2026 a 2027)]
+
+5.11 - Riscos associados à automação portuária
+    Descrição completa: Riscos associados à automação portuária
+    Código original: 5.11 Riscos associados à automação portuária [Longo prazo (até 2035)]
+
+5.12 - Problemas de integração de segurança
+    Descrição completa: Problemas de integração de segurança
+    Código original: 5.12 Problemas de integração de segurança [Curto prazo (2026 a 2027)]
+
+5.12 - Problemas de integração de segurança
+    Descrição completa: Problemas de integração de segurança
+    Código original: 5.12 Problemas de integração de segurança [Longo prazo (até 2035)]
+
+5.13 - Privacidade e conformidade legal
+    Descrição completa: Privacidade e conformidade legal
+    Código original: 5.13 Privacidade e conformidade legal [Longo prazo (até 2035)]
+
+5.13 - Privacidade e conformidade legal
+    Descrição completa: Privacidade e conformidade legal
+    Código original: 5.13 Privacidade e conformidade legal [Curto prazo (2026 a 2027)]
+
+5.14 - Desenvolvimento inseguro e falhas incorporação...
+    Descrição completa: Desenvolvimento inseguro e falhas na incorporação de segurança por design
+    Código original: 5.14 Desenvolvimento inseguro e falhas na incorporação de segurança por design [Curto prazo (2026 a 2027)]
+
+5.14 - Desenvolvimento inseguro e falhas incorporação...
+    Descrição completa: Desenvolvimento inseguro e falhas na incorporação de segurança por design
+    Código original: 5.14 Desenvolvimento inseguro e falhas na incorporação de segurança por design [Longo prazo (até 2035)]
+
+5.15 - Custo de implementação de tecnologias...
+    Descrição completa: Custo de implementação de novas tecnologias
+    Código original: 5.15 Custo de implementação de novas tecnologias [Longo prazo (até 2035)]
+
+5.15 - Custo de implementação de tecnologias...
+    Descrição completa: Custo de implementação de novas tecnologias
+    Código original: 5.15 Custo de implementação de novas tecnologias [Curto prazo (2026 a 2027)]
+
+5.16 - Escassez de mão de qualificada...
+    Descrição completa: Escassez de mão de obra qualificada na áréa de tecnologia
+    Código original: 5.16 Escassez de mão de obra qualificada na áréa de tecnologia [Longo prazo (até 2035)]
+
+5.16 - Escassez de mão de qualificada...
+    Descrição completa: Escassez de mão de obra qualificada na área de tecnologia
+    Código original: 5.16 Escassez de mão de obra qualificada na área de tecnologia [Imediato (2025)]
+
+5.16 - Escassez de mão de qualificada...
+    Descrição completa: Escassez de mão de obra qualificada na área de tecnologia
+    Código original: 5.16 Escassez de mão de obra qualificada na área de tecnologia [Curto prazo (2026 a 2027)]
+
+5.2 - Consequências adversas de tecnologias avançadas...
+    Descrição completa: Consequências adversas de tecnologias avançadas (física, biotecnologia, geoengenharia). Exemplos: riscos associados a nanotecnologias, geoengenharia climática descontrolada e uso inadequado de tecnologias de automação e robótica.
+    Código original: 5.2 Consequências adversas de tecnologias avançadas (física, biotecnologia, geoengenharia). Exemplos: riscos associados a nanotecnologias, geoengenharia climática descontrolada e uso inadequado de tecnologias de automação e robótica. [Imediato (2025)]
+
+5.3 - Práticas de censura e vigilância...
+    Descrição completa: Práticas de censura e vigilância adversa
+    Código original: 5.3 Práticas de censura e vigilância adversa [Curto prazo (2026 a 2027)]
+
+5.3 - Práticas de censura e vigilância...
+    Descrição completa: Práticas de censura e vigilância adversa
+    Código original: 5.3 Práticas de censura e vigilância adversa [Longo prazo (até 2035)]
+
+5.4 - Falta de segurança computacional comunicação...
+    Descrição completa: Falta de segurança computacional e de comunicação
+    Código original: 5.4 Falta de segurança computacional e de comunicação [Curto prazo (2026 a 2027)]
+
+5.4 - Falta de segurança computacional comunicação...
+    Descrição completa: Falta de segurança computacional e de comunicação
+    Código original: 5.4 Falta de segurança computacional e de comunicação [Longo prazo (até 2035)]
+
+5.5 - Concentração dos direitos sobre tecnologias
+    Descrição completa: Concentração dos direitos sobre tecnologias
+    Código original: 5.5 Concentração dos direitos sobre tecnologias [Curto prazo (2026 a 2027)]
+
+5.5 - Concentração dos direitos sobre tecnologias
+    Descrição completa: Concentração dos direitos sobre tecnologias
+    Código original: 5.5 Concentração dos direitos sobre tecnologias [Longo prazo (até 2035)]
+
+5.6 - Vulnerabilidades dos sistemas de comunicação...
+    Descrição completa: Vulnerabilidades dos sistemas de comunicação e dispositivos de Internet das Coisas
+    Código original: 5.6 Vulnerabilidades dos sistemas de comunicação e dispositivos de Internet das Coisas [Longo prazo (até 2035)]
+
+5.6 - Vulnerabilidades dos sistemas de comunicação...
+    Descrição completa: Vulnerabilidades dos sistemas de comunicação e dispositivos de Internet das Coisas
+    Código original: 5.6 Vulnerabilidades dos sistemas de comunicação e dispositivos de Internet das Coisas [Curto prazo (2026 a 2027)]
+
+5.6 - Vulnerabilidades dos sistemas de comunicação...
+    Descrição completa: Vulnerabilidades dos sistemas de comunicação e dispositivos de Internet das Coisas
+    Código original: 5.6 Vulnerabilidades dos sistemas de comunicação e dispositivos de Internet das Coisas [Imediato (2025)]
+
+5.7 - Atraso no processo de digitalização...
+    Descrição completa: Atraso no processo de digitalização dos portos.
+    Código original: 5.7 Atraso no processo de digitalização dos portos. [Longo prazo (até 2035)]
+
+5.7 - Atraso no processo de digitalização...
+    Descrição completa: Atraso no processo de digitalização dos portos.
+    Código original: 5.7 Atraso no processo de digitalização dos portos. [Curto prazo (2026 a 2027)]
+
+5.7 - Atraso no processo de digitalização...
+    Descrição completa: Atraso no processo de digitalização dos portos.
+    Código original: 5.7 Atraso no processo de digitalização dos portos. [Imediato (2025)]
+
+5.8 - Consequências indesejáveis pela aplicação tecnologias...
+    Descrição completa: Consequências indesejáveis pela aplicação de tecnologias ou IA. Práticas de censura e vigilância adversa. Consequências adversas de tecnologias avançadas
+    Código original: 5.8 Consequências indesejáveis pela aplicação de tecnologias ou IA. Práticas de censura e vigilância adversa. Consequências adversas de tecnologias avançadas [Longo prazo (até 2035)]
+
+5.8 - Consequências indesejáveis pela aplicação tecnologias...
+    Descrição completa: Consequências indesejáveis pela aplicação de tecnologias ou IA. Práticas de censura e vigilância adversa. Consequências adversas de tecnologias avançadas
+    Código original: 5.8 Consequências indesejáveis pela aplicação de tecnologias ou IA. Práticas de censura e vigilância adversa. Consequências adversas de tecnologias avançadas [Curto prazo (2026 a 2027)]
+
+5.8 - Consequências indesejáveis pela aplicação tecnologias...
+    Descrição completa: Consequências indesejáveis pela aplicação de tecnologias ou IA. Práticas de censura e vigilância adversa. Consequências adversas de tecnologias avançadas
+    Código original: 5.8 Consequências indesejáveis pela aplicação de tecnologias ou IA. Práticas de censura e vigilância adversa. Consequências adversas de tecnologias avançadas [Imediato (2025)]
+
+5.9 - Riscos associados à introdução autônomos...
+    Descrição completa: Riscos associados à introdução de navios autônomos
+    Código original: 5.9 Riscos associados à introdução de navios autônomos [Curto prazo (2026 a 2027)]
+
+5.9 - Riscos associados à introdução autônomos...
+    Descrição completa: Riscos associados à introdução de navios autônomos
+    Código original: 5.9 Riscos associados à introdução de navios autônomos [Longo prazo (até 2035)]
+
+
+======================================================================
+
