@@ -1,4 +1,3 @@
----
 title: "Análise de Riscos Econômicos"
 format: html
 editor: visual
@@ -16,14 +15,14 @@ Os riscos econômicos foram avaliados em três horizontes temporais:
 -   **Curto Prazo (2026-2027)**: Riscos emergentes que demandam planejamento
 -   **Longo Prazo (até 2035)**: Riscos estratégicos que requerem visão de futuro
 
-## Panorama do Periodo Imediato
+## Panorama do Período Imediato
 
-![Grafico de barras horizontal - Riscos Economicos Imediato 2025](assets/economicos/grafico_barras_imediato_2025.png)
+![Gráfico de barras horizontal - Riscos Econômicos Imediato 2025](assets/economicos/grafico_barras_imediato_2025.png)
 
-::: {.callout-note title="Destaques do periodo Imediato 2025"}
--   **1.15 Instabilidade politica**: 50,4% das respostas em niveis altos (4-5)
--   **1.16 Excesso regulatorio**: 46,4% em niveis altos
--   **1.14 Aumento de impostos**: 45,6% em niveis altos
+::: {.callout-note title="Destaques do período Imediato de 2025"}
+-   **Instabilidade política**: 50,4% das respostas em níveis altos (4-5)
+-   **Excesso regulatório**: 46,4% em níveis altos
+-   **Aumento de impostos**: 45,6% em níveis altos
 :::
 
 ## Análise Temporal da Dimensão Econômica
@@ -66,7 +65,7 @@ A análise temporal econômica sugere:
 
 4\. **Diversificação**: Reduzir dependência de mercados e clientes específicos
 
-## Análise por Variáveis
+## Exame das Variáveis de Risco: Resultados e Tendências
 
 ### Instabilidade econômica global e crises financeiras
 
@@ -80,12 +79,11 @@ A análise temporal econômica sugere:
 **Longo Prazo (até 2035)**: Mediana 3.0, 32.0% em risco alto
 
 -   **Tendência**: Percepção de risco relativamente estável ao longo do tempo
-:::
 
-::: {.callout-important title="Análise Especialista"}
-**1.1 Especulação e crise no mercado de ativos financeiros. \[Imediato (2025)\]**
+**Especulação e crise no mercado de ativos financeiros. \[Imediato (2025)\]**
 
 Essa percepção de risco é constante no mercado nacional e internacional de capitais pela volatilidade e facilidade de investimentos em ativos financeiros. A aversão a esse risco pode conduzir à atenção a investimentos mais estáveis e controláveis como títulos públicos e menos a títulos e papéis, eventualmente, com mais rentabilidade, mas mais incertos e frágeis, às ações especulativas de grandes investidores.
+
 :::
 
 ### Concentração de recursos e controle de preços por agentes econômicos
@@ -100,12 +98,11 @@ Essa percepção de risco é constante no mercado nacional e internacional de ca
 **Longo Prazo (até 2035)**: Mediana 3.0, 42.4% em risco alto
 
 -   **Tendência**: Percepção de risco relativamente estável ao longo do tempo
-:::
 
-::: {.callout-important title="Análise Especialista"}
-**1.2 Concentração de recursos estrategicamente importantes (minerais, materiais, tecnologias) entre um pequeno número de indivíduos, empresas ou Estados que podem controlar o acesso e ditar preços discricionários. \[Imediato (2025)\]**
+**Concentração de recursos estrategicamente importantes (minerais, materiais, tecnologias) entre um pequeno número de indivíduos, empresas ou Estados que podem controlar o acesso e ditar preços discricionários. \[Imediato (2025)\]**
 
 Esta condição tem se acentuado com a concentração de propriedades e acesso a recursos materiais e tecnológicos, que se apresentam no mercado nacional e internacional. A estrutura concentradora desses mercados impacta na atividade portuária para lidar com agentes com poder de negociação e viabilização de parcerias em terminais dedicados.
+
 :::
 
 ### Endividamento Público
@@ -120,12 +117,11 @@ Esta condição tem se acentuado com a concentração de propriedades e acesso a
 **Longo Prazo (até 2035)**: Mediana 3.0, 40.8% em risco alto
 
 -   **Tendência**: Percepção de risco relativamente estável ao longo do tempo
-:::
 
-::: {.callout-important title="Análise Especialista"}
-**1.3 Endividamento público. \[Imediato (2025)\]**
+**Endividamento público. \[Imediato (2025)\]**
 
 Risco devido a eventual impossibilidade ou dificuldade para aportes públicos ou garantias de empréstimos, principalmente com as altas taxas de juros que o país tem convivido.
+
 :::
 
 ### Endividamento Empresarial
@@ -140,12 +136,11 @@ Risco devido a eventual impossibilidade ou dificuldade para aportes públicos ou
 **Longo Prazo (até 2035)**: Mediana 3.0, 32.0% em risco alto
 
 -   **Tendência**: Percepção de risco relativamente estável ao longo do tempo
-:::
 
-::: {.callout-important title="Análise Especialista"}
-**1.4 Endividamento empresarial. \[Imediato (2025)\]**
+**Endividamento empresarial. \[Imediato (2025)\]**
 
 Risco recorrente que se agrava com as altas taxas de juros e fontes de financiamento de longo prazo praticamente restritas ao BNDES. Empréstimos de curto prazo se mostram caros e impactam os resultados das organizações.
+
 :::
 
 ### Endividamento das pessoas
@@ -160,12 +155,11 @@ Risco recorrente que se agrava com as altas taxas de juros e fontes de financiam
 **Longo Prazo (até 2035)**: Mediana 3.0, 30.4% em risco alto
 
 -   **Tendência**: Percepção de risco relativamente estável ao longo do tempo
-:::
 
-::: {.callout-important title="Análise"}
-**1.5 Endividamento das pessoas.**
+**Endividamento das pessoas.**
 
 Risco decorrente da exposição das pessoas às condições de tomada de recursos por demais exigentes e custosas. Políticas de recomposição de suas rendas podem aliviar essa situação endêmica para parte significante da população.
+
 :::
 
 ### Falhas, interrupções ou disrupções em cadeias de suprimentos relevantes
@@ -180,12 +174,11 @@ Risco decorrente da exposição das pessoas às condições de tomada de recurso
 **Longo Prazo (até 2035)**: Mediana 3.0, 44.8% em risco alto
 
 -   **Tendência**: Pico de risco no curto prazo, retornando ao nível inicial
-:::
 
-::: {.callout-important title="Análise Especialista"}
-**1.6 Falhas, interrupções ou disrupções em cadeias de suprimentos relevantes.**
+**Falhas, interrupções ou disrupções em cadeias de suprimentos relevantes.**
 
 Riscos que podem advir de causas naturais e/ou de políticas restritivas ou mesmo impeditivas de operações comerciais como a praticada pelo atual governo estadunidense. Portos fazem parte de cadeias logísticas e têm de estar alerta para a evolução das cadeias produtivas de seus usuários e/ou parceiros.
+
 :::
 
 ### Disrupções em infraestruturas críticas (físicas e digitais) ou serviços que sustentam sistemas críticos
@@ -200,12 +193,11 @@ Riscos que podem advir de causas naturais e/ou de políticas restritivas ou mesm
 **Longo Prazo (até 2035)**: Mediana 3.0, 40.0% em risco alto
 
 -   **Tendência**: Percepção de risco relativamente estável ao longo do tempo
-:::
 
-::: {.callout-important title="Análise"}
-**1.7 Disrupções em infraestruturas críticas (físicas e digitais) ou serviços que sustentam sistemas críticos (internet, telecomunicações, serviços públicos, sistemas financeiros ou energia).**
+**Disrupções em infraestruturas críticas (físicas e digitais) ou serviços que sustentam sistemas críticos (internet, telecomunicações, serviços públicos, sistemas financeiros ou energia).**
 
 Este risco é constante e, a exemplo do de falhas nas cadeias de suprimentos (Risco 1.6), exige acompanhamento que se estende para além do ambiente portuário, pois a evolução tecnológica digital tem sido intensa e disruptiva. Portos devem contar com áreas de acompanhamento e adaptação das inovações às suas operações. É crítico o seu impacto na geração e alocação de postos de trabalho e renda dos trabalhadores.
+
 :::
 
 ### Diminuição (estagnação) do ritmo e da dinâmica das atividades econômicas
@@ -220,12 +212,11 @@ Este risco é constante e, a exemplo do de falhas nas cadeias de suprimentos (Ri
 **Longo Prazo (até 2035)**: Mediana 3.0, 44.0% em risco alto
 
 -   **Tendência**: Percepção de risco relativamente estável ao longo do tempo
-:::
 
-::: {.callout-important title="Análise Especialista"}
-**1.8 Diminuição (estagnação) do ritmo e da dinâmica das atividades econômicas.**
+**Diminuição (estagnação) do ritmo e da dinâmica das atividades econômicas.**
 
 Este risco é mais uma consequência do que uma causa, pois ciclos econômicos e setoriais se repetem. Entende-se que diminuição do ritmo não corresponde a retração ou perda de atividades econômicas.
+
 :::
 
 ### Ação do crime organizado e atividades ilícitas de empresas e pessoas
@@ -240,12 +231,11 @@ Este risco é mais uma consequência do que uma causa, pois ciclos econômicos e
 **Longo Prazo (até 2035)**: Mediana 3.0, 44.8% em risco alto
 
 -   **Tendência**: Percepção de risco relativamente estável ao longo do tempo
-:::
 
-::: {.callout-important title="Análise"}
-**1.9 Ação do crime organizado e atividades ilícitas de empresas e pessoas.**
+**Ação do crime organizado e atividades ilícitas de empresas e pessoas.**
 
 Risco crítico e permanente nas operações portuárias. Portos são portas de entrada e saída de materiais ilegais (drogas, armas e contrabandos). A vigilância deve ser constante e permanente com atuação de autoridades policiais, da Marinha e das Aduanas e das polícias portuárias.
+
 :::
 
 ### Aumento da inflação
@@ -260,12 +250,11 @@ Risco crítico e permanente nas operações portuárias. Portos são portas de e
 **Longo Prazo (até 2035)**: Mediana 3.0, 43.2% em risco alto
 
 -   **Tendência**: Percepção de risco relativamente estável ao longo do tempo
-:::
 
-::: {.callout-important title="Análise Especialista"}
-**1.10 Aumento da inflação. \[Imediato (2025)\]**
+**Aumento da inflação. \[Imediato (2025)\]**
 
 Risco que depende da atuação das autoridades monetárias do país. Felizmente, ela tem sido controlada, um preço a se pagar pelas altas taxas de juros praticadas. Não obstante, pode-se ter aumentos fora da média para insumos importantes para as atividades portuárias. Controle e ações remediativas são imperativas.
+
 :::
 
 ### Dificuldades de financiamento e obtenção de recursos financeiros para investimento
@@ -280,12 +269,11 @@ Risco que depende da atuação das autoridades monetárias do país. Felizmente,
 **Longo Prazo (até 2035)**: Mediana 3.0, 39.2% em risco alto
 
 -   **Tendência**: Percepção de risco relativamente estável ao longo do tempo
-:::
 
-::: {.callout-important title="Análise"}
-**1.11 Dificuldades de financiamento e obtenção de recursos financeiros para investimento. \[Imediato (2025)\]**
+**Dificuldades de financiamento e obtenção de recursos financeiros para investimento. \[Imediato (2025)\]**
 
 O financiamento depende das condições de mercado, das condições do empreendimento a ser financiado e da organização que vai tomar o encargo financeiro. É condição natural da atividade que envolve volumes expressivos de recursos a movimentar.
+
 :::
 
 ### Aumento de impostos
@@ -300,12 +288,11 @@ O financiamento depende das condições de mercado, das condições do empreendi
 **Longo Prazo (até 2035)**: Mediana 4.0, 52.8% em risco alto
 
 -   **Tendência**: Percepção de risco relativamente estável ao longo do tempo
-:::
 
-::: {.callout-important title="Análise Especialista"}
-**1.14 Aumento de impostos.**
+**Aumento de impostos.**
 
 Risco constante, assim como a morte. A condição de aumento de impostos tem de ser analisada em relação às condições de concorrência e à possibilidade de mercado de repassá-los a clientes e parceiros.
+
 :::
 
 ### Instabilidade política
@@ -320,12 +307,11 @@ Risco constante, assim como a morte. A condição de aumento de impostos tem de 
 **Longo Prazo (até 2035)**: Mediana 3.0, 33.6% em risco alto
 
 -   **Tendência**: Percepção de risco relativamente estável ao longo do tempo
-:::
 
-::: {.callout-important title="Análise Especialista"}
-**1.15 Instabilidade política.**
+**Instabilidade política.**
 
 Risco maior que a atividade operacional. Tem a ver com a prática democrática e, no caso de portos públicos, eventuais trocas de administração por alternância de grupos políticos determinantes.
+
 :::
 
 ### Excesso regulatório
@@ -340,12 +326,11 @@ Risco maior que a atividade operacional. Tem a ver com a prática democrática e
 **Longo Prazo (até 2035)**: Mediana 3.0, 32.0% em risco alto
 
 -   **Tendência**: Percepção de risco relativamente estável ao longo do tempo
-:::
 
-::: {.callout-important title="Análise"}
-**1.16 Excesso regulatório.**
+**Excesso regulatório.**
 
 Risco que advém da condição intrínseca e natural dos portos de reserva de mercado e mesmo monopolista. A regulamentação é necessária, inclusive para manter as condições de operação legalmente apropriadas e preservar as condições de competição dos agentes intra e interportos.
+
 :::
 
 ### Déficit regulatório
@@ -360,12 +345,11 @@ Risco que advém da condição intrínseca e natural dos portos de reserva de me
 **Longo Prazo (até 2035)**: Mediana 3.0, 48.0% em risco alto
 
 -   **Tendência**: Percepção de risco relativamente estável ao longo do tempo
-:::
 
-::: {.callout-important title="Análise Especialista"}
-**1.17 Déficit regulatório.**
+**Déficit regulatório.**
 
 Risco associado aos Riscos 1.6 e 1.7, ou seja, a evolução rápida de condições de mercado e, principalmente, da tecnologia pode levar à necessidade da adequação da regulamentação a novas situações e condicionantes.
+
 :::
 
 ### Desemprego
@@ -380,12 +364,11 @@ Risco associado aos Riscos 1.6 e 1.7, ou seja, a evolução rápida de condiçõ
 **Longo Prazo (até 2035)**: Mediana 3.0, 40.0% em risco alto
 
 -   **Tendência**: Percepção de risco relativamente estável ao longo do tempo
-:::
 
-::: {.callout-important title="Análise"}
-**1.18 Desemprego**
+**Desemprego**
 
 Risco associado à evolução das atividades. Portos são serviços de demanda derivada, ou seja, dependem do mercado dos produtos movimentados. Outro fator importante é a evolução tecnológica e digital com a eliminação de postos de trabalho, o que leva à necessidade de desenvolvimento permanente do pessoal ocupado e controle das condições de trabalho e contratação.
+
 :::
 
 ### Corrupção
@@ -400,12 +383,11 @@ Risco associado à evolução das atividades. Portos são serviços de demanda d
 **Longo Prazo (até 2035)**: Mediana 3.0, 37.6% em risco alto
 
 -   **Tendência**: Percepção de risco relativamente estável ao longo do tempo
-:::
 
-::: {.callout-important title="Análise"}
-**1.19 Corrupção.**
+**Corrupção.**
 
 Risco associado ao Risco 1.9 e 1.12. As operações portuárias envolvem muitos recursos e etapas variadas de realização, estando vulneráveis a práticas inadequadas. Um controle rigoroso é necessário que se estende a todas as cadeias produtivas envolvidas na atividade portuária.
+
 :::
 
 ### Desequilíbrio econômico regional
@@ -420,12 +402,11 @@ Risco associado ao Risco 1.9 e 1.12. As operações portuárias envolvem muitos 
 **Longo Prazo (até 2035)**: Mediana 3.0, 40.0% em risco alto
 
 -   **Tendência**: Percepção de risco relativamente estável ao longo do tempo
-:::
 
-::: {.callout-important title="Análise Especialista"}
-**1.20 Desequilíbrio econômico regional.**
+**Desequilíbrio econômico regional.**
 
 Risco decorrente da condição da operação portuária como de demanda derivada. Portos têm sua atividade decorrente da economia de sua hinterlândia, ou seja, sua área de atuação, ou as chamadas origens e destinos verdadeiros dos produtos movimentados.
+
 :::
 
 ### Conflito ou instabilidade institucional do Estado
@@ -440,12 +421,11 @@ Risco decorrente da condição da operação portuária como de demanda derivada
 **Longo Prazo (até 2035)**: Mediana 3.0, 37.6% em risco alto
 
 -   **Tendência**: Percepção de risco relativamente estável ao longo do tempo
-:::
 
-::: {.callout-important title="Análise Especialista"}
-**1.21 Conflito ou instabilidade institucional do Estado. \[Imediato (2025)\]**
+**Conflito ou instabilidade institucional do Estado. \[Imediato (2025)\]**
 
 Riscos relativos à inserção das operações portuárias como elementos das economias locais e regionais na dinâmica da relação com autoridades públicas. Esse risco, naturalmente, abarca portos públicos e terminais privados.
+
 :::
 
 ## Análise Temporal Comparativa

@@ -8,9 +8,9 @@ Este capítulo apresenta o desenho metodológico adotado para avaliar os riscos 
 
 ## Fontes de Dados
 
-- Questionários estruturados aplicados com especialistas do setor portuário.
-- Bases de dados secundárias (indicar fontes específicas).
-- Entrevistas complementares e workshops temáticos (quando aplicável).
+- Foram aplicados questionários estruturados a gestores do setor portuário brasileiro. Os questionários foram encaminhados pela ANTAQ às Autoridades Portuárias e a tabulação dos dados e análise executada pela equipe do LabPortos e parceiros. 
+
+Foram obtidas 125 (cento e vinte e cinco) respostas válidas, consolidadas após as etapas de limpeza e verificação dos dados.
 
 ## Horizonte Temporal
 
@@ -24,7 +24,7 @@ Os riscos foram avaliados considerando três horizontes:
 
 ### Natureza dos Dados
 
-A coleta de dados utilizou uma escala Likert de 5 pontos para avaliar a percepção de especialistas sobre os riscos portuários:
+A coleta de dados utilizou uma escala Likert de 5 pontos para avaliar a percepção dos gestores sobre os riscos portuários:
 
 - 1 - Risco muito baixo
 - 2 - Risco baixo  
@@ -39,11 +39,15 @@ A média foi calculada como a soma de todas as respostas dividida pelo número t
 $$\bar{x} = \frac{\sum_{i=1}^{n} x_i}{n}$$
 
 Onde:
+
 - $\bar{x}$ = média da variável
+
 - $x_i$ = valor da resposta do i-ésimo respondente (1 a 5)
+
 - $n$ = número total de respondentes
 
 Interpretação da média:
+
 - 1,0 - 1,9: Percepção de risco muito baixo
 - 2,0 - 2,9: Percepção de risco baixo
 - 3,0 - 3,9: Percepção de risco moderado
@@ -91,36 +95,23 @@ A abordagem metodológica adotada segue as melhores práticas para análise de d
 2. Construção de indicadores: cálculo de percentuais por nível de risco e mediana por horizonte temporal.
 3. Visualização e interpretação: elaboração de gráficos comparativos e sínteses interpretativas.
 
-### Analise Estatistica de Dispersao Temporal
+### Análise Estatística de Dispersão Temporal
 
-Para avaliar a evolucao percebida dos riscos entre horizontes temporais, foi estruturado um pipeline estatistico de dispersao com manutencao integral dos 57 pares curto vs. longo prazo.
+Para avaliar a evolução percebida dos riscos entre horizontes temporais, foi estruturado um pipeline estatístico de dispersão com manutenção integral dos 57 pares curto vs. longo prazo.
 
-#### Metodologia de Correspondencia Temporal
+#### Metodologia de Correspondência Temporal
 
-- Identificacao de pares temporais: correspondencia automatica por codigo da variavel entre curto prazo (2026-2027) e longo prazo (ate 2035).
-- Extracao de estatisticas: para cada par calculamos mediana, intervalo interquartil (IQR), delta temporal com sinal (mediana longo - mediana curto) e delta absoluto.
-- Classificacao de tendencia: o delta com sinal e classificado em melhoria, estabilidade ou piora (leve, moderada, significativa), preservando a direcao da variacao.
+- Identificação de pares temporais: correspondência automática por código da variável entre curto prazo (2026-2027) e longo prazo (até 2035).
+- Extração de estatísticas: para cada par calculamos mediana, intervalo interquartil (IQR), delta temporal com sinal (mediana longo - mediana curto) e delta absoluto.
+- Classificação de tendência: 
+1. Delta positivo: risco aumenta no longo prazo → tendência de agravamento
+2. Delta negativo: risco diminui no longo prazo → tendência de melhoria
+3. Delta zero: risco estável entre os horizontes → estabilidade
 
-#### Criterios de Inclusao na Analise
 
-A analise contempla todas as variaveis com respostas nos dois horizontes, totalizando 57 pares. Essa abordagem garante:
+#### Interpretação Estatística
 
-- Cobertura completa: nenhuma variavel elegivel e excluida do grafico ou da analise textual.
-- Comparabilidade por dimensao: calculos agregados por dimensao usam as mesmas metricas (medianas, deltas e IQR medio).
-- Rastreabilidade: cada ponto retém referencias de dimensao, label sucinto e tamanhos de cluster para auditoria posterior.
+- Correlação temporal: coeficiente de Pearson calculado para medir a persistência entre horizontes.
+- Análise de deltas: o delta com sinal identifica agravamentos ou melhorias; o delta absoluto resume a magnitude da mudança.
+- Quadrantes estratégicos: contagens e percentuais por quadrante alimentam tanto o gráfico quanto a narrativa do relatório.
 
-#### Tecnicas de Visualizacao
-
-- Grafico de dispersao: eixo X = mediana do curto prazo; eixo Y = mediana do longo prazo.
-- Jitter radial: aplica deslocamento polar nos pontos com coordenadas identicas, evitando sobreposicao visual.
-- Contagem de clusters: quando ha multiplas variaveis na mesma posicao original, um multiplicador (ex.: 3x) sinaliza o volume agregado.
-- Dimensionamento dinamico: o raio de cada ponto combina IQR medio e tamanho do cluster, destacando variabilidade.
-- Rotulagem balanceada: ate 20 rotulos sao distribuidos entre quadrantes conforme densidade e variacao, reduzindo vies de destaque.
-
-#### Interpretacao Estatistica
-
-- Correlacao temporal: coeficiente de Pearson calculado para medir a persistencia entre horizontes.
-- Analise de deltas: o delta com sinal identifica agravamentos ou melhorias; o delta absoluto resume a magnitude da mudanca.
-- Quadrantes estrategicos: contagens e percentuais por quadrante alimentam tanto o grafico quanto a narrativa do relatorio.
-
-Essa abordagem torna explicitas as concentracoes de risco, evidencia mudancas relevantes e preserva a comparabilidade entre dimensoes, oferecendo ao leitor uma leitura fiel da evolucao temporal dos indicadores portuarios.

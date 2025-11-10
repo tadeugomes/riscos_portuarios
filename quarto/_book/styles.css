@@ -1,0 +1,9 @@
+.callout .callout-body,
+.callout .callout-content p {
+  text-align: justify;
+}
+
+.callout .callout-body .callout-title,
+.callout .callout-body .callout-subtitle {
+  text-align: left;
+}

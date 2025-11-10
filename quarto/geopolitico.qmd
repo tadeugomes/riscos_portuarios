@@ -16,11 +16,11 @@ Os riscos geopolíticos foram avaliados em três horizontes temporais:
 -   **Curto Prazo (2026-2027)**: Riscos emergentes que demandam planejamento
 -   **Longo Prazo (até 2035)**: Riscos estratégicos que requerem visão de futuro
 
-## Panorama do Periodo Imediato
+## Panorama do Período Imediato
 
 ![](assets/geopoliticos/grafico_barras_imediato_2025.png)
 
-::: {.callout-note title="Destaques do periodo Imediato 2025"}
+::: {.callout-note title="Destaques do período Imediato de 2025"}
 -   **Conflitos geoeconômicos**: Mediana 3.0, 46,4% das respostas em risco alto
 -   **Conflitos armados entre nações**: Mediana 2.0, 31,2% em risco alto
 -   **Violência em países parceiros**: Mediana 2.0, 28,0% em risco alto
@@ -64,12 +64,12 @@ A análise temporal dos riscos geopolíticos revela padrões de volatilidade e c
 
 A análise temporal geopolítica exige vigilância contínua:
 
-1. **Monitoramento Estratégico**: Implementar sistema de inteligência geopolítica em tempo real
-2. **Diversificação de Rotas e Parcerias**: Reduzir dependência de regiões instáveis
-3. **Fortalecimento da Segurança**: Investir em tecnologias e protocolos antiterrorismo
-4. **Planejamento de Contingência**: Desenvolver cenários de resposta a crises geopolíticas
+1.  **Monitoramento Estratégico**: Implementar sistema de inteligência geopolítica em tempo real
+2.  **Diversificação de Rotas e Parcerias**: Reduzir dependência de regiões instáveis
+3.  **Fortalecimento da Segurança**: Investir em tecnologias e protocolos antiterrorismo
+4.  **Planejamento de Contingência**: Desenvolver cenários de resposta a crises geopolíticas
 
-## Análise por Variáveis
+## Exame das Variáveis de Risco: Resultados e Tendências
 
 ### Liberação intencional ou acidental de contaminantes
 
@@ -96,12 +96,7 @@ Devido à possibilidade de liberação intencional ou acidental de contaminantes
 
 **Longo Prazo (até 2035)**: Mediana 3.0, 36.0% em risco alto
 
-Devido a disputas por soberania em áreas estratégicas, redefinições de fronteiras e
-controle de recursos naturais, poderá acontecer restrição de acesso a rotas
-comerciais e aumento de tensões diplomáticas regionais, o que poderá levar a
-reorientações logísticas e aumento de custos de transporte, impactando a
-competitividade internacional e a estabilidade das cadeias de suprimento
-portuárias.
+Devido a disputas por soberania em áreas estratégicas, redefinições de fronteiras e controle de recursos naturais, poderá acontecer restrição de acesso a rotas comerciais e aumento de tensões diplomáticas regionais, o que poderá levar a reorientações logísticas e aumento de custos de transporte, impactando a competitividade internacional e a estabilidade das cadeias de suprimento portuárias.
 :::
 
 ### Conflitos econômicos em países parceiros comerciais
@@ -171,12 +166,7 @@ Devido à possibilidade de ataques terroristas a infraestruturas críticas e ár
 
 **Longo Prazo (até 2035)**: Mediana 3.0, 36.8% em risco alto
 
-Devido ao aumento de fluxos migratórios forçados provocados por conflitos, crises
-humanitárias ou desastres climáticos, poderá ocorrer pressão sobre
-infraestruturas portuárias e demanda emergencial por acolhimento e apoio
-humanitário, o que poderá levar a readequações logísticas e uso não planejado
-de áreas operacionais, impactando a função institucional dos portos como
-agentes de apoio à segurança e estabilidade regional.
+Devido ao aumento de fluxos migratórios forçados provocados por conflitos, crises humanitárias ou desastres climáticos, poderá ocorrer pressão sobre infraestruturas portuárias e demanda emergencial por acolhimento e apoio humanitário, o que poderá levar a readequações logísticas e uso não planejado de áreas operacionais, impactando a função institucional dos portos como agentes de apoio à segurança e estabilidade regional.
 :::
 
 ## Análise Temporal Comparativa

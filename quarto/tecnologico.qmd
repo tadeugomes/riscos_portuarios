@@ -4,7 +4,7 @@ format: html
 editor: visual
 ---
 
-Esta seção apresenta a análise detalhada dos riscos tecnológicos identificados no questionário, organizados por horizontes temporais e variáveis específicas.
+Este capítulo apresenta a análise dos riscos tecnológicos identificados organizados por horizontes temporais.
 
 ## Visão Geral dos Riscos Tecnológicos
 
@@ -14,14 +14,14 @@ Os riscos tecnológicos foram avaliados em três horizontes temporais:
 -   **Curto Prazo (2026-2027)**: Riscos emergentes que demandam planejamento
 -   **Longo Prazo (até 2035)**: Riscos estratégicos que requerem visão de futuro
 
-## Panorama do Periodo Imediato
+## Panorama do Período Imediato
 
 ![](assets/tecnologicos/grafico_barras_imediato_2025.png)
 
-::: {.callout-note title="Destaques do periodo Imediato 2025"}
--   **Atraso no processo de digitalizacao**: 33,6% em niveis altos
--   **Vulnerabilidades em comunicacao e IoT**: 32,8% em niveis altos
--   **Consequencias indesejaveis de tecnologias**: 20,0% em niveis altos
+::: {.callout-note title="Destaques do período Imediato de 2025"}
+-   **Atraso no processo de digitalização**: 33,6% em níveis altos
+-   **Vulnerabilidades em comunicação e IoT**: 32,8% em níveis altos
+-   **Consequências indesejáveis de tecnologias**: 20,0% em níveis altos
 :::
 
 ## Análise Temporal da Dimensão Tecnológica
@@ -64,7 +64,7 @@ A análise temporal tecnológica exige investimentos estratégicos:
 
 4\. **Autonomia Tecnológica**: Reduzir dependência de fornecedores e desenvolver soluções próprias
 
-## Análise por Variáveis
+## Exame das Variáveis de Risco: Resultados e Tendências
 
 ### Consequências indesejáveis pela aplicação de tecnologias ou IA
 
@@ -115,7 +115,7 @@ A análise temporal tecnológica exige investimentos estratégicos:
 
 **Longo Prazo (até 2035)**: Mediana 3.0, 30.4% em risco alto
 
-**Análise  - Práticas de censura e vigilância adversa** **Imediato (2025)**: Devido a práticas iniciais de censura e vigilância no setor portuário brasileiro, poderá acontecer restrições pontuais na divulgação de informações sensíveis e monitoramento moderado, o que poderá levar a limitações na privacidade de trabalhadores e comunidades, impactando de forma restrita os direitos individuais e a transparência do setor.
+**Análise - Práticas de censura e vigilância adversa** **Imediato (2025)**: Devido a práticas iniciais de censura e vigilância no setor portuário brasileiro, poderá acontecer restrições pontuais na divulgação de informações sensíveis e monitoramento moderado, o que poderá levar a limitações na privacidade de trabalhadores e comunidades, impactando de forma restrita os direitos individuais e a transparência do setor.
 
 **Curto prazo (2026-2027)**: Devido a práticas iniciais de censura e vigilância no setor portuário brasileiro, poderá acontecer restrições pontuais na divulgação de informações sensíveis e monitoramento moderado, o que poderá levar a impactos limitados na privacidade de trabalhadores e comunidades, afetando de forma controlada os direitos individuais e a transparência do setor no curto prazo (2026 a 2027).
 
@@ -301,7 +301,7 @@ A análise temporal tecnológica exige investimentos estratégicos:
 
 **Longo Prazo (até 2035)**: Mediana 3.0, 36.0% em risco alto
 
-**Análise  - Privacidade e conformidade legal** **Imediato (2025)**: Devido a desafios na adequação contínua às normas de privacidade e conformidade legal no tratamento de dados no setor portuário brasileiro, poderá acontecer o descumprimento parcial de requisitos regulatórios, o que poderá levar a sanções administrativas moderadas, redução da confiança dos usuários e desgaste reputacional pontual, impactando na segurança jurídica e na imagem do setor no horizonte imediato.
+**Análise - Privacidade e conformidade legal** **Imediato (2025)**: Devido a desafios na adequação contínua às normas de privacidade e conformidade legal no tratamento de dados no setor portuário brasileiro, poderá acontecer o descumprimento parcial de requisitos regulatórios, o que poderá levar a sanções administrativas moderadas, redução da confiança dos usuários e desgaste reputacional pontual, impactando na segurança jurídica e na imagem do setor no horizonte imediato.
 
 **Curto prazo (2026-2027)**: Devido a desafios na adequação às normas de privacidade e conformidade legal no tratamento de dados, poderá acontecer a ocorrência de desvios pontuais em relação aos marcos regulatórios vigentes, o que poderá levar a penalidades administrativas moderadas, redução na confiança dos usuários e impactos reputacionais localizados, impactando na segurança jurídica e na imagem do setor portuário brasileiro no curto prazo.
 

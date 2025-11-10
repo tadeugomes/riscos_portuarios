@@ -4,7 +4,7 @@ title: "Prefácio"
 
 # Prefácio / Mensagem dos Organizadores
 
-Utilize este capítulo para contextualizar a motivação do projeto, agradecer colaboradores e apresentar a visão dos organizadores.
+Capítulo para contextualizar a motivação do projeto, agradecer colaboradores e apresentar a visão dos organizadores.
 
 ## Mensagem Inicial
 
@@ -16,6 +16,5 @@ Utilize este capítulo para contextualizar a motivação do projeto, agradecer c
 - <!-- Parceiros estratégicos -->
 - <!-- Participantes e respondentes -->
 
-## Visão de Futuro
 
-<!-- Descreva como os resultados do estudo podem orientar ações futuras -->
+

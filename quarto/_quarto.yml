@@ -1,6 +1,10 @@
 project:
   type: book
   output-dir: _book
+lang: pt
+language:
+  label:
+    fig: "Figura"
 
 book:
   title: "Analise de Riscos Portuarios"
@@ -27,6 +31,7 @@ format:
     theme: cosmo
     toc: true
     number-sections: true
+    css: styles.css
   docx:
     toc: true
     number-sections: true
