@@ -1,9 +1,7 @@
+---
 title: "Análise de Riscos Econômicos"
 format: html
-editor: visual
 ---
-
-# Análise de Riscos Econômicos
 
 Este capítulo apresenta a análise dos riscos econômicos identificados organizados por horizontes temporais e aspectos específicos.
 

@@ -2,8 +2,6 @@
 title: "Equipe"
 ---
 
-# Equipe
-
 Apresente a equipe responsável pelo estudo, indicando funções e contatos relevantes.
 
 ## Coordenação

@@ -4,8 +4,6 @@ format: html
 editor: visual
 ---
 
-# Análise de Riscos Geopolíticos
-
 Esta seção apresenta a análise detalhada dos riscos geopolíticos identificados no questionário, organizados por horizontes temporais e variáveis específicas.
 
 ## Visão Geral dos Riscos Geopolíticos

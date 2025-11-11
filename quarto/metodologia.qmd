@@ -2,8 +2,6 @@
 title: "Metodologia"
 ---
 
-# Metodologia
-
 Este capítulo apresenta o desenho metodológico adotado para avaliar os riscos portuários nas diferentes dimensões analisadas no contexto brasileiro.
 
 ## Fontes de Dados

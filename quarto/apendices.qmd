@@ -2,22 +2,16 @@
 title: "Apêndices"
 ---
 
-# Apêndices
-
-Utilize os apêndices para consolidar materiais de referência, instrumentos de pesquisa e tabelas complementares.
-
-## Documentos de Referência
-
-- <!-- Checklist ou formulários utilizados -->
-- <!-- Mapas ou diagramas adicionais -->
-
 ## Tabelas e Dados Complementares
 
-| Descrição | Fonte | Observações |
-|-----------|-------|-------------|
-| <!-- Tabela --> | <!-- Fonte --> | <!-- Notas --> |
+### Top 10 riscos proeminentes por tipo de instalação portuária
 
-## Glossário de Termos
+Os valores representam o percentual de respostas em níveis altos (4 e 5) para o recorte Imediato (2025), com o total de respostas válidas por risco.
 
-- **Termo:** <!-- definição -->
-- **Termo:** <!-- definição -->
+{{< include assets/tabelas/top_riscos_por_tipo_instalacao.md >}}
+
+### Top 10 riscos agregados por região
+
+Apresenta o mesmo recorte temporal, consolidando as respostas por UF e região geográfica.
+
+{{< include assets/tabelas/top_riscos_por_regiao.md >}}
