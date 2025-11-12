@@ -59,26 +59,29 @@ A dimensão social compreende variáveis críticas, abrangendo desde direitos hu
 A análise temporal dos riscos sociais revela padrões importantes na evolução das percepções entre o curto prazo (2026-2027) e o longo prazo (até 2035):
 
 #### Principais Tendências Identificadas
-- **Crescimento Tecnológico**: O risco associado ao maior uso de tecnologias (IA, mecanização, robotização) apresenta o maior crescimento (+103.4%), passando de 23.2% para 47.2% de percepção de risco alto
-- **Preocupação Sanitária**: Pandemias e epidemias mostram aumento significativo (+74.1%), refletindo as lições aprendidas pós-COVID
-- **Direitos Humanos**: Ameaças aos direitos humanos apresentam crescimento moderado (+57.7%), indicando deterioração gradual
-- **Serviços Essenciais**: Insuficiência de serviços públicos mantém-se como risco crítico e persistente em todos os períodos
+
+-   **Crescimento Tecnológico**: O risco associado ao maior uso de tecnologias (IA, mecanização, robotização) apresenta o maior crescimento (+103.4%), passando de 23.2% para 47.2% de percepção de risco alto
+-   **Preocupação Sanitária**: Pandemias e epidemias mostram aumento significativo (+74.1%), refletindo as lições aprendidas pós-COVID
+-   **Direitos Humanos**: Ameaças aos direitos humanos apresentam crescimento moderado (+57.7%), indicando deterioração gradual
+-   **Serviços Essenciais**: Insuficiência de serviços públicos mantém-se como risco crítico e persistente em todos os períodos
 
 #### Riscos Crônicos vs Emergentes
-- **Riscos Crônicos**: Acidentes operacionais, falhas na gestão de crises e corrupção mantêm-se elevados e persistentes
-- **Riscos Emergentes**: Transformação digital e questões sanitárias mostram maior crescimento temporal
-- **Riscos Controlados**: Desigualdades, participação social e assédio mantêm-se em níveis controlados, embora com crescimento moderado
+
+-   **Riscos Crônicos**: Acidentes operacionais, falhas na gestão de crises e corrupção mantêm-se elevados e persistentes
+-   **Riscos Emergentes**: Transformação digital e questões sanitárias mostram maior crescimento temporal
+-   **Riscos Controlados**: Desigualdades, participação social e assédio mantêm-se em níveis controlados, embora com crescimento moderado
 
 #### Implicações Estratégicas para a Dimensão Social
+
 A análise temporal social indica necessidade de:
 
-1. **Investimentos em Capacitação Digital**: Preparar a força de trabalho para transformação tecnológica
+1.  **Investimentos em Capacitação Digital**: Preparar a força de trabalho para transformação tecnológica
 
-2. **Resiliência Sanitária**: Fortalecer protocolos de saúde e segurança pós-pandemia
+2.  **Resiliência Sanitária**: Fortalecer protocolos de saúde e segurança pós-pandemia
 
-3. **Serviços Essenciais**: Desenvolver parcerias para garantir serviços básicos às comunidades
+3.  **Serviços Essenciais**: Desenvolver parcerias para garantir serviços básicos às comunidades
 
-4. **Direitos Humanos**: Implementar mecanismos robustos de proteção e salvaguarda
+4.  **Direitos Humanos**: Implementar mecanismos robustos de proteção e salvaguarda
 
 ## Análise Temporal dos Riscos Sociais
 
@@ -91,9 +94,7 @@ Esta seção apresenta a análise dos três horizontes temporais para a dimensã
 ![](assets/social/grafico_agrupado_4_1_temporal.png)
 
 ::: {.callout-note title="Destaque"}
-**Evolução da Percepção de Risco:**
-- **Tendência de crescimento**: Aumento progressivo da percepção de risco ao longo do tempo
-- **Mediana**: Evolui de 2.0 (2025) para 3.0 (2035), indicando piora da situação
+**Evolução da Percepção de Risco:** - **Tendência de crescimento**: Aumento progressivo da percepção de risco ao longo do tempo - **Mediana**: Evolui de 2.0 (2025) para 3.0 (2035), indicando piora da situação
 
 \- **Risco Alto (níveis 4-5)**: Cresce de 20.8% (2025) para 32.8% (2035) - aumento de 57.7%
 
@@ -134,7 +135,7 @@ Esta seção apresenta a análise dos três horizontes temporais para a dimensã
 **Implicações Estratégicas:** A crescente preocupação com pandemias indica necessidade de fortalecimento permanente de protocolos sanitários e planos de contingência para garantir resiliência operacional. A evolução de controlado para crítico reflete as lições aprendidas pós-COVID e a percepção de maior vulnerabilidade a eventos sanitários globais.
 :::
 
-### Insuficiência de serviços públicos essenciais
+### Insuficiência de serviços públicos essenciais que impacta a força de trabalho vinculada ao setor portuário
 
 ![](assets/social/grafico_agrupado_4_3_temporal.png)
 
@@ -160,7 +161,29 @@ Esta seção apresenta a análise dos três horizontes temporais para a dimensã
 **Implicações Estratégicas:** A insuficiência de serviços essenciais representa um risco crônico que exige parcerias público-privadas e investimentos estruturais para garantir sustentabilidade operacional. A persistência do problema em todos os períodos indica necessidade de soluções sistêmicas e colaborativas entre setor portuário e poder público.
 :::
 
-### Acidentes rodoviários e ferroviários de alta severidade
+### Impactos geopolíticos
+
+![](assets/social/grafico_agrupado_4_4_temporal.png)
+
+::: {.callout-note title="Destaque"}
+**Evolução da Percepção de Risco:**
+
+-   **Tendência de escalada**: risco alto sobe de 28,0% (2025) para 48,0% (2035)
+-   **Mediana**: avança de 2,0 para 3,0, indicando transição para patamar estrutural
+-   **Risco baixo (níveis 1-2)**: recua de 52,0% para 32,0%, mostrando perda acelerada de confiança
+
+**Contexto Detalhado por Período:**
+
+**Período Imediato 2025:** Mesmo com mediana 2, quase um terço dos respondentes já associa conflitos e tensões globais a interrupções logísticas, com 28,0% em níveis altos e 52,0% ainda confiando em estabilidade de curto prazo.
+
+**Período Curto Prazo 2026-2027:** A mediana passa para 3 e o risco alto chega a 38,4%, refletindo impactos de mudanças nas cadeias de suprimentos, flutuações cambiais e barreiras comerciais emergentes.
+
+**Período Longo Prazo até 2035:** O risco se consolida como prioritário: 48,0% nos níveis 4-5 e apenas 32,0% em risco baixo, traduzindo expectativa de cenário geopolítico mais volátil e imprevisível.
+
+**Implicações Estratégicas:** O setor portuário precisa fortalecer inteligência estratégica, contratos flexíveis e redes de fornecedores em múltiplas geografias para absorver choques geopolíticos. Aumento da cooperação internacional, protocolos de segurança integrada e planos de contingência logística são fundamentais para preservar competitividade e continuidade operacional.
+:::
+
+### Acidentes rodoviários e ferroviários de alta severidade em áreas próximas aos portos
 
 ![](assets/social/grafico_agrupado_4_5_temporal.png)
 
@@ -264,7 +287,29 @@ Esta seção apresenta a análise dos três horizontes temporais para a dimensã
 **Implicações Estratégicas:** Riscos de governança exigem fortalecimento de controles internos, auditorias regulares e cultura organizacional ética para mitigar fraudes e corrupção. A evolução de moderado para elevado indica necessidade de melhorias sistêmicas na transparência e compliance.
 :::
 
-### Falta de recursos humanos capacitados e especializados
+### Instabilidade gerada por alterações no marco regulatório e excesso de judicialização
+
+![](assets/social/grafico_agrupado_4_9_temporal.png)
+
+::: {.callout-note title="Destaque"}
+**Evolução da Percepção de Risco:**
+
+-   **Risco estrutural**: percentuais em níveis 4-5 ficam acima de 34% em todos os horizontes e alcançam 40,0% em 2035
+-   **Mediana**: permanece em 3,0, reforçando que o risco já é tratado como elevado hoje
+-   **Risco baixo (níveis 1-2)**: cai de 36,8% para 34,4%, sinalizando perda gradual de confiança regulatória
+
+**Contexto Detalhado por Período:**
+
+**Período Imediato 2025:** Mediana 3, risco alto em 34,4% e baixo em 36,8% mostram ambiente ainda dividido, mas já pressionado por mudanças legislativas e disputas judiciais que afetam concessões, licenças e contratos.
+
+**Período Curto Prazo 2026-2027:** O percentual em níveis 4-5 avança para 38,4% com redução do grupo de baixo risco para 36,0%, refletindo expectativas de revisões normativas frequentes e maior litigiosidade envolvendo operações portuárias.
+
+**Período Longo Prazo até 2035:** A instabilidade torna-se crônica: 40,0% das respostas em risco alto e apenas 34,4% em risco baixo apontam para um ciclo prolongado de disputas regulatórias e judicialização de investimentos.
+
+**Implicações Estratégicas:** Portos e terminais precisam reforçar governança regulatória, monitoramento legislativo e estratégias de advocacy, além de estruturar equipes jurídicas e de compliance capazes de antecipar mudanças. Contratos mais resilientes, matrizes de riscos regulatórios e engajamento contínuo com entes públicos reduzem a probabilidade de paralisações e multas.
+:::
+
+### Falta de recursos humanos capacitados e especializados no setor portuário
 
 ![](assets/social/grafico_agrupado_4_10_temporal.png)
 
@@ -349,7 +394,9 @@ Esta seção apresenta a análise dos três horizontes temporais para a dimensã
 ::: {.callout-note title="Destaque"}
 **Evolução da Percepção de Risco:**
 
-\- **Tendência de crescimento moderado**: Preocupação gradual com engajamento - **Mediana**: Mantém-se em 2.0 em todos os períodos - risco controlado
+\- **Tendência de crescimento moderado**: Preocupação gradual com engajamento
+
+\- **Mediana**: Mantém-se em 2.0 em todos os períodos - risco controlado
 
 \- **Risco Alto (níveis 4-5)**: Cresce de 16.8% (2025) para 19.2% (2035) - aumento de 14.3%
 
@@ -418,40 +465,19 @@ Esta seção apresenta a análise dos três horizontes temporais para a dimensã
 **Implicações Estratégicas:** A ausência estatal exige parcerias público-privadas, investimentos sociais e advocacy para garantir desenvolvimento sustentável das comunidades portuárias. A evolução de moderado para elevado indica necessidade de planejamento estratégico para compensar vácuos institucionais.
 :::
 
-## Síntese da Análise Temporal
+## Análise Temporal Comparativa
 
-::: {.callout-important title="Principais Tendências Identificadas"}
-**Riscos com Maior Crescimento (2025-2035):**
+A análise comparativa entre os horizontes temporais revela importantes padrões para a dimensão social, evidenciando a escalada dos riscos ligados à ausência do Estado, aos serviços essenciais e às transformações tecnológicas que impactam diretamente as comunidades portuárias.
 
-1\. **Tecnologias (IA, robotização)**: +103.4% no risco alto
+### Tendências Identificadas
 
-2\. **Pandemias**: +74.1% no risco alto
+-   **Riscos Imediatos**: A falta de presença estatal já pressiona as áreas portuárias, com 26,4% das respostas nos níveis 4-5 e mediana 3, indicando necessidade de respostas rápidas para assegurar serviços básicos e reduzir tensões comunitárias.
+-   **Riscos de Curto Prazo**: Entre 2026 e 2027 o risco alto alcança 31,2% das respostas, refletindo intensificação das vulnerabilidades em serviços essenciais e recursos humanos e sinalizando que a capacidade institucional atual não acompanhará a demanda crescente.
+-   **Riscos de Longo Prazo**: Até 2035 o risco alto sobe para 36,8% (aumento de 39,4% em relação a 2025), impulsionado por tecnologias emergentes (+103,4% em risco alto), pandemias (+74,1%) e direitos humanos (+57,7%), consolidando tendência estrutural de agravamento sem ações coordenadas.
 
-3. **Direitos humanos**: +57.7% no risco alto
+### Insights Estratégicos
 
-4\. **Serviços essenciais**: +45.7% no risco alto
-
-5\. **Recursos humanos**: +44.1% no risco alto
-
-**Riscos Mais Críticos em 2035:**
-
-1\. **Tecnologias**: 47.2% em risco alto
-
-2\. **Serviços essenciais**: 40.8% em risco alto
-
-3\. **Pandemias**: 37.6% em risco alto
-
-4\. **Recursos humanos**: 39.2% em risco alto
-
-5\. **Ausência do Estado**: 36.8% em risco alto
-
-**Riscos Controlados:**
-
-\- **Desigualdades**: 18.4% em risco alto (menor crescimento)
-
-\- **Participação social**: 19.2% em risco alto
-
-\- **Assédio**: 21.6% em risco alto
-
-**Recomendações Estratégicas:** Priorizar investimentos em capacitação tecnológica, resiliência sanitária, serviços essenciais e desenvolvimento de talentos para mitigar os riscos de maior crescimento e impacto.
-:::
+1.  **Presença Institucional**: Estruturar parcerias público-privadas e agendas de advocacy para mitigar o vácuo estatal e assegurar continuidade de políticas sociais.
+2.  **Serviços Essenciais**: Direcionar investimentos para saúde, educação, saneamento e mobilidade nas áreas portuárias, reduzindo a pressão social que já se manifesta no horizonte imediato.
+3.  **Capacitação e Trabalho Digno**: Implantar programas de formação e retenção de talentos locais para preparar a mão de obra para tecnologias emergentes e reduzir vulnerabilidades em direitos humanos.
+4.  **Resiliência Sanitária e Tecnológica**: Implementar planos de contingência para pandemias e protocolos de adoção tecnológica responsável, equilibrando inovação com proteção social.

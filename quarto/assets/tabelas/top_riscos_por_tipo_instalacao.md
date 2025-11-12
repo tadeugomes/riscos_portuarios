@@ -10,6 +10,7 @@
 | Operador Portuário | 8 | Geopolítica | Conflitos geoeconômicos (bloqueios, sanções, restrições tarifárias, redução de investimentos). | 60 | 3.80 |
 | Operador Portuário | 9 | Social | Maior uso de tecnologias (IA, mecanização, robotização). | 60 | 3.20 |
 | Operador Portuário | 10 | Tecnológica | Consequências indesejáveis pela aplicação de tecnologias ou IA. | 60 | 3.40 |
+| --- | --- | --- | --- | --- | --- |
 | Privado (TUP) | 1 | Econômica | Aumento de impostos. | 53.12 | 3.34 |
 | Privado (TUP) | 2 | Econômica | Instabilidade política. | 53.12 | 3.38 |
 | Privado (TUP) | 3 | Econômica | Corrupção. | 50 | 3.25 |
@@ -20,6 +21,7 @@
 | Privado (TUP) | 8 | Econômica | Diminuição (estagnação) do ritmo e da dinâmica das atividades econômicas. | 34.38 | 2.72 |
 | Privado (TUP) | 9 | Tecnológica | Escassez de mão de obra qualificada na área de tecnologia | 34.38 | 3.06 |
 | Privado (TUP) | 10 | Econômica | Desequilíbrio econômico regional. | 31.25 | 2.78 |
+| --- | --- | --- | --- | --- | --- |
 | Público (Porto Organizado) | 1 | Geopolítica | Conflitos geoeconômicos (bloqueios, sanções, restrições tarifárias, redução de investimentos). | 53.62 | 3.39 |
 | Público (Porto Organizado) | 2 | Econômica | Disrupções em infraestruturas críticas (físicas e digitais) ou serviços que sustentam sistemas críticos (internet, telecomunicações, serviços públicos, sistemas financeiros ou energia). | 50.72 | 3.22 |
 | Público (Porto Organizado) | 3 | Econômica | Instabilidade política. | 47.83 | 3.45 |
@@ -30,6 +32,7 @@
 | Público (Porto Organizado) | 8 | Tecnológica | Falta de segurança computacional e de comunicação. | 43.48 | 3.07 |
 | Público (Porto Organizado) | 9 | Tecnológica | Custo de implementação de novas tecnologias | 42.03 | 3.12 |
 | Público (Porto Organizado) | 10 | Econômica | Corrupção. | 40.58 | 3.03 |
+| --- | --- | --- | --- | --- | --- |
 | Reguladores e Planejadores | 1 | Econômica | Disrupções em infraestruturas críticas (físicas e digitais) ou serviços que sustentam sistemas críticos (internet, telecomunicações, serviços públicos, sistemas financeiros ou energia). | 77.78 | 4 |
 | Reguladores e Planejadores | 2 | Econômica | Especulação e crise no mercado de ativos financeiros. | 55.56 | 3.22 |
 | Reguladores e Planejadores | 3 | Econômica | Endividamento público. | 55.56 | 3.56 |
@@ -40,6 +43,7 @@
 | Reguladores e Planejadores | 8 | Geopolítica | Conflitos armados entre nações. | 55.56 | 3.56 |
 | Reguladores e Planejadores | 9 | Social | Falhas na gestão de crises e na resposta a emergências. | 55.56 | 3.44 |
 | Reguladores e Planejadores | 10 | Tecnológica | Falta de segurança computacional e de comunicação. | 55.56 | 3.33 |
+| --- | --- | --- | --- | --- | --- |
 | Terminal Arrendado | 1 | Econômica | Excesso regulatório. | 50 | 3.20 |
 | Terminal Arrendado | 2 | Econômica | Corrupção. | 50 | 3.30 |
 | Terminal Arrendado | 3 | Tecnológica | Falta de segurança computacional e de comunicação. | 50 | 2.70 |
