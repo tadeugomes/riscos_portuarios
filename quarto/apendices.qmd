@@ -2,16 +2,18 @@
 title: "Apêndices"
 ---
 
+
+
 ## Tabelas e Dados Complementares
 
 ### Top 10 riscos proeminentes por tipo de instalação portuária
 
-Os valores representam o percentual de respostas em níveis altos (4 e 5) para o recorte Imediato (2025), com o total de respostas válidas por risco.
+Os valores representam o percentual de respostas em níveis altos (4 e 5) para o recorte de riscos imediatos, com o total de respostas válidas por risco.
 
 {{< include assets/tabelas/top_riscos_por_tipo_instalacao.md >}}
 
 ### Top 10 riscos agregados por região
 
-Apresenta o mesmo recorte temporal, consolidando as respostas por UF e região geográfica.
+Apresenta o mesmo recorte temporal, consolidando as respostas de acordo com a região geográfica do respondente.
 
 {{< include assets/tabelas/top_riscos_por_regiao.md >}}

@@ -1,0 +1,48 @@
+﻿---
+title: ""
+---
+
+::: {.text-center}
+![](assets/ufma-logo.png){width=140 height=170 fig-align="center"}
+
+**UNIVERSIDADE FEDERAL DO MARANHÃO**
+
+**Reitor**  
+
+Prof. Dr. Fernando Carvalho Silva
+
+
+**Vice-Reitor**  
+
+Prof. Dr. Leonardo Silva Soares
+
+**Diretora do Centro de Ciências Sociais**  
+
+Lindalva Martins Maia Maciel
+:::
+
+
+
+**Licença** 
+
+Este trabalho está licenciado sob a Licença Creative Commons Atribuição 4.0 Internacional (CC BY 4.0).
+
+![CC](assets/cc.png) ![BY](assets/by.png){width=60 height=60}
+
+
+
+Você tem o direito de:
+
+**Compartilhar** — copiar e redistribuir o material em qualquer suporte ou formato
+
+**Adaptar** — remixar, transformar e criar a partir do material para qualquer fim, mesmo comercial
+
+
+**Termos:**
+
+**Atribuição** — Você deve dar o crédito apropriado à ANTAQ e à UFMA, prover um link para a licença e indicar se mudanças foram feitas.
+
+
+**Citação sugerida:**
+
+AGÊNCIA NACIONAL DE TRANSPORTES AQUAVIÁRIOS (ANTAQ); UNIVERSIDADE FEDERAL DO MARANHÃO (UFMA). **Riscos Globais Portuários**. Brasília: ANTAQ, 2026.

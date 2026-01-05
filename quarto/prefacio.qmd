@@ -2,19 +2,29 @@
 title: "Prefácio"
 ---
 
-# Prefácio / Mensagem dos Organizadores
-
-Capítulo para contextualizar a motivação do projeto, agradecer colaboradores e apresentar a visão dos organizadores.
-
-## Mensagem Inicial
-
-<!-- Insira a mensagem institucional dos organizadores -->
-
-## Agradecimentos
-
-- <!-- Instituição ou equipe -->
-- <!-- Parceiros estratégicos -->
-- <!-- Participantes e respondentes -->
 
 
+É com grande satisfação que a Agência Nacional de Transportes Aquaviários (ANTAQ) apresenta à sociedade brasileira o relatório **Análise de Riscos Globais Portuários**, fruto de uma parceria com a Universidade Federal do Maranhão (UFMA), por meio do Laboratório de Pesquisa em Portos (LabPortos).
+
+O sistema portuário brasileiro desempenha papel fundamental na economia nacional, sendo responsável por mais de 93% do comércio exterior do país. Nesse contexto, a identificação, análise e gestão de riscos emergem como elementos essenciais para garantir a resiliência, a competitividade e o desenvolvimento sustentável deste setor estratégico. O cenário global contemporâneo, marcado por crescente complexidade e interconexão entre fenômenos econômicos, ambientais, geopolíticos, sociais e tecnológicos, impõe aos gestores portuários desafios cada vez mais sofisticados.
+
+Este relatório representa um marco na produção de conhecimento técnico aplicado à realidade portuária brasileira. Pela primeira vez, consolidamos uma análise sistemática e prospectiva dos principais riscos que afetam o setor, fundamentada na percepção de gestores portuários, autoridades reguladoras e especialistas que vivenciam cotidianamente os desafios operacionais, estratégicos e de governança das instalações portuárias nacionais. A metodologia adotada, alinhada às melhores práticas internacionais e adaptada às especificidades do contexto brasileiro, permite não apenas diagnosticar o presente, mas também antecipar cenários futuros. Ao contemplar três horizontes temporais de análise - imediato (2025), curto prazo (2026-2027) e longo prazo (até 2035) — o relatório oferece subsídios para o planejamento estratégico e para a formulação de políticas públicas orientadas por evidências.
+
+A parceria com a UFMA representa o compromisso da ANTAQ com a produção acadêmica de excelência e com a integração entre universidade, setor produtivo e gestão pública. O rigor científico aliado à experiência prática dos respondentes confere ao documento credibilidade técnica e relevância aplicada, transformando dados em inteligência estratégica. Destacamos que este trabalho não se encerra em si mesmo. Ao contrário, pretende servir como instrumento dinâmico de apoio à tomada de decisão, promovendo o diálogo entre diferentes atores do setor portuário e estimulando a adoção de práticas de gestão de riscos cada vez mais qualificadas e integradas.
+
+Este relatório inspira-se na metodologia e na abordagem do *Global Risks Report*, publicado anualmente pelo Fórum Econômico Mundial desde 2006. Aquele documento tornou-se referência internacional ao mapear sistematicamente os principais riscos globais em múltiplas dimensões (econômica, ambiental, geopolítica, social e tecnológica), oferecendo subsídios para que governos, empresas e organizações internacionais antecipem cenários, avaliem vulnerabilidades e construam resiliência institucional.
+
+Reconhecendo a relevância desta abordagem e a necessidade de adaptá-la à realidade portuária brasileira, a Agência Nacional de Transportes Aquaviários (ANTAQ), em parceria com a Universidade Federal do Maranhão (UFMA), desenvolveu o primeiro mapeamento abrangente de riscos aplicado especificamente ao setor portuário nacional. A escolha metodológica permitiu incorporar as melhores práticas internacionais de gestão de riscos, ao mesmo tempo em que assegurou aderência às particularidades institucionais, geográficas, operacionais e socioeconômicas do Brasil.
+
+Aos gestores portuários, autoridades, pesquisadores e demais interessados, convidamos à leitura crítica e à apropriação deste conhecimento como ferramenta de fortalecimento institucional e de promoção de um sistema portuário brasileiro mais resiliente, competitivo e sustentável.
+
+Agradecemos a todos que contribuíram para a realização deste trabalho, especialmente aos profissionais que generosamente dedicaram seu tempo e expertise para compartilhar suas percepções e experiências. Esta publicação é resultado do esforço coletivo de uma comunidade portuária comprometida com o futuro do Brasil.
+
+Boa leitura.
+
+::: {.content-visible when-format="docx"}
+```{=openxml}
+<w:p><w:r><w:br w:type="page"/></w:r></w:p>
+```
+:::
 

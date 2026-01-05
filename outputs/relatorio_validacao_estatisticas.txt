@@ -1,0 +1,55 @@
+RELATÓRIO DE VALIDAÇÃO - ESTATÍSTICAS DE RISCOS PORTUÁRIOS
+======================================================================
+
+Data de geração: 13/11/2025 10:43:37
+Arquivo de origem: questionario.xlsx
+
+ESTATÍSTICAS GERAIS
+------------------------------
+Total de registros detalhados: 229
+Total de registros de resumo: 15
+Total de registros de frequências: 1145
+
+VALIDAÇÃO POR DIMENSÃO
+------------------------------
+
+Ambiental:
+  Variáveis únicas: 17
+  Média geral: 2.65
+  Mediana geral: 2.00
+  Riscos críticos: 1
+
+Economica:
+  Variáveis únicas: 22
+  Média geral: 3.00
+  Mediana geral: 3.00
+  Riscos críticos: 9
+
+Geopolitica:
+  Variáveis únicas: 7
+  Média geral: 2.80
+  Mediana geral: 3.00
+  Riscos críticos: 2
+
+Social:
+  Variáveis únicas: 15
+  Média geral: 2.77
+  Mediana geral: 3.00
+  Riscos críticos: 0
+
+Tecnologica:
+  Variáveis únicas: 16
+  Média geral: 2.84
+  Mediana geral: 3.00
+  Riscos críticos: 0
+
+
+VERIFICAÇÃO DE CONSISTÊNCIA
+-----------------------------------
+Registros com média nula: 0
+Registros com mediana nula: 0
+Registros com média fora da escala (1-5): 1
+Registros com mediana fora da escala (1-5): 1
+
+
+VALIDAÇÃO CONCLUÍDA COM SUCESSO!

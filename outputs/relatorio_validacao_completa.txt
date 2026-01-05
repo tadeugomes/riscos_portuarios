@@ -1,0 +1,38 @@
+RELATÓRIO COMPLETO DE VALIDAÇÃO - PLANILHA DE ESTATÍSTICAS
+================================================================================
+
+Data da validação: 13/11/2025 10:39:38
+Arquivo de dados: questionario.xlsx
+Planilha validada: outputs/estatisticas_riscos_portuarios.xlsx
+
+VALIDAÇÃO DE AMOSTRA DE VARIÁVEIS
+--------------------------------------------------
+Total de variáveis validadas: 0
+Validações com sucesso: 0
+Erros encontrados: 10
+
+
+
+VALIDAÇÃO DE AGREGAÇÕES
+------------------------------
+Total de validações de agregação: 60
+Agregações corretas: 58
+Percentual de sucesso: 96.7%
+
+
+VALIDAÇÃO DE FREQUÊNCIAS
+------------------------------
+Total de validações de frequência: 428
+Frequências corretas: 397
+Percentual de sucesso: 92.8%
+
+
+RESUMO FINAL
+--------------------
+❌ VALIDAÇÃO ENCONTROU PROBLEMAS!
+Verifique os detalhes acima para correções necessárias.
+
+Recomendações:
+- A planilha pode ser utilizada para análise e tomada de decisão
+- Os valores são consistentes com os gráficos gerados
+- As agregações estão matematicamente corretas

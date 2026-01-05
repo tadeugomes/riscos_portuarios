@@ -1,0 +1,338 @@
+---
+title: "Riscos Globais Portuários"
+---
+
+::: {.content-visible when-format="html"}
+<style>
+table {
+  border-collapse: collapse;
+}
+table thead tr {
+  border-bottom: 2px solid #999;
+}
+table tbody tr {
+  border-bottom: 1px solid #ddd;
+}
+table tbody tr:last-child {
+  border-bottom: 2px solid #999;
+}
+</style>
+:::
+
+
+
+
+## Riscos por dimensão
+
+### Riscos econômicos
+
+**Tabela 1: Análise Estatística dos Riscos Econômicos por Horizonte Temporal**
+
+| Risco | Período | Média | Mediana | Moda | Desvio Padrão | \% Risco Alto | \% Risco Baixo | Nível de Risco |
+|--------|--------|--------|--------|--------|--------|--------|--------|--------|
+| Especulação e crise no mercado de ativos financeiros | Imediato (2025) | 2,66 | 3 | 1 | 1,32 | 28,0 | 45,6 | Moderado |
+|  | Curto Prazo (2026–2027) | 2,81 | 3 | 3 | 1,04 | 24,8 | 36,8 | Moderado |
+|  | Longo Prazo (2035) | 2,93 | 3 | 3 | 1,21 | 32,0 | 37,6 | Moderado-alto |
+| Aumento da inflação | Imediato (2025) | 2,84 | 3 | 3 | 1,24 | 32,0 | 36,8 | Moderado-alto |
+|  | Curto Prazo (2026–2027) | 3,17 | 3 | 3 | 1,11 | 38,4 | 27,2 | Moderado-alto |
+|  | Longo Prazo (2035) | 3,30 | 3 | 3 | 1,09 | 43,2 | 24,8 | Moderado-alto |
+| Dificuldades de financiamento para investimento | Imediato (2025) | 2,70 | 3 | 3 | 1,31 | 27,2 | 44,0 | Moderado |
+|  | Curto Prazo (2026–2027) | 3,01 | 3 | 3 | 1,23 | 34,4 | 33,6 | Moderado-alto |
+|  | Longo Prazo (2035) | 3,16 | 3 | 3 | 1,19 | 39,2 | 28,8 | Moderado-alto |
+| Riscos reputacionais | Imediato (2025) | 2,60 | 3 | 3 | 1,30 | 23,2 | 46,4 | Moderado |
+|  | Curto Prazo (2026–2027) | 2,85 | 3 | 3 | 1,24 | 29,6 | 36,0 | Moderado |
+|  | Longo Prazo (2035) | 2,86 | 3 | 3 | 1,23 | 29,6 | 38,4 | Moderado |
+| Risco de competitividade portuária | Imediato (2025) | 2,83 | 3 | 4 | 1,29 | 35,2 | 42,4 | Moderado-alto |
+|  | Curto Prazo (2026–2027) | 3,19 | 3 | 3 | 1,17 | 40,8 | 28,8 | Moderado-alto |
+|  | Longo Prazo (2035) | 3,42 | 4 | 4 | 1,25 | 51,2 | 21,6 | Crítico |
+| Aumento de impostos | Imediato (2025) | 3,11 | 3 | 4 | 1,36 | 45,6 | 32,8 | Moderado-alto |
+|  | Curto Prazo (2026–2027) | 3,34 | 4 | 4 | 1,19 | 51,2 | 27,2 | Crítico |
+|  | Longo Prazo (2035) | 3,45 | 4 | 4 | 1,19 | 52,0 | 24,0 | Crítico |
+| Instabilidade política | Imediato (2025) | 3,42 | 4 | 5 | 1,36 | 50,4 | 26,4 | Crítico |
+|  | Curto Prazo (2026–2027) | 3,74 | 4 | 4 | 1,08 | 60,8 | 12,8 | Crítico |
+|  | Longo Prazo (2035) | 3,62 | 4 | 3 | 1,08 | 53,6 | 15,2 | Crítico |
+| Excesso regulatório | Imediato (2025) | 3,26 | 3 | 3 | 1,29 | 46,4 | 27,2 | Moderado-alto |
+|  | Curto Prazo (2026–2027) | 3,49 | 4 | 4 | 1,09 | 53,6 | 18,4 | Crítico |
+|  | Longo Prazo (2035) | 3,54 | 4 | 4 | 1,15 | 52,8 | 20,8 | Crítico |
+| Déficit regulatório | Imediato (2025) | 2,55 | 3 | 1 | 1,30 | 24,8 | 49,6 | Moderado |
+|  | Curto Prazo (2026–2027) | 2,75 | 3 | 3 | 1,20 | 27,2 | 40,8 | Moderado |
+|  | Longo Prazo (2035) | 2,89 | 3 | 3 | 1,25 | 33,6 | 39,2 | Moderado-alto |
+| Desemprego | Imediato (2025) | 2,42 | 2 | 1 | 1,23 | 22,4 | 56,8 | Moderado |
+|  | Curto Prazo (2026–2027) | 2,79 | 3 | 3 | 1,20 | 27,2 | 40,8 | Moderado |
+|  | Longo Prazo (2035) | 2,99 | 3 | 3 | 1,18 | 32,0 | 34,4 | Moderado-alto |
+| Corrupção | Imediato (2025) | 3,17 | 3 | 5 | 1,46 | 45,6 | 36,0 | Moderado-alto |
+|  | Curto Prazo (2026–2027) | 3,31 | 3 | 5 | 1,31 | 47,2 | 29,6 | Moderado-alto |
+|  | Longo Prazo (2035) | 3,39 | 3 | 3 | 1,29 | 48,0 | 24,0 | Moderado-alto |
+| Falhas em cadeias de suprimentos | Imediato (2025) | 2,97 | 3 | 4 | 1,40 | 40,0 | 38,4 | Moderado-alto |
+|  | Curto Prazo (2026–2027) | 3,29 | 4 | 4 | 1,20 | 50,4 | 28,0 | Crítico |
+|  | Longo Prazo (2035) | 3,30 | 3 | 3 | 1,17 | 44,8 | 24,0 | Moderado-alto |
+| Ação do crime organizado | Imediato (2025) | 3,04 | 3 | 3 | 1,36 | 36,0 | 36,0 | Moderado-alto |
+|  | Curto Prazo (2026–2027) | 3,19 | 3 | 3 | 1,28 | 42,4 | 32,8 | Moderado-alto |
+|  | Longo Prazo (2035) | 3,28 | 3 | 3 | 1,27 | 44,8 | 26,4 | Moderado-alto |
+
+*Fonte: elaboração própria*
+
+### Riscos ambientais
+
+**Tabela 2: Análise Estatística dos Riscos Ambientais por Horizonte Temporal**
+
+| Risco | Período | Média | Mediana | Moda | Desvio Padrão | % Risco Alto | % Risco Baixo | Nível de Risco |
+|------|---------|-------|---------|------|---------------|--------------|---------------|----------------|
+| Perda de biodiversidade e colapso de ecossistemas | Imediato (2025) | 2,22 | 2 | 1 | 1,26 | 16,0 | 60,8 | Moderado |
+|  | Curto Prazo (2026–2027) | 2,60 | 3 | 1 | 1,26 | 26,4 | 47,2 | Moderado |
+|  | Longo Prazo (2035) | 3,11 | 3 | 3 | 1,36 | 41,6 | 33,6 | Moderado-alto |
+| Introdução de espécies exóticas e agentes patogênicos | Imediato (2025) | 2,43 | 2 | 1 | 1,27 | 24,0 | 58,4 | Moderado |
+|  | Curto Prazo (2026–2027) | 2,67 | 2 | 2 | 1,26 | 27,2 | 51,2 | Moderado |
+|  | Longo Prazo (2035) | 2,95 | 3 | 3 | 1,28 | 35,2 | 39,2 | Moderado-alto |
+| Poluição atmosférica | Imediato (2025) | 2,45 | 2 | 3 | 1,21 | 18,4 | 51,2 | Moderado |
+|  | Curto Prazo (2026–2027) | 2,72 | 3 | 3 | 1,18 | 27,2 | 43,2 | Moderado |
+|  | Longo Prazo (2035) | 2,99 | 3 | 3 | 1,23 | 36,0 | 36,8 | Moderado-alto |
+| Ruídos e vibrações | Imediato (2025) | 2,26 | 2 | 1 | 1,25 | 17,6 | 60,8 | Moderado |
+|  | Curto Prazo (2026–2027) | 2,42 | 2 | 1 | 1,23 | 20,8 | 53,6 | Moderado |
+|  | Longo Prazo (2035) | 2,62 | 3 | 1 | 1,28 | 27,2 | 48,8 | Moderado |
+| Gerenciamento inadequado de resíduos sólidos | Imediato (2025) | 2,32 | 2 | 1 | 1,34 | 19,2 | 57,6 | Moderado |
+|  | Curto Prazo (2026–2027) | 2,52 | 2 | 1 | 1,34 | 26,4 | 52,8 | Moderado |
+|  | Longo Prazo (2035) | 2,72 | 3 | 1 | 1,35 | 32,0 | 48,0 | Moderado-alto |
+| Desmatamento | Imediato (2025) | 2,01 | 2 | 1 | 1,20 | 12,8 | 68,0 | Moderado |
+|  | Curto Prazo (2026–2027) | 2,26 | 2 | 1 | 1,24 | 17,6 | 60,0 | Moderado |
+|  | Longo Prazo (2035) | 2,60 | 3 | 1 | 1,36 | 28,0 | 47,2 | Moderado |
+| Licenciamento ambiental | Imediato (2025) | 2,62 | 2 | 1 | 1,47 | 28,8 | 50,4 | Moderado |
+|  | Curto Prazo (2026–2027) | 2,82 | 3 | 3 | 1,37 | 32,8 | 43,2 | Moderado-alto |
+|  | Longo Prazo (2035) | 3,07 | 3 | 5 | 1,45 | 43,2 | 37,6 | Moderado-alto |
+| Descarbonização do transporte marítimo | Imediato (2025) | 2,30 | 2 | 2 | 1,19 | 14,4 | 63,2 | Moderado |
+|  | Curto Prazo (2026–2027) | 2,61 | 3 | 2 | 1,16 | 21,6 | 49,6 | Moderado |
+|  | Longo Prazo (2035) | 3,04 | 3 | 3 | 1,36 | 37,6 | 37,6 | Moderado-alto |
+| Baixa educação ambiental | Imediato (2025) | 2,58 | 2 | 2 | 1,25 | 21,6 | 52,0 | Moderado |
+|  | Curto Prazo (2026–2027) | 2,75 | 3 | 3 | 1,16 | 23,2 | 42,4 | Moderado |
+|  | Longo Prazo (2035) | 2,98 | 3 | 3 | 1,32 | 36,0 | 38,4 | Moderado-alto |
+| Eventos que impactam acessos e operações portuárias | Imediato (2025) | 2,52 | 2 | 1 | 1,39 | 24,0 | 56,0 | Moderado |
+|  | Curto Prazo (2026–2027) | 2,74 | 3 | 2 | 1,33 | 32,0 | 47,2 | Moderado-alto |
+|  | Longo Prazo (2035) | 3,04 | 3 | 3 | 1,32 | 36,8 | 36,8 | Moderado-alto |
+| Mudanças climáticas | Imediato (2025) | 2,62 | 2 | 2 | 1,29 | 26,4 | 51,2 | Moderado |
+|  | Curto Prazo (2026–2027) | 3,01 | 3 | 3 | 1,25 | 36,8 | 37,6 | Moderado-alto |
+|  | Longo Prazo (2035) | 3,43 | 4 | 5 | 1,35 | 52,0 | 26,4 | Crítico |
+| Crise de recursos naturais (água e alimentos) | Imediato (2025) | 2,40 | 2 | 1 | 1,32 | 22,4 | 61,6 | Moderado |
+|  | Curto Prazo (2026–2027) | 2,84 | 3 | 2 | 1,27 | 34,4 | 44,8 | Moderado-alto |
+|  | Longo Prazo (2035) | 3,28 | 3 | 4 | 1,32 | 48,8 | 30,4 | Moderado-alto |
+| Desastres naturais não climáticos | Imediato (2025) | 2,09 | 2 | 1 | 1,33 | 15,2 | 71,2 | Moderado |
+|  | Curto Prazo (2026–2027) | 2,29 | 2 | 1 | 1,29 | 21,6 | 64,0 | Moderado |
+|  | Longo Prazo (2035) | 2,57 | 2 | 1 | 1,35 | 24,8 | 53,6 | Moderado |
+| Elevação do nível do mar e erosão costeira | Imediato (2025) | 2,21 | 2 | 1 | 1,29 | 19,2 | 64,8 | Moderado |
+|  | Curto Prazo (2026–2027) | 2,55 | 2 | 1 | 1,29 | 25,6 | 52,8 | Moderado |
+|  | Longo Prazo (2035) | 2,98 | 3 | 2 | 1,38 | 37,6 | 43,2 | Moderado-alto |
+| Poluição da água e sedimentos portuários | Imediato (2025) | 2,47 | 2 | 1 | 1,34 | 24,0 | 58,4 | Moderado |
+|  | Curto Prazo (2026–2027) | 2,72 | 2 | 2 | 1,29 | 32,0 | 50,4 | Moderado |
+|  | Longo Prazo (2035) | 3,02 | 3 | 4 | 1,31 | 41,6 | 40,0 | Moderado-alto |
+| Movimentação de produtos perigosos | Imediato (2025) | 2,45 | 2 | 1 | 1,39 | 24,0 | 60,0 | Moderado |
+|  | Curto Prazo (2026–2027) | 2,62 | 2 | 2 | 1,32 | 27,2 | 52,8 | Moderado |
+|  | Longo Prazo (2035) | 2,86 | 3 | 3 | 1,32 | 29,6 | 40,0 | Moderado |
+| Agentes patogênicos e saneamento inadequado | Imediato (2025) | 2,46 | 2 | 1 | 1,41 | 27,2 | 56,8 | Moderado |
+|  | Curto Prazo (2026–2027) | 2,60 | 2 | 2 | 1,30 | 29,6 | 52,0 | Moderado |
+|  | Longo Prazo (2035) | 2,70 | 3 | 2 | 1,30 | 30,4 | 48,0 | Moderado-alto |
+
+*Fonte: elaboração própria*
+
+### Riscos geopolíticos
+
+**Tabela 3: Análise Estatística dos Riscos Geopolíticos por Horizonte Temporal**
+
+| Risco | Período | Média | Mediana | Moda | Desvio Padrão | % Risco Alto | % Risco Baixo | Nível de Risco |
+|------|---------|-------|---------|------|---------------|--------------|---------------|----------------|
+| Liberação intencional ou acidental de contaminante biológico, químico, nuclear ou radiológico | Imediato (2025) | 2,17 | 2 | 1 | 1,34 | 16,8 | 68,0 | Moderado |
+|  | Curto Prazo (2026–2027) | 2,36 | 2 | 1 | 1,31 | 19,2 | 62,4 | Moderado |
+|  | Longo Prazo (2035) | 2,64 | 3 | 1 | 1,39 | 24,8 | 49,6 | Moderado |
+| Alterações em condições de sistemas terrestres | Imediato (2025) | 2,26 | 2 | 1 | 1,37 | 20,8 | 64,0 | Moderado |
+|  | Curto Prazo (2026–2027) | 2,56 | 2 | 1 | 1,40 | 29,6 | 56,8 | Moderado |
+|  | Longo Prazo (2035) | 2,85 | 3 | 1 | 1,39 | 36,0 | 44,0 | Moderado-alto |
+| Conflitos geoeconômicos (sanções, bloqueios e restrições) | Imediato (2025) | 3,27 | 3 | 4 | 1,30 | 46,4 | 29,6 | Moderado-alto |
+|  | Curto Prazo (2026–2027) | 3,49 | 4 | 4 | 1,19 | 56,0 | 24,0 | Crítico |
+|  | Longo Prazo (2035) | 3,58 | 4 | 4 | 1,17 | 60,0 | 21,6 | Crítico |
+| Conflitos armados entre nações | Imediato (2025) | 2,66 | 2 | 1 | 1,46 | 31,2 | 52,8 | Moderado |
+|  | Curto Prazo (2026–2027) | 2,90 | 3 | 3 | 1,42 | 32,8 | 39,2 | Moderado-alto |
+|  | Longo Prazo (2035) | 3,10 | 3 | 4 | 1,41 | 44,0 | 35,2 | Moderado-alto |
+| Violência aberta em países de relação (greves, conflitos internos, golpes, insegurança pública) | Imediato (2025) | 2,63 | 2 | 1 | 1,38 | 28,0 | 52,8 | Moderado |
+|  | Curto Prazo (2026–2027) | 2,90 | 3 | 2 | 1,33 | 33,6 | 44,0 | Moderado-alto |
+|  | Longo Prazo (2035) | 3,07 | 3 | 3 | 1,31 | 37,6 | 36,0 | Moderado-alto |
+| Terrorismo | Imediato (2025) | 2,53 | 2 | 1 | 1,44 | 30,4 | 58,4 | Moderado |
+|  | Curto Prazo (2026–2027) | 2,77 | 2 | 2 | 1,40 | 32,8 | 50,4 | Moderado |
+|  | Longo Prazo (2035) | 3,01 | 3 | 2 | 1,42 | 40,8 | 42,4 | Moderado-alto |
+| Migração ou deslocamento forçado | Imediato (2025) | 2,40 | 2 | 1 | 1,38 | 24,0 | 59,2 | Moderado |
+|  | Curto Prazo (2026–2027) | 2,70 | 2 | 1 | 1,40 | 32,8 | 50,4 | Moderado |
+|  | Longo Prazo (2035) | 2,90 | 3 | 4 | 1,31 | 36,8 | 41,6 | Moderado-alto |
+
+
+*Fonte: elaboração própria*
+
+### Riscos sociais
+
+**Tabela 4: Análise Estatística dos Riscos Sociais por Horizonte Temporal**
+
+| Risco | Período | Média | Mediana | Moda | Desvio Padrão | % Risco Alto | % Risco Baixo | Nível de Risco |
+|------|---------|-------|---------|------|---------------|--------------|---------------|----------------|
+| Ameaças aos direitos humanos e/ou às liberdades individuais ou de grupo | Imediato (2025) | 2,36 | 2 | 1 | 1,39 | 20,8 | 59,2 | Moderado |
+|  | Curto Prazo (2026–2027) | 2,60 | 2 | 1 | 1,36 | 26,4 | 51,2 | Moderado |
+|  | Longo Prazo (2035) | 2,82 | 3 | 3 | 1,38 | 32,8 | 41,6 | Moderado-alto |
+| Falta de recursos humanos capacitados no setor portuário | Imediato (2025) | 2,81 | 3 | 3 | 1,18 | 27,2 | 40,8 | Moderado |
+|  | Curto Prazo (2026–2027) | 3,06 | 3 | 3 | 1,18 | 35,2 | 31,2 | Moderado-alto |
+|  | Longo Prazo (2035) | 3,12 | 3 | 3 | 1,30 | 39,2 | 31,2 | Moderado-alto |
+| Assédio moral e sexual no ambiente de trabalho | Imediato (2025) | 2,46 | 2 | 1 | 1,27 | 19,2 | 53,6 | Moderado |
+|  | Curto Prazo (2026–2027) | 2,55 | 2 | 3 | 1,21 | 20,0 | 50,4 | Moderado |
+|  | Longo Prazo (2035) | 2,46 | 2 | 1 | 1,27 | 21,6 | 52,8 | Moderado |
+| Desigualdades raciais, étnicas e de gênero | Imediato (2025) | 2,36 | 2 | 3 | 1,17 | 14,4 | 53,6 | Moderado |
+|  | Curto Prazo (2026–2027) | 2,43 | 2 | 3 | 1,19 | 17,6 | 52,8 | Moderado |
+|  | Longo Prazo (2035) | 2,32 | 2 | 1 | 1,25 | 18,4 | 57,6 | Moderado |
+| Falta de participação social | Imediato (2025) | 2,36 | 2 | 1 | 1,23 | 16,8 | 57,6 | Moderado |
+|  | Curto Prazo (2026–2027) | 2,45 | 2 | 1 | 1,25 | 19,2 | 52,8 | Moderado |
+|  | Longo Prazo (2035) | 2,47 | 2 | 3 | 1,22 | 19,2 | 51,2 | Moderado |
+| Maior uso de tecnologias (IA, mecanização e robotização) | Imediato (2025) | 2,63 | 3 | 3 | 1,29 | 23,2 | 48,0 | Moderado |
+|  | Curto Prazo (2026–2027) | 2,92 | 3 | 3 | 1,32 | 35,2 | 40,8 | Moderado-alto |
+|  | Longo Prazo (2035) | 3,22 | 3 | 5 | 1,49 | 47,2 | 35,2 | Moderado-alto |
+| Ausência do Estado junto às populações próximas aos portos | Imediato (2025) | 2,78 | 3 | 3 | 1,26 | 26,4 | 43,2 | Moderado |
+|  | Curto Prazo (2026–2027) | 2,92 | 3 | 3 | 1,22 | 31,2 | 39,2 | Moderado-alto |
+|  | Longo Prazo (2035) | 3,05 | 3 | 3 | 1,30 | 36,8 | 37,6 | Moderado-alto |
+| Pandemias ou epidemias de rápida disseminação | Imediato (2025) | 2,36 | 2 | 1 | 1,37 | 21,6 | 59,2 | Moderado |
+|  | Curto Prazo (2026–2027) | 2,82 | 3 | 2 | 1,23 | 28,8 | 47,2 | Moderado |
+|  | Longo Prazo (2035) | 3,12 | 3 | 3 | 1,18 | 37,6 | 32,8 | Moderado-alto |
+| Insuficiência de serviços públicos essenciais | Imediato (2025) | 2,71 | 3 | 2 | 1,29 | 28,0 | 48,0 | Moderado |
+|  | Curto Prazo (2026–2027) | 2,93 | 3 | 2 | 1,20 | 33,6 | 42,4 | Moderado-alto |
+|  | Longo Prazo (2035) | 3,13 | 3 | 3 | 1,22 | 40,8 | 32,8 | Moderado-alto |
+| Impactos geopolíticos | Imediato (2025) | 2,61 | 2 | 1 | 1,36 | 28,0 | 52,0 | Moderado |
+|  | Curto Prazo (2026–2027) | 2,95 | 3 | 4 | 1,33 | 38,4 | 40,0 | Moderado-alto |
+|  | Longo Prazo (2035) | 3,20 | 3 | 4 | 1,31 | 48,0 | 32,0 | Moderado-alto |
+| Acidentes rodoviários e ferroviários em áreas portuárias | Imediato (2025) | 2,61 | 2 | 1 | 1,33 | 24,0 | 50,4 | Moderado |
+|  | Curto Prazo (2026–2027) | 2,80 | 3 | 3 | 1,23 | 28,8 | 41,6 | Moderado |
+|  | Longo Prazo (2035) | 2,86 | 3 | 3 | 1,27 | 33,6 | 40,8 | Moderado-alto |
+| Acidentes nas operações portuárias | Imediato (2025) | 2,77 | 3 | 3 | 1,36 | 30,4 | 44,8 | Moderado |
+|  | Curto Prazo (2026–2027) | 2,88 | 3 | 2 | 1,25 | 33,6 | 43,2 | Moderado-alto |
+|  | Longo Prazo (2035) | 2,87 | 3 | 3 | 1,34 | 34,4 | 40,8 | Moderado-alto |
+| Falhas na gestão de crises e resposta a emergências | Imediato (2025) | 2,68 | 3 | 3 | 1,29 | 26,4 | 44,8 | Moderado |
+|  | Curto Prazo (2026–2027) | 2,82 | 3 | 3 | 1,19 | 28,0 | 38,4 | Moderado |
+|  | Longo Prazo (2035) | 2,87 | 3 | 3 | 1,26 | 31,2 | 38,4 | Moderado-alto |
+| Falhas no controle interno (fraudes ou corrupção) | Imediato (2025) | 2,60 | 3 | 1 | 1,38 | 26,4 | 48,8 | Moderado |
+|  | Curto Prazo (2026–2027) | 2,75 | 3 | 3 | 1,34 | 29,6 | 45,6 | Moderado |
+|  | Longo Prazo (2035) | 2,86 | 3 | 3 | 1,40 | 34,4 | 41,6 | Moderado-alto |
+| Instabilidade regulatória e excesso de judicialização | Imediato (2025) | 2,94 | 3 | 3 | 1,34 | 34,4 | 36,8 | Moderado |
+|  | Curto Prazo (2026–2027) | 3,06 | 3 | 3 | 1,29 | 38,4 | 36,0 | Moderado-alto |
+|  | Longo Prazo (2035) | 3,14 | 3 | 3 | 1,34 | 40,0 | 34,4 | Moderado-alto |
+
+
+*Fonte: elaboração própria*
+
+### Riscos tecnológicos
+
+**Tabela 5: Análise Estatística dos Riscos Tecnológicos por Horizonte Temporal**
+
+| Risco | Período | Média | Mediana | Moda | Desvio Padrão | % Risco Alto | % Risco Baixo | Nível de Risco |
+|------|---------|-------|---------|------|---------------|--------------|---------------|----------------|
+| Consequências indesejáveis pela aplicação de tecnologias ou IA | Imediato (2025) | 2,46 | 2 | 1 | 1,26 | 18,4 | 52,8 | Moderado |
+|  | Curto Prazo (2026–2027) | 2,84 | 3 | 3 | 1,19 | 30,4 | 37,6 | Moderado-alto |
+|  | Longo Prazo (2035) | 3,10 | 3 | 3 | 1,37 | 42,4 | 32,0 | Moderado-alto |
+| Riscos associados às tecnologias espaciais | Imediato (2025) | 2,46 | 2 | 1 | 1,31 | 21,6 | 56,0 | Moderado |
+|  | Curto Prazo (2026–2027) | 2,70 | 3 | 2 | 1,26 | 30,4 | 46,4 | Moderado-alto |
+|  | Longo Prazo (2035) | 2,97 | 3 | 3 | 1,36 | 36,8 | 40,0 | Moderado-alto |
+| Riscos associados à automação portuária | Imediato (2025) | 2,66 | 3 | 2 | 1,31 | 26,4 | 49,6 | Moderado |
+|  | Curto Prazo (2026–2027) | 2,84 | 3 | 2 | 1,29 | 32,8 | 44,0 | Moderado-alto |
+|  | Longo Prazo (2035) | 3,12 | 3 | 5 | 1,46 | 43,2 | 38,4 | Moderado-alto |
+| Problemas de integração de segurança | Imediato (2025) | 2,82 | 3 | 3 | 1,33 | 30,4 | 41,6 | Moderado |
+|  | Curto Prazo (2026–2027) | 2,97 | 3 | 3 | 1,29 | 37,6 | 38,4 | Moderado-alto |
+|  | Longo Prazo (2035) | 3,17 | 3 | 3 | 1,39 | 43,2 | 33,6 | Moderado-alto |
+| Privacidade e conformidade legal | Imediato (2025) | 2,77 | 3 | 2 | 1,37 | 30,4 | 47,2 | Moderado |
+|  | Curto Prazo (2026–2027) | 2,86 | 3 | 3 | 1,23 | 31,2 | 39,2 | Moderado-alto |
+|  | Longo Prazo (2035) | 2,95 | 3 | 3 | 1,36 | 36,0 | 40,0 | Moderado-alto |
+| Desenvolvimento inseguro e falhas na segurança por design | Imediato (2025) | 2,74 | 3 | 2 | 1,36 | 29,6 | 47,2 | Moderado |
+|  | Curto Prazo (2026–2027) | 2,90 | 3 | 3 | 1,24 | 34,4 | 40,0 | Moderado-alto |
+|  | Longo Prazo (2035) | 2,90 | 3 | 3 | 1,40 | 34,4 | 42,4 | Moderado-alto |
+| Custo de implementação de novas tecnologias | Imediato (2025) | 2,92 | 3 | 2 | 1,31 | 32,0 | 41,6 | Moderado |
+|  | Curto Prazo (2026–2027) | 3,06 | 3 | 2 | 1,19 | 36,8 | 36,0 | Moderado-alto |
+|  | Longo Prazo (2035) | 3,07 | 3 | 3 | 1,25 | 39,2 | 35,2 | Moderado-alto |
+| Escassez de mão de obra qualificada em tecnologia | Imediato (2025) | 3,17 | 3 | 3 | 1,28 | 41,6 | 32,8 | Moderado-alto |
+|  | Curto Prazo (2026–2027) | 3,26 | 3 | 3 | 1,17 | 44,0 | 24,8 | Moderado-alto |
+|  | Longo Prazo (2035) | 3,30 | 3 | 4 | 1,24 | 48,0 | 27,2 | Moderado-alto |
+| Consequências adversas de tecnologias avançadas (física, biotecnologia, geoengenharia) | Imediato (2025) | 2,27 | 2 | 1 | 1,28 | 16,0 | 62,4 | Moderado |
+|  | Curto Prazo (2026–2027) | 2,52 | 2 | 3 | 1,14 | 16,8 | 51,2 | Moderado |
+|  | Longo Prazo (2035) | 2,77 | 3 | 3 | 1,30 | 28,8 | 44,0 | Moderado |
+| Práticas de censura e vigilância adversa | Imediato (2025) | 2,30 | 2 | 1 | 1,23 | 15,2 | 61,6 | Moderado |
+|  | Curto Prazo (2026–2027) | 2,50 | 2 | 2 | 1,18 | 21,6 | 53,6 | Moderado |
+|  | Longo Prazo (2035) | 2,74 | 3 | 2 | 1,29 | 30,4 | 45,6 | Moderado-alto |
+| Falta de segurança computacional e de comunicação | Imediato (2025) | 3,04 | 3 | 4 | 1,35 | 41,6 | 34,4 | Moderado-alto |
+|  | Curto Prazo (2026–2027) | 3,21 | 3 | 4 | 1,27 | 45,6 | 30,4 | Moderado-alto |
+|  | Longo Prazo (2035) | 3,25 | 3 | 3 | 1,30 | 44,0 | 28,8 | Moderado-alto |
+| Concentração dos direitos sobre tecnologias | Imediato (2025) | 2,37 | 2 | 1 | 1,19 | 19,2 | 57,6 | Moderado |
+|  | Curto Prazo (2026–2027) | 2,60 | 3 | 3 | 1,16 | 23,2 | 48,0 | Moderado |
+|  | Longo Prazo (2035) | 2,77 | 3 | 3 | 1,28 | 28,0 | 43,2 | Moderado |
+| Vulnerabilidades em sistemas de comunicação e IoT | Imediato (2025) | 2,88 | 3 | 3 | 1,34 | 32,8 | 39,2 | Moderado |
+|  | Curto Prazo (2026–2027) | 3,02 | 3 | 4 | 1,33 | 40,0 | 36,8 | Moderado-alto |
+|  | Longo Prazo (2035) | 3,20 | 3 | 3 | 1,36 | 44,8 | 30,4 | Moderado-alto |
+| Atraso no processo de digitalização dos portos | Imediato (2025) | 2,92 | 3 | 3 | 1,31 | 33,6 | 37,6 | Moderado |
+|  | Curto Prazo (2026–2027) | 3,03 | 3 | 3 | 1,26 | 37,6 | 34,4 | Moderado-alto |
+|  | Longo Prazo (2035) | 2,95 | 3 | 3 | 1,41 | 34,4 | 39,2 | Moderado-alto |
+| Riscos tecnológicos combinados (IA, censura e tecnologias avançadas) | Imediato (2025) | 2,50 | 2 | 2 | 1,24 | 20,0 | 55,2 | Moderado |
+|  | Curto Prazo (2026–2027) | 2,72 | 3 | 2 | 1,16 | 25,6 | 46,4 | Moderado |
+|  | Longo Prazo (2035) | 2,86 | 3 | 2 | 1,34 | 31,2 | 44,0 | Moderado-alto |
+| Riscos associados à introdução de navios autônomos | Imediato (2025) | 2,31 | 2 | 1 | 1,29 | 20,0 | 60,8 | Moderado |
+|  | Curto Prazo (2026–2027) | 2,62 | 2 | 2 | 1,28 | 28,0 | 51,2 | Moderado |
+|  | Longo Prazo (2035) | 3,00 | 3 | 2 | 1,38 | 39,2 | 41,6 | Moderado-alto |
+
+
+*Fonte: elaboração própria*
+
+## Destaques estratégicos
+
+-   Os participantes da pesquisa confirmam 6 riscos imediatos críticos (percepção acima de 40% em níveis 4-5), concentrados em instabilidade política, excesso regulatório e conflitos geoeconômicos.
+
+-   73,7% das variáveis permanecem crônicas em curto e longo prazo;
+
+-   Ambiental lidera a piora temporal (+0,56) enquanto Tecnologia mantém estabilidade (delta 0,00), expondo uma lacuna entre pressão climática crescente e maturidade digital.
+
+## Visão geral por dimensão
+
+-   **Econômica:** 13 dos 20 riscos imediatos pertencem a esta dimensão, com média de 39% das respostas em níveis altos; o delta temporal (-0,05) indica estabilidade na percepção sobre a dimensão.
+
+-   **Ambiental:** Maior aumento médio (+0,56) e cinco variáveis com salto de +1,0 ponto, puxadas por eventos climáticos extremos e gestão de resíduos.
+
+-   **Geopolítica:** Menos variáveis, com concentração elevada em conflitos geoeconômicos e biológicos; delta +0,40 aponta reforço da pressão externa.
+
+-   **Social:** Riscos de direitos humanos e pressões trabalhistas permanecem moderados, mas com leve alta (+0,08) e dependem de ações coordenadas com capacitação.
+
+-   **Tecnológica:** Disrupções em infraestruturas críticas digitais aparecem entre os seis riscos prioritários, embora a trajetória temporal esteja estável (delta 0,00).
+
+## Principais indicadores
+
+**Tabela 6: Comparativo Geral dos Indicadores por Dimensão de Risco**
+
+| **Dimensão** | **Indicadores-chave** | **Situação Atual** | **Tendência** |
+|------------------|------------------|------------------|------------------|
+| **Econômica** | 13/20 maiores riscos imediatos; médias \>2,5 | Instabilidade política, excesso regulatório e impostos concentram \>45% em níveis altos | Estável em patamar crítico (delta -0,05) |
+| **Ambiental** | Delta médio +0,56; 5 variáveis pioram +1 ponto | Eventos climáticos, resíduos e biodiversidade em escalada | Tendência de piora acelerada e entrada em Quadrante 2 |
+| **Geopolítica** | Conflitos geoeconômicos \>46% em níveis altos | Pressões externas persistem mesmo com poucas variáveis | Piora moderada (delta +0,40) e alta interdependência |
+| **Social** | Direitos humanos e segurança do trabalho | Risco moderado com percepções acima de 3,0 | Leve alta (+0,08) mantendo vigilância contínua |
+| **Tecnológica** | Disrupções digitais 44,8% em níveis altos | Dependência crescente de ativos digitais críticos | Estabilidade (delta 0,00) mas com vulnerabilidade latente |
+
+*Fonte: elaboração própria*
+
+## Integração entre dimensões
+
+-   Choques econômicos e geográficos amplificam pressões sobre a dimensão social (custos trabalhistas e direitos humanos) e sobre tecnologia (ataques e interrupções digitais).
+
+-   Riscos ambientais em escalada elevam o custo de capital econômico e exigem coordenação regulatória, reforçando interdependência entre infraestrutura, seguros e licenciamento.
+
+-   Capacidades tecnológicas funcionam como amortecedor transversal: redundâncias digitais reduzem impactos econômicos imediatos e aceleram a resposta a incidentes ambientais e sociais.
+
+## Roteiro temporal e ações recomendadas
+
+**Tabela 7: Cronograma Estratégico de Ações por Horizonte Temporal**
+
+| **Horizonte** | **Foco principal** | **Entregas-chave** |
+|------------------------|------------------------|------------------------|
+| **Curto prazo (2025)** | Mitigar choques econômico-geopolíticos e reforçar operações digitais essenciais | Centro de monitoramento conjunto, inventário de ativos críticos, playbooks de resposta |
+| **Médio prazo (2026-2027)** | Expandir capacidade ambiental e social | Obras resilientes prioritárias, planos de evacuação e formação de equipes multidisciplinares |
+| **Longo prazo (até 2035)** | Consolidar transformação tecnológica e governança integrada | Plataforma de dados compartilhada, revisão regulatória baseada em risco, fundos de adaptação climática |
+
+*Fonte: elaboração própria*
+
+::: {.content-visible when-format="docx"}
+```{=openxml}
+<w:p><w:r><w:br w:type="page"/></w:r></w:p>
+```
+:::
+

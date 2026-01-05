@@ -15,7 +15,20 @@ import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 
-from analise_likert_riscos import AnalisadorRiscosLikert
+from analise_likert_riscos import AnalisadorRiscosLikert, formatar_decimal_br
+
+# Evita falhas de encoding ao imprimir em consoles Windows.
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+
+# Configurar locale brasileiro para formatacao de numeros com virgula
+try:
+    import locale
+    locale.setlocale(locale.LC_NUMERIC, 'pt_BR.UTF-8')
+    plt.rcParams['axes.formatter.use_locale'] = True
+except (locale.Error, AttributeError):
+    # Fallback caso nao seja possivel configurar locale
+    plt.rcParams['axes.formatter.use_locale'] = False
 
 # Configuracao de cores por dimensao
 CORES_DIMENSAO = {
@@ -28,11 +41,11 @@ CORES_DIMENSAO = {
 
 # Configuracao de nomes amigaveis
 NOMES_DIMENSAO = {
-    "Economica": "Econômica",
-    "Ambiental": "Ambiental", 
-    "Geopolitica": "Geopolítica",
+    "Economica": "Economica",
+    "Ambiental": "Ambiental",
+    "Geopolitica": "Geopolitica",
     "Social": "Social",
-    "Tecnologica": "Tecnológica",
+    "Tecnologica": "Tecnologica",
 }
 
 def ascii_safe(texto: str) -> str:
@@ -52,13 +65,13 @@ def extrair_numero_variavel(nome_variavel: str) -> str:
 
 def gerar_label_sucinto_interconexao(nome_variavel: str) -> str:
     """Gera rotulo sucinto para o grafico de interconexao."""
-    # Extrair número e descrição
+    # Extrair numero e descricao
     match = nome_variavel.match(r'^(\d+\.\d+)\s*(.+?)\s*\[.*?\]$', nome_variavel)
     if match:
         numero = match.group(1)
         descricao_completa = match.group(2).strip()
         
-        # Criar versão sucinta (máximo 60 caracteres)
+        # Criar versao sucinta (maximo 60 caracteres)
         palavras = descricao_completa.split()
         if len(descricao_completa) <= 60:
             sucinto = descricao_completa
@@ -68,14 +81,12 @@ def gerar_label_sucinto_interconexao(nome_variavel: str) -> str:
             for palavra in palavras:
                 if len(' '.join(palavras_chave + [palavra])) <= 55:
                     palavras_chave.append(palavra)
-                elif palavra.lower() in ['crise', 'risco', 'impacto', 'consequência', 'contaminação', 'disrupção']:
+                elif palavra.lower() in ['crise', 'risco', 'impacto', 'consequencia', 'contaminacao', 'disrupcao']:
                     palavras_chave.append(palavra)
                 elif len(palavra) > 8:  # Palavras longas podem ser importantes
                     palavras_chave.append(palavra)
             
             sucinto = ' '.join(palavras_chave)
-            if len(palavras) > len(palavras_chave):
-                sucinto += '...'
         
         return f"{numero} - {sucinto}"
     
@@ -88,18 +99,18 @@ def gerar_grafico_interconexao_riscos() -> Path:
     Returns:
         Path do arquivo gerado
     """
-    print("Gerando gráfico de interconexão de riscos...")
+    print("Gerando grafico de interconexao de riscos...")
     
     # Inicializar analisador
     analisador = AnalisadorRiscosLikert()
     analisador.carregar_dados()
     mapeamento = analisador.mapear_variaveis_por_dimensao()
     
-    # Coletar todos os riscos do período imediato_2025
+    # Coletar todos os riscos do periodo imediato_2025
     todos_riscos = []
     
     for dimensao, periodos in mapeamento.items():
-        print(f"Processando dimensão: {ascii_safe(dimensao)}")
+        print(f"Processando dimensao: {ascii_safe(dimensao)}")
         
         variaveis_periodo = periodos.get("imediato_2025", [])
         
@@ -117,9 +128,9 @@ def gerar_grafico_interconexao_riscos() -> Path:
             label_completo = analisador.gerar_label_sucinto(variavel, incluir_numero=False)
             label_sucinto = ascii_safe(label_completo)
             
-            # Limitar tamanho do label para o gráfico
+            # Limitar tamanho do label para o grafico
             if len(label_sucinto) > 80:
-                label_sucinto = label_sucinto[:77] + "..."
+                label_sucinto = label_sucinto[:80].rstrip()
             
             todos_riscos.append({
                 'variavel': variavel,
@@ -132,25 +143,25 @@ def gerar_grafico_interconexao_riscos() -> Path:
             })
     
     if not todos_riscos:
-        print("Nenhum risco encontrado para análise.")
+        print("Nenhum risco encontrado para analise.")
         return None
     
     # Ordenar por percentual de risco alto (maior primeiro)
     todos_riscos.sort(key=lambda x: x['percentual_risco_alto'], reverse=True)
     
-    # Limitar ao top 20 para melhor visualização
-    top_riscos = todos_riscos[:20]
+    # Limitar ao top 40 para melhor visualizacao
+    top_riscos = todos_riscos[:40]
     
     print(f"Total de riscos analisados: {len(todos_riscos)}")
-    print(f"Top 20 riscos selecionados para visualização")
+    print(f"Top 20 riscos selecionados para visualizacao")
     
-    # Preparar dados para o gráfico
+    # Preparar dados para o grafico
     labels = [risco['label'] for risco in top_riscos][::-1]  # Inverter para barras horizontais
     valores = np.array([risco['percentual_risco_alto'] for risco in top_riscos][::-1])
     cores = [risco['cor'] for risco in top_riscos][::-1]
     medianas = [risco['mediana'] for risco in top_riscos][::-1]
     
-    # Criar gráfico
+    # Criar grafico
     altura = max(8.0, 0.35 * len(labels))
     plt.figure(figsize=(16, altura))
     
@@ -162,7 +173,7 @@ def gerar_grafico_interconexao_riscos() -> Path:
         plt.text(
             barra.get_width() + 0.8,
             barra.get_y() + barra.get_height() / 2,
-            f"{valor:.1f}% (M:{mediana:.1f})",
+            f"{formatar_decimal_br(valor)}% (M:{formatar_decimal_br(mediana)})",
             ha='left',
             va='center',
             fontsize=9,
@@ -170,12 +181,12 @@ def gerar_grafico_interconexao_riscos() -> Path:
             bbox=dict(boxstyle="round,pad=0.3", facecolor='white', alpha=0.8, edgecolor='gray')
         )
     
-    # Configurações do gráfico
-    plt.xlabel("Percentual de Respostas em Níveis Altos (4-5)", fontsize=14, fontweight='bold')
-    plt.ylabel("Riscos por Dimensão", fontsize=14, fontweight='bold')
+    # Configuracoes do grafico
+    plt.xlabel("Percentual de Respostas em Niveis Altos (4-5)", fontsize=14, fontweight='bold')
+    plt.ylabel("Riscos por Dimensao", fontsize=14, fontweight='bold')
     plt.title(
-        "Maiores Riscos Imediatos (Níveis 4-5) - Todas as Dimensões\n"
-        "Período Imediato 2025 | Ordenado do Maior para Menor Risco",
+        "Maiores Riscos Imediatos (Niveis 4-5) - Todas as Dimensoes\n"
+        "Periodo Imediato 2025 | Ordenado do Maior para Menor Risco",
         fontsize=16,
         fontweight='bold',
         pad=25
@@ -187,7 +198,7 @@ def gerar_grafico_interconexao_riscos() -> Path:
     plt.xticks(fontsize=11)
     plt.grid(axis='x', alpha=0.3, linestyle='--', linewidth=0.8)
     
-    # Legenda de cores por dimensão
+    # Legenda de cores por dimensao
     legend_elements = []
     for dimensao, cor in CORES_DIMENSAO.items():
         if dimensao in [risco['dimensao'] for risco in top_riscos]:
@@ -198,46 +209,46 @@ def gerar_grafico_interconexao_riscos() -> Path:
     
     if legend_elements:
         plt.legend(handles=legend_elements, loc='lower right', 
-                 title='Dimensões', framealpha=0.95, 
+                 title='Dimensoes', framealpha=0.95, 
                  bbox_to_anchor=(0.98, 0.02), fontsize=10)
     
-    # Adicionar linha de referência para média geral
+    # Adicionar linha de referencia para media geral
     media_geral = np.mean(valores)
     plt.axvline(x=media_geral, color='red', linestyle='--', alpha=0.7, linewidth=2)
     plt.text(media_geral + 0.5, len(labels) - 1, 
-             f'Média: {media_geral:.1f}%', 
+             f'Media: {formatar_decimal_br(media_geral)}%', 
              fontsize=10, fontweight='bold', color='red',
              bbox=dict(boxstyle="round,pad=0.3", facecolor='yellow', alpha=0.7))
     
     plt.tight_layout()
     
-    # Salvar gráfico
+    # Salvar grafico
     caminho_saida = Path("quarto/assets/graficos_agrupados/grafico_interconexao_riscos_imediato_2025.png")
     caminho_saida.parent.mkdir(parents=True, exist_ok=True)
     
     plt.savefig(caminho_saida, dpi=300, bbox_inches='tight', facecolor='white')
     plt.close()
     
-    print(f"Gráfico salvo em: {caminho_saida}")
+    print(f"Grafico salvo em: {caminho_saida}")
     
-    # Gerar análise estatística
+    # Gerar analise estatistica
     gerar_analise_estatistica(top_riscos, media_geral)
     
     return caminho_saida
 
 def gerar_analise_estatistica(top_riscos: List[Dict], media_geral: float):
     """
-    Gera análise estatística dos top riscos para inclusão no relatório.
+    Gera analise estatistica dos top riscos para inclusao no relatorio.
     
     Args:
         top_riscos: Lista com os top riscos analisados
-        media_geral: Média geral de percentuais
+        media_geral: Media geral de percentuais
     """
     print("\n" + "="*60)
-    print("ANÁLISE ESTATÍSTICA - TOP RISCOS IMEDIATOS")
+    print("Analise Estatistica - Top Riscos imediatos")
     print("="*60)
     
-    # Análise por dimensão
+    # Analise por dimensao
     analise_dimensoes = {}
     for risco in top_riscos:
         dimensao = risco['dimensao']
@@ -256,47 +267,48 @@ def gerar_analise_estatistica(top_riscos: List[Dict], media_geral: float):
         if risco['percentual_risco_alto'] > analise_dimensoes[dimensao]['max']:
             analise_dimensoes[dimensao]['max'] = risco['percentual_risco_alto']
     
-    print(f"Média geral de risco alto: {media_geral:.1f}%")
+    print(f"Media geral de risco alto: {formatar_decimal_br(media_geral)}%")
     print(f"Total de riscos analisados: {len(top_riscos)}")
-    print(f"\nAnálise por Dimensão:")
+    print(f"\nAnalise por Dimensao:")
     print("-" * 40)
     
     for dimensao, dados in analise_dimensoes.items():
         media_dimensao = dados['soma'] / dados['count']
         print(f"\n{NOMES_DIMENSAO[dimensao]}:")
         print(f"  Quantidade: {dados['count']} riscos")
-        print(f"  Média: {media_dimensao:.1f}%")
-        print(f"  Máximo: {dados['max']:.1f}%")
+        print(f"  Media: {formatar_decimal_br(media_dimensao)}%")
+        print(f"  Maximo: {formatar_decimal_br(dados['max'])}%")
         print(f"  Top 3:")
         
-        # Ordenar riscos da dimensão
+        # Ordenar riscos da dimensao
         riscos_dimensao = sorted(dados['riscos'], key=lambda x: x['percentual_risco_alto'], reverse=True)
         for i, risco in enumerate(riscos_dimensao[:3], 1):
-            print(f"    {i}. {risco['label']}: {risco['percentual_risco_alto']:.1f}%")
+            print(f"    {i}. {risco['label']}: {formatar_decimal_br(risco['percentual_risco_alto'])}%")
     
-    # Riscos críticos (>40%)
+    # Riscos criticos (>40%)
     riscos_criticos = [r for r in top_riscos if r['percentual_risco_alto'] > 40]
-    print(f"\nRISCOS CRÍTICOS (>40%): {len(riscos_criticos)}")
+    print(f"\nRISCOS CRITICOS (>40%): {len(riscos_criticos)}")
     for i, risco in enumerate(riscos_criticos, 1):
-        print(f"  {i}. {risco['label']} ({risco['nome_dimensao']}): {risco['percentual_risco_alto']:.1f}%")
+        print(f"  {i}. {risco['label']} ({risco['nome_dimensao']}): {formatar_decimal_br(risco['percentual_risco_alto'])}%")
     
     print("\n" + "="*60)
 
 def main():
-    """Função principal."""
+    """Funcao principal."""
     try:
         caminho_grafico = gerar_grafico_interconexao_riscos()
         if caminho_grafico:
-            print(f"\n✅ Gráfico de interconexão de riscos gerado com sucesso!")
-            print(f"📁 Arquivo: {caminho_grafico}")
-            print("\n📊 Pronto para integração com o capítulo interconexao-riscos.qmd")
+            print(f"\n Grafico de interconexao de riscos gerado com sucesso!")
+            print(f" Arquivo: {caminho_grafico}")
+            print("\n Pronto para integracao com o capitulo interconexao-riscos.qmd")
         else:
-            print("❌ Falha ao gerar gráfico de interconexão de riscos")
+            print(" Falha ao gerar grafico de interconexao de riscos")
             
     except Exception as e:
-        print(f"❌ Erro ao executar análise: {e}")
+        print(f"Erro ao executar analise: {e}")
         import traceback
         traceback.print_exc()
 
 if __name__ == "__main__":
     main()
+

@@ -15,6 +15,29 @@ from typing import Dict, List, Tuple, Any
 import logging
 from pathlib import Path
 
+# Função auxiliar para formatação brasileira de números
+def formatar_decimal_br(valor, casas_decimais=1):
+    """
+    Formata número com vírgula como separador decimal (padrão brasileiro)
+    
+    Args:
+        valor: valor numérico a formatar
+        casas_decimais: número de casas decimais (padrão: 1)
+        
+    Returns:
+        string formatada com vírgula
+    """
+    return f"{valor:.{casas_decimais}f}".replace('.', ',')
+
+# Configurar locale brasileiro para formatação de números com vírgula
+try:
+    import locale
+    locale.setlocale(locale.LC_NUMERIC, 'pt_BR.UTF-8')
+    plt.rcParams['axes.formatter.use_locale'] = True
+except (locale.Error, AttributeError):
+    # Fallback caso não seja possível configurar locale
+    plt.rcParams['axes.formatter.use_locale'] = False
+
 # Configuração
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
@@ -33,11 +56,11 @@ CORES_RISCO = {
 }
 
 NIVEIS_RISCO = {
-    1: 'Muito baixa',
-    2: 'Baixa', 
-    3: 'Moderada',
-    4: 'Alta',
-    5: 'Muito Alta'
+    1: 'Muito baixo',
+    2: 'Baixo', 
+    3: 'Moderado',
+    4: 'Alto',
+    5: 'Muito Alto'
 }
 
 class AnalisadorRiscosLikert:
@@ -61,6 +84,10 @@ class AnalisadorRiscosLikert:
             'Geopolitica': {'prefixo': '3.', 'pasta': 'graficos_geopoliticos'},
             'Social': {'prefixo': '4.', 'pasta': 'graficos_sociais'},
             'Tecnologica': {'prefixo': '5.', 'pasta': 'graficos_tecnologicos'}
+        }
+        self.label_overrides = {
+            '1.12': 'Riscos Reputacionais',
+            '1.13': 'Risco de Competitividade Portuária',
         }
         self.periodos_temporais = {
             'imediato_2025': ['Imediato (2025)', '2025'],
@@ -92,7 +119,13 @@ class AnalisadorRiscosLikert:
         match = re.match(r'^(\d+\.\d+)\s*(.+?)\s*\[.*?\]\s*$', coluna_original)
         if match:
             numero = match.group(1)
-            descricao_completa = match.group(2).strip()
+            descricao_completa = self._limpar_reticencias(match.group(2).strip())
+
+            override = self.label_overrides.get(numero)
+            if override:
+                if incluir_numero:
+                    return f"{numero} - {override}"
+                return override
             
             # Criar versão sucinta
             palavras = descricao_completa.split()
@@ -112,8 +145,6 @@ class AnalisadorRiscosLikert:
                         continue
                 
                 sucinto = ' '.join(palavras_chave[:5])
-                if len(palavras) > len(palavras_chave):
-                    sucinto += '...'
             
             if incluir_numero:
                 return f"{numero} - {sucinto}"
@@ -121,6 +152,23 @@ class AnalisadorRiscosLikert:
                 return sucinto
         
         return coluna_original
+
+    def extrair_descricao_completa(self, coluna_original: str) -> str:
+        """
+        Extrai a descricao completa (sem numero e periodo) para uso em titulos.
+        """
+        match = re.match(r'^(\d+\.\d+)\s*(.+?)\s*\[.*?\]\s*$', coluna_original)
+        if match:
+            return self._limpar_reticencias(match.group(2).strip())
+        return self._limpar_reticencias(str(coluna_original).strip())
+
+    def _limpar_reticencias(self, texto: str) -> str:
+        """
+        Remove sequencias de reticencias para evitar titulos truncados.
+        """
+        texto = texto.replace("\u2026", "")
+        texto = re.sub(r"\.{3,}", "", texto)
+        return texto.strip()
     
     def gerar_titulo_grafico(self, tipo: str, variavel_info: str, periodo: str = None) -> str:
         """
@@ -134,12 +182,12 @@ class AnalisadorRiscosLikert:
         Returns:
             String com título formatado
         """
-        label_sucinto = self.gerar_label_sucinto(variavel_info)
+        titulo_base = self.extrair_descricao_completa(variavel_info)
         
         if tipo == 'frequencia':
-            return label_sucinto
+            return titulo_base
         elif tipo == 'evolucao_temporal':
-            return f"Evolução Temporal: {label_sucinto}"
+            return f"Evolução Temporal: {titulo_base}"
         elif tipo == 'comparativo':
             dimensao = self._extrair_dimensao_da_variavel(variavel_info)
             periodo_nome = self.periodos_temporais.get(periodo, [periodo])[1] if periodo else ""
@@ -149,7 +197,7 @@ class AnalisadorRiscosLikert:
             periodo_nome = self.periodos_temporais.get(periodo, [periodo])[1] if periodo else ""
             return f"Distribuição de Riscos - {dimensao} ({periodo_nome})"
         
-        return label_sucinto
+        return titulo_base
     
     def _extrair_dimensao_da_variavel(self, variavel: str) -> str:
         """
@@ -209,7 +257,7 @@ class AnalisadorRiscosLikert:
         
         # Formatar texto
         info_text = (
-            f"Mediana: {mediana:.1f}\n"
+            f"Mediana: {formatar_decimal_br(mediana)}\n"
             f"Moda: {moda}\n"
             f"Nível: "
         )
@@ -260,8 +308,11 @@ class AnalisadorRiscosLikert:
             
         mapeamento = {}
         
+        periodos_ordenados = list(self.periodos_temporais.keys())
+
         for dimensao, config in self.dimensoes.items():
             mapeamento[dimensao] = {}
+            fallback_contadores: Dict[str, int] = {}
             
             # Encontrar colunas da dimensão
             colunas_dimensao = [col for col in self.dados_brutos.columns 
@@ -270,11 +321,45 @@ class AnalisadorRiscosLikert:
             # Agrupar por período temporal
             for periodo_key, periodo_values in self.periodos_temporais.items():
                 mapeamento[dimensao][periodo_key] = []
-                
-                for col in colunas_dimensao:
-                    # Verificar se a coluna contém o período temporal
-                    if any(periodo in str(col) for periodo in periodo_values):
+
+            for col in colunas_dimensao:
+                coluna_str = str(col)
+                periodo_atribuido = False
+
+                # Tenta identificar pelo texto explícito do período
+                for periodo_key, periodo_values in self.periodos_temporais.items():
+                    if any(periodo in coluna_str for periodo in periodo_values):
                         mapeamento[dimensao][periodo_key].append(col)
+                        periodo_atribuido = True
+                        break
+
+                if periodo_atribuido:
+                    continue
+
+                # Fallback: algumas colunas muito longas têm o texto do período truncado.
+                codigo_match = re.match(r'^(\d+\.\d+)', coluna_str.strip())
+                if not codigo_match:
+                    logger.warning(
+                        "Não foi possível determinar o período da coluna '%s' na dimensão %s",
+                        col,
+                        dimensao,
+                    )
+                    continue
+
+                codigo = codigo_match.group(1)
+                posicao = fallback_contadores.get(codigo, 0)
+
+                if posicao >= len(periodos_ordenados):
+                    logger.warning(
+                        "Número inesperado de ocorrências para a variável %s na dimensão %s",
+                        codigo,
+                        dimensao,
+                    )
+                    continue
+
+                periodo_key = periodos_ordenados[posicao]
+                mapeamento[dimensao][periodo_key].append(col)
+                fallback_contadores[codigo] = posicao + 1
         
         # Log dos resultados
         for dimensao, periodos in mapeamento.items():
@@ -415,7 +500,7 @@ class AnalisadorRiscosLikert:
             for bar, freq in zip(bars, frequencias):
                 height = bar.get_height()
                 plt.text(bar.get_x() + bar.get_width()/2., height + 0.1,
-                        f'{freq}\n({stats["frequencias_relativas"].get(categorias[frequencias.index(freq)], 0)*100:.1f}%)',
+                        f'{freq}\n({stats["frequencias_relativas"].get(categorias[frequencias.index(freq)], 0)*100:.1f}%)'.replace('.', ','),
                         ha='center', va='bottom', fontweight='bold')
             
             # Configurações do gráfico com título sucinto
@@ -503,7 +588,7 @@ class AnalisadorRiscosLikert:
             for i, (bar, pct_alto) in enumerate(zip(bars, percentuais_alto)):
                 width = bar.get_width()
                 plt.text(width + 0.05, bar.get_y() + bar.get_height()/2,
-                        f'{valores_medianas[i]:.1f} ({pct_alto:.1f}%)',
+                        f'{valores_medianas[i]:.1f} ({pct_alto:.1f}%)'.replace('.', ','),
                         ha='left', va='center', fontweight='bold')
             
             # Configurações com título sucinto
@@ -647,11 +732,16 @@ class AnalisadorRiscosLikert:
             
             # Adicionar valores nos pontos
             for i, (x, y) in enumerate(zip(periodos_ordenados, medianas)):
-                ax1.annotate(f'{y:.1f}', (x, y), textcoords="offset points", xytext=(0,10), ha='center')
+                ax1.annotate(f'{y:.1f}'.replace('.', ','), (x, y), textcoords="offset points", xytext=(0,10), ha='center')
             
             # Gráfico de percentuais de risco alto
             ax2.plot(periodos_ordenados, percentuais_alto, marker='s', linewidth=3, markersize=8, color='red')
-            ax2.set_title(f'Evolução do Percentual de Risco Alto - {self.gerar_label_sucinto(nome_variavel)}', fontsize=14, fontweight='bold')
+            titulo_base = self.extrair_descricao_completa(nome_variavel)
+            ax2.set_title(
+                f'Evolução do Percentual de Risco Alto - {titulo_base}',
+                fontsize=14,
+                fontweight='bold'
+            )
             ax2.set_ylabel('Percentual (%)', fontsize=12)
             ax2.set_xlabel('Período Temporal', fontsize=12)
             ax2.set_ylim(0, 100)
@@ -659,7 +749,7 @@ class AnalisadorRiscosLikert:
             
             # Adicionar valores nos pontos
             for i, (x, y) in enumerate(zip(periodos_ordenados, percentuais_alto)):
-                ax2.annotate(f'{y:.1f}%', (x, y), textcoords="offset points", xytext=(0,10), ha='center')
+                ax2.annotate(f'{y:.1f}%'.replace('.', ','), (x, y), textcoords="offset points", xytext=(0,10), ha='center')
             
             plt.tight_layout()
             plt.savefig(caminho_salvar, dpi=300, bbox_inches='tight')
@@ -1053,15 +1143,8 @@ class AnalisadorRiscosLikert:
                                 f'{valor:.1f}%', ha='center', va='bottom', 
                                 fontweight='bold', fontsize=9)
             
-            
-           # Configurações do gráfico
-            # Extrai o título limpando o prefixo numérico e as informações de período
-            titulo_grafico = nome_variavel
-            # Remove o período do final, ex: [Imediato (2025)]
-            titulo_grafico = re.sub(r'\s*\[.*?\]\s*$', '', titulo_grafico)
-            # Remove o prefixo numérico do início, ex: "5.15 "
-            titulo_grafico = re.sub(r'^\d+\.\d+\s*', '', titulo_grafico)
-            
+            # Configurações do gráfico
+            titulo_grafico = self.extrair_descricao_completa(nome_variavel)
             plt.title(titulo_grafico.strip(), fontsize=16, fontweight='bold', pad=20)
             # Configurar eixos X
             plt.xticks(posicoes, [NIVEIS_RISCO[nivel] for nivel in range(1, 6)], 

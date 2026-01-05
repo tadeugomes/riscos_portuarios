@@ -1,8 +1,10 @@
 ---
-title: "Análise de Riscos Tecnológicos"
+title: "Riscos Tecnológicos"
 format: html
 editor: visual
 ---
+
+
 
 Este capítulo apresenta a análise dos riscos tecnológicos identificados organizados por horizontes temporais.
 
@@ -10,18 +12,18 @@ Este capítulo apresenta a análise dos riscos tecnológicos identificados organ
 
 Os riscos tecnológicos foram avaliados em três horizontes temporais:
 
--   **Imediato (2025)**: Riscos que requerem atenção imediata
--   **Curto Prazo (2026-2027)**: Riscos emergentes que demandam planejamento
--   **Longo Prazo (até 2035)**: Riscos estratégicos que requerem visão de futuro
+- **Imediato (2025)**: Riscos que requerem atenção imediata
+- **Curto Prazo (2026-2027)**: Riscos emergentes que demandam planejamento
+- **Longo Prazo (até 2035)**: Riscos estratégicos que requerem visão de futuro.
 
 ## Panorama do Período Imediato
 
 ![](assets/tecnologicos/grafico_barras_imediato_2025.png)
 
 ::: {.callout-note title="Destaques do período Imediato de 2025"}
--   **Atraso no processo de digitalização**: 33,6% em níveis altos
--   **Vulnerabilidades em comunicação e IoT**: 32,8% em níveis altos
--   **Consequências indesejáveis de tecnologias**: 20,0% em níveis altos
+- **Atraso no processo de digitalização**: 34% em níveis altos;
+- **Vulnerabilidades em comunicação e IoT**: 33% em níveis altos;
+- **Consequências indesejáveis de tecnologias**: 20% em níveis altos.
 :::
 
 ## Análise Temporal da Dimensão Tecnológica
@@ -36,21 +38,21 @@ A análise temporal dos riscos tecnológicos revela padrões de evolução digit
 
 #### Piora Tecnológica Controlada
 
--   **Delta médio de +0,20**: Piora moderada em comparação com outras dimensões
--   **1 variável com piora crítica (+1.0 ponto)**: Ataques cibernéticos e ransomware
--   **Tendência de deterioração gradual**: A maioria dos riscos mostra piora progressiva
+- **Delta médio de +0,20**: Piora moderada em comparação com outras dimensões
+- **1 variável com piora crítica (+1.0 ponto)**: Ataques cibernéticos e ransomware
+- **Tendência de deterioração gradual**: A maioria dos riscos mostra piora progressiva.
 
 #### Padrões Específicos Identificados
 
--   **Cibersegurança como Principal Preocupação**: Ataques cibernéticos evoluem de mediana 2.0 para 3.0
--   **Desafios de Automação**: Falhas em sistemas de automação mantêm-se persistentemente altas
--   **Gap de Competências Tecnológicas**: Falta de mão de obra qualificada mostra piora consistente
+- **Cibersegurança como Principal Preocupação**: Ataques cibernéticos evoluem de mediana 2.0 para 3.0
+- **Desafios de Automação**: Falhas em sistemas de automação mantêm-se persistentemente altas
+- **Gap de Competências Tecnológicas**: Falta de mão de obra qualificada mostra piora consistente.
 
 #### Destaques da Evolução Temporal
 
--   **Risco Mais Crítico em 2035**: Falhas em sistemas de automação e controle (44.8% em risco alto)
--   **Maior Crescimento Relativo**: Ataques cibernéticos e ransomware (+130.4% no risco alto)
--   **Transformação Digital Urgente**: Atraso no processo de digitalização mantém-se elevado
+- **Risco Mais Crítico em 2035**: Falhas em sistemas de automação e controle (45% em risco alto)
+- **Maior Crescimento Relativo**: Ataques cibernéticos e ransomware (+130% no risco alto)
+- **Transformação Digital Urgente**: Atraso no processo de digitalização mantém-se elevado.
 
 #### Implicações Estratégicas para a Dimensão Tecnológica
 
@@ -71,14 +73,13 @@ A análise temporal tecnológica exige investimentos estratégicos:
 ![](assets/tecnologicos/grafico_agrupado_5_1_temporal.png)
 
 ::: {.callout-tip title="Destaques"}
-**Imediato (2025)**: Mediana 2.0, 18.4% em risco alto
+**Imediato (2025)**: Mediana 2.0, 18% em risco alto
 
-**Curto Prazo (2026-2027)**: Mediana 3.0, 30.4% em risco alto
+**Curto Prazo (2026-2027)**: Mediana 3.0, 30% em risco alto
 
-**Longo Prazo (até 2035)**: Mediana 3.0, 42.4% em risco alto
+**Longo Prazo (até 2035)**: Mediana 3.0, 42% em risco alto
 
--   **Tendência**: Percepção de risco relativamente estável ao longo do tempo
-
+- **Tendência**: Percepção de risco relativamente estável ao longo do tempo.
 **Análise - Consequências indesejáveis pela aplicação de tecnologias ou IA** **Imediato (2025)**: Devido a consequências iniciais pela aplicação de tecnologias ou IA, poderá acontecer a ocorrência pontual de falhas ou vieses limitados, o que poderá levar a decisões não ideais ou pequenos incidentes operacionais, impactando de forma controlada a eficiência e segurança das operações portuárias brasileiras.
 
 **Curto prazo (2026-2027)**: Devido a consequências indesejáveis pela aplicação de tecnologias ou IA no setor portuário brasileiro, poderá acontecer a ocorrência de falhas operacionais, vieses algorítmicos ou usos indevidos, o que poderá levar a decisões não ideais, discriminações pontuais ou vulnerabilidades de segurança, impactando de forma moderada a eficiência, equidade e integridade das operações portuárias no curto prazo (2026 a 2027).
@@ -91,11 +92,11 @@ A análise temporal tecnológica exige investimentos estratégicos:
 ![](assets/tecnologicos/grafico_agrupado_5_2_temporal.png)
 
 ::: {.callout-tip title="Destaques"}
-**Imediato (2025)**: Mediana 2.0, 16.0% em risco alto
+**Imediato (2025)**: Mediana 2.0, 16% em risco alto
 
-**Curto Prazo (2026-2027)**: Mediana 2.0, 16.8% em risco alto
+**Curto Prazo (2026-2027)**: Mediana 2.0, 17% em risco alto
 
-**Longo Prazo (até 2035)**: Mediana 3.0, 28.8% em risco alto
+**Longo Prazo (até 2035)**: Mediana 3.0, 29% em risco alto
 
 **Análise - Consequências adversas de tecnologias avançadas (física, biotecnologia, geoengenharia)** **Imediato (2025)**: Devido a consequências iniciais relacionadas ao uso de tecnologias avançadas (física, biotecnologia, geoengenharia), poderá ocorrer o emprego inadequado ou pouco controlado dessas tecnologias, o que poderá levar a impactos ambientais, sociais e econômicos limitados, com efeitos restritos à sustentabilidade e à segurança das operações portuárias e de seu entorno no setor brasileiro.
 
@@ -109,11 +110,11 @@ A análise temporal tecnológica exige investimentos estratégicos:
 ![](assets/tecnologicos/grafico_agrupado_5_3_temporal.png)
 
 ::: {.callout-tip title="Destaques"}
-**Imediato (2025)**: Mediana 2.0, 15.2% em risco alto
+**Imediato (2025)**: Mediana 2.0, 15% em risco alto
 
-**Curto Prazo (2026-2027)**: Mediana 2.0, 21.6% em risco alto
+**Curto Prazo (2026-2027)**: Mediana 2.0, 22% em risco alto
 
-**Longo Prazo (até 2035)**: Mediana 3.0, 30.4% em risco alto
+**Longo Prazo (até 2035)**: Mediana 3.0, 30% em risco alto
 
 **Análise - Práticas de censura e vigilância adversa** **Imediato (2025)**: Devido a práticas iniciais de censura e vigilância no setor portuário brasileiro, poderá acontecer restrições pontuais na divulgação de informações sensíveis e monitoramento moderado, o que poderá levar a limitações na privacidade de trabalhadores e comunidades, impactando de forma restrita os direitos individuais e a transparência do setor.
 
@@ -127,11 +128,11 @@ A análise temporal tecnológica exige investimentos estratégicos:
 ![](assets/tecnologicos/grafico_agrupado_5_4_temporal.png)
 
 ::: {.callout-tip title="Destaques"}
-**Imediato (2025)**: Mediana 3.0, 41.6% em risco alto
+**Imediato (2025)**: Mediana 3.0, 42% em risco alto
 
-**Curto Prazo (2026-2027)**: Mediana 3.0, 45.6% em risco alto
+**Curto Prazo (2026-2027)**: Mediana 3.0, 46% em risco alto
 
-**Longo Prazo (até 2035)**: Mediana 3.0, 44.0% em risco alto
+**Longo Prazo (até 2035)**: Mediana 3.0, 44% em risco alto
 
 **Análise - Falta de segurança computacional e de comunicação** **Imediato (2025)**: Devido a vulnerabilidades ainda presentes na segurança computacional e de comunicação, poderão ocorrer incidentes cibernéticos como tentativas de invasão e interrupções temporárias nos sistemas, o que poderá levar à alteração parcial de dados operacionais ou à indisponibilidade momentânea de serviços essenciais, impactando a eficiência e a continuidade das operações nos portos brasileiros.
 
@@ -145,11 +146,11 @@ A análise temporal tecnológica exige investimentos estratégicos:
 ![](assets/tecnologicos/grafico_agrupado_5_5_temporal.png)
 
 ::: {.callout-tip title="Destaques"}
-**Imediato (2025)**: Mediana 2.0, 19.2% em risco alto
+**Imediato (2025)**: Mediana 2.0, 19% em risco alto
 
-**Curto Prazo (2026-2027)**: Mediana 3.0, 23.2% em risco alto
+**Curto Prazo (2026-2027)**: Mediana 3.0, 23% em risco alto
 
-**Longo Prazo (até 2035)**: Mediana 3.0, 28.0% em risco alto
+**Longo Prazo (até 2035)**: Mediana 3.0, 28% em risco alto
 
 **Análise - Concentração dos direitos sobre tecnologias** **Imediato (2025)**: Devido à crescente concentração dos direitos sobre tecnologias, poderá acontecer uma leve dependência tecnológica e restrições iniciais ao acesso a inovações, o que poderá levar a desafios pontuais na modernização e a uma autonomia estratégica ainda preservada, impactando de forma limitada a competitividade e o desenvolvimento dos portos brasileiros no curto prazo.
 
@@ -163,14 +164,13 @@ A análise temporal tecnológica exige investimentos estratégicos:
 ![](assets/tecnologicos/grafico_agrupado_5_6_temporal.png)
 
 ::: {.callout-tip title="Destaques"}
-**Imediato (2025)**: Mediana 3.0, 32.8% em risco alto
+**Imediato (2025)**: Mediana 3.0, 33% em risco alto
 
-**Curto Prazo (2026-2027)**: Mediana 3.0, 40.0% em risco alto
+**Curto Prazo (2026-2027)**: Mediana 3.0, 40% em risco alto
 
-**Longo Prazo (até 2035)**: Mediana 3.0, 44.8% em risco alto
+**Longo Prazo (até 2035)**: Mediana 3.0, 45% em risco alto
 
--   **Tendência**: Percepção de risco relativamente estável ao longo do tempo
-
+- **Tendência**: Percepção de risco relativamente estável ao longo do tempo.
 **Análise - Vulnerabilidades dos sistemas de comunicação e dispositivos IoT** **Imediato (2025)**: Devido a vulnerabilidades conhecidas nos sistemas de comunicação e dispositivos IoT utilizados em terminais e operações portuárias brasileiras, poderá acontecer incidentes de cibersegurança com interrupções pontuais nos serviços, o que poderá levar a atrasos operacionais e aumento dos riscos à integridade das operações, impactando a eficiência e a segurança no curto prazo.
 
 **Curto prazo (2026-2027)**: Devido a vulnerabilidades existentes nos sistemas de comunicação e dispositivos de Internet das Coisas (IoT) utilizados nas operações portuárias brasileiras, poderá acontecer falhas moderadas em cibersegurança, o que poderá levar a ataques cibernéticos localizados e interrupções parciais de serviços, impactando na segurança operacional e na continuidade das atividades portuárias no curto prazo (2026 a 2027).
@@ -183,14 +183,13 @@ A análise temporal tecnológica exige investimentos estratégicos:
 ![](assets/tecnologicos/grafico_agrupado_5_7_temporal.png)
 
 ::: {.callout-tip title="Destaques"}
-**Imediato (2025)**: Mediana 3.0, 33.6% em risco alto
+**Imediato (2025)**: Mediana 3.0, 34% em risco alto
 
-**Curto Prazo (2026-2027)**: Mediana 3.0, 37.6% em risco alto
+**Curto Prazo (2026-2027)**: Mediana 3.0, 38% em risco alto
 
-**Longo Prazo (até 2035)**: Mediana 3.0, 34.4% em risco alto
+**Longo Prazo (até 2035)**: Mediana 3.0, 34% em risco alto
 
--   **Tendência**: Percepção de risco relativamente estável ao longo do tempo
-
+- **Tendência**: Percepção de risco relativamente estável ao longo do tempo.
 **Análise - Atraso no processo de digitalização dos portos** **Imediato (2025)**: Devido ao ritmo moderado no avanço da digitalização dos portos brasileiros, poderá ocorrer redução parcial na eficiência operacional e na capacidade de integração com cadeias logísticas globais, o que poderá levar a aumentos controlados nos custos e a limitações na competitividade do setor, impactando de forma moderada o desenvolvimento econômico e a modernização portuária no curto prazo.
 
 **Curto prazo (2026-2027)**: Devido a atrasos moderados no processo de digitalização dos portos brasileiros, poderá acontecer uma redução parcial na eficiência operacional e na competitividade, o que poderá levar a aumentos controlados nos custos logísticos e a dificuldades pontuais na integração com cadeias globais, impactando de forma moderada o desenvolvimento econômico e a modernização do setor portuário no curto prazo.
@@ -203,14 +202,13 @@ A análise temporal tecnológica exige investimentos estratégicos:
 ![](assets/tecnologicos/grafico_agrupado_5_8_temporal.png)
 
 ::: {.callout-tip title="Destaques"}
-**Imediato (2025)**: Mediana 2.0, 20.0% em risco alto
+**Imediato (2025)**: Mediana 2.0, 20% em risco alto
 
-**Curto Prazo (2026-2027)**: Mediana 3.0, 25.6% em risco alto
+**Curto Prazo (2026-2027)**: Mediana 3.0, 26% em risco alto
 
-**Longo Prazo (até 2035)**: Mediana 3.0, 31.2% em risco alto
+**Longo Prazo (até 2035)**: Mediana 3.0, 31% em risco alto
 
--   **Tendência**: Percepção de risco relativamente estável ao longo do tempo
-
+- **Tendência**: Percepção de risco relativamente estável ao longo do tempo.
 **Análise - Consequências indesejáveis pela aplicação de tecnologias ou IA (censura e vigilância)** **Imediato (2025)**: Devido a consequências iniciais pela aplicação de tecnologias ou IA, como práticas pontuais de censura e vigilância, poderá acontecer o uso limitado e controlado dessas tecnologias no ambiente portuário brasileiro, o que poderá levar a impactos restritos na privacidade e na liberdade de informação, impactando minimamente os direitos dos trabalhadores e a reputação do setor.
 
 **Curto prazo (2026-2027)**: Devido a consequências indesejáveis pela aplicação de tecnologias ou IA, como práticas moderadas de censura e vigilância no ambiente portuário, poderá acontecer o uso inadequado de sistemas automatizados para monitoramento de trabalhadores e operações, o que poderá levar a restrições parciais na privacidade e no acesso à informação, impactando nos direitos laborais e na confiança institucional do setor portuário brasileiro no curto prazo (2026 a 2027).
@@ -223,11 +221,11 @@ A análise temporal tecnológica exige investimentos estratégicos:
 ![](assets/tecnologicos/grafico_agrupado_5_9_temporal.png)
 
 ::: {.callout-tip title="Destaques"}
-**Imediato (2025)**: Mediana 2.0, 20.0% em risco alto
+**Imediato (2025)**: Mediana 2.0, 20% em risco alto
 
-**Curto Prazo (2026-2027)**: Mediana 2.0, 28.0% em risco alto
+**Curto Prazo (2026-2027)**: Mediana 2.0, 28% em risco alto
 
-**Longo Prazo (até 2035)**: Mediana 3.0, 39.2% em risco alto
+**Longo Prazo (até 2035)**: Mediana 3.0, 39% em risco alto
 
 **Análise - Riscos associados à introdução de navios autônomos** **Imediato (2025)**: Devido à introdução inicial de navios autônomos no setor portuário brasileiro, poderá acontecer o surgimento de algumas novas categorias de ameaças tecnológicas e operacionais ainda pouco exploradas, o que poderá levar a vulnerabilidades cibernéticas e falhas pontuais em sistemas de inteligência artificial, impactando de forma limitada a segurança da navegação e a governança do setor.
 
@@ -241,11 +239,11 @@ A análise temporal tecnológica exige investimentos estratégicos:
 ![](assets/tecnologicos/grafico_agrupado_5_10_temporal.png)
 
 ::: {.callout-tip title="Destaques"}
-**Imediato (2025)**: Mediana 2.0, 21.6% em risco alto
+**Imediato (2025)**: Mediana 2.0, 22% em risco alto
 
-**Curto Prazo (2026-2027)**: Mediana 3.0, 30.4% em risco alto
+**Curto Prazo (2026-2027)**: Mediana 3.0, 30% em risco alto
 
-**Longo Prazo (até 2035)**: Mediana 3.0, 36.8% em risco alto
+**Longo Prazo (até 2035)**: Mediana 3.0, 37% em risco alto
 
 **Análise - Riscos associados às tecnologias espaciais** **Imediato (2025)**: Devido aos riscos iniciais associados às tecnologias espaciais, poderá acontecer a exposição pontual das cadeias logísticas portuárias brasileiras a vulnerabilidades como falhas temporárias de sinal, o que poderá levar a pequenas interrupções operacionais localizadas, impactando de forma limitada a segurança e a continuidade do comércio exterior.
 
@@ -259,11 +257,11 @@ A análise temporal tecnológica exige investimentos estratégicos:
 ![](assets/tecnologicos/grafico_agrupado_5_11_temporal.png)
 
 ::: {.callout-tip title="Destaques"}
-**Imediato (2025)**: Mediana 3.0, 26.4% em risco alto
+**Imediato (2025)**: Mediana 3.0, 26% em risco alto
 
-**Curto Prazo (2026-2027)**: Mediana 3.0, 32.8% em risco alto
+**Curto Prazo (2026-2027)**: Mediana 3.0, 33% em risco alto
 
-**Longo Prazo (até 2035)**: Mediana 3.0, 43.2% em risco alto
+**Longo Prazo (até 2035)**: Mediana 3.0, 43% em risco alto
 
 **Análise - Riscos associados à automação portuária** **Imediato (2025)**: Devido à crescente adoção da automação nos portos brasileiros, poderá acontecer a manifestação de vulnerabilidades cibernéticas e falhas operacionais pontuais, bem como maior dependência de sistemas tecnológicos específicos, o que poderá levar a interrupções moderadas nas operações e a desafios na gestão da continuidade dos processos logísticos, impactando a eficiência e a confiabilidade das cadeias de suprimentos no curto prazo.
 
@@ -277,11 +275,11 @@ A análise temporal tecnológica exige investimentos estratégicos:
 ![](assets/tecnologicos/grafico_agrupado_5_12_temporal.png)
 
 ::: {.callout-tip title="Destaques"}
-**Imediato (2025)**: Mediana 3.0, 30.4% em risco alto
+**Imediato (2025)**: Mediana 3.0, 30% em risco alto
 
-**Curto Prazo (2026-2027)**: Mediana 3.0, 37.6% em risco alto
+**Curto Prazo (2026-2027)**: Mediana 3.0, 38% em risco alto
 
-**Longo Prazo (até 2035)**: Mediana 3.0, 43.2% em risco alto
+**Longo Prazo (até 2035)**: Mediana 3.0, 43% em risco alto
 
 **Análise - Problemas de integração de segurança** **Imediato (2025)**: Devido a desafios na integração de segurança entre sistemas e agentes portuários, poderá acontecer a ocorrência de falhas pontuais na coordenação da vigilância e na resposta a incidentes, o que poderá levar a vulnerabilidades moderadas frente a ataques cibernéticos e falhas operacionais, impactando na eficiência das operações e exigindo aprimoramento nos protocolos de gestão e comunicação.
 
@@ -295,11 +293,11 @@ A análise temporal tecnológica exige investimentos estratégicos:
 ![](assets/tecnologicos/grafico_agrupado_5_13_temporal.png)
 
 ::: {.callout-tip title="Destaques"}
-**Imediato (2025)**: Mediana 3.0, 30.4% em risco alto
+**Imediato (2025)**: Mediana 3.0, 30% em risco alto
 
-**Curto Prazo (2026-2027)**: Mediana 3.0, 31.2% em risco alto
+**Curto Prazo (2026-2027)**: Mediana 3.0, 31% em risco alto
 
-**Longo Prazo (até 2035)**: Mediana 3.0, 36.0% em risco alto
+**Longo Prazo (até 2035)**: Mediana 3.0, 36% em risco alto
 
 **Análise - Privacidade e conformidade legal** **Imediato (2025)**: Devido a desafios na adequação contínua às normas de privacidade e conformidade legal no tratamento de dados no setor portuário brasileiro, poderá acontecer o descumprimento parcial de requisitos regulatórios, o que poderá levar a sanções administrativas moderadas, redução da confiança dos usuários e desgaste reputacional pontual, impactando na segurança jurídica e na imagem do setor no horizonte imediato.
 
@@ -313,11 +311,11 @@ A análise temporal tecnológica exige investimentos estratégicos:
 ![](assets/tecnologicos/grafico_agrupado_5_14_temporal.png)
 
 ::: {.callout-tip title="Destaques"}
-**Imediato (2025)**: Mediana 3.0, 29.6% em risco alto
+**Imediato (2025)**: Mediana 3.0, 30% em risco alto
 
-**Curto Prazo (2026-2027)**: Mediana 3.0, 34.4% em risco alto
+**Curto Prazo (2026-2027)**: Mediana 3.0, 34% em risco alto
 
-**Longo Prazo (até 2035)**: Mediana 3.0, 34.4% em risco alto
+**Longo Prazo (até 2035)**: Mediana 3.0, 34% em risco alto
 
 **Análise - Desenvolvimento inseguro e falhas na incorporação de segurança por design** **Imediato (2025)**: Devido ao desenvolvimento insuficiente de práticas de segurança por design e falhas na incorporação de controles robustos, poderá acontecer a implementação de sistemas digitais e automatizados com vulnerabilidades exploráveis, o que poderá levar a incidentes cibernéticos localizados, interrupções operacionais pontuais e exposição parcial de dados sensíveis, impactando na confiabilidade das soluções tecnológicas e na resiliência do ecossistema logístico dos portos brasileiros.
 
@@ -331,11 +329,11 @@ A análise temporal tecnológica exige investimentos estratégicos:
 ![](assets/tecnologicos/grafico_agrupado_5_15_temporal.png)
 
 ::: {.callout-tip title="Destaques"}
-**Imediato (2025)**: Mediana 3.0, 32.0% em risco alto
+**Imediato (2025)**: Mediana 3.0, 32% em risco alto
 
-**Curto Prazo (2026-2027)**: Mediana 3.0, 36.8% em risco alto
+**Curto Prazo (2026-2027)**: Mediana 3.0, 37% em risco alto
 
-**Longo Prazo (até 2035)**: Mediana 3.0, 39.2% em risco alto
+**Longo Prazo (até 2035)**: Mediana 3.0, 39% em risco alto
 
 **Análise - Custo de implementação de novas tecnologias** **Imediato (2025)**: Devido ao custo moderado de implementação de novas tecnologias, poderá acontecer que alguns portos e terminais enfrentem limitações financeiras para investir em modernização, o que poderá levar ao adiamento parcial de projetos tecnológicos, impactando de forma moderada a competitividade e eficiência do setor portuário brasileiro no curto prazo.
 
@@ -349,11 +347,11 @@ A análise temporal tecnológica exige investimentos estratégicos:
 ![](assets/tecnologicos/grafico_agrupado_5_16_temporal.png)
 
 ::: {.callout-tip title="Destaques"}
-**Imediato (2025)**: Mediana 3.0, 41.6% em risco alto
+**Imediato (2025)**: Mediana 3.0, 42% em risco alto
 
-**Curto Prazo (2026-2027)**: Mediana 3.0, 44.0% em risco alto
+**Curto Prazo (2026-2027)**: Mediana 3.0, 44% em risco alto
 
-**Longo Prazo (até 2035)**: Mediana 3.0, 48.0% em risco alto
+**Longo Prazo (até 2035)**: Mediana 3.0, 48% em risco alto
 
 **Análise - Escassez de mão de obra qualificada na área de tecnologia** **Imediato (2025)**: Devido à disponibilidade limitada de mão de obra qualificada na área de tecnologia, poderá acontecer dificuldade moderada na atração, capacitação e retenção de profissionais especializados, o que poderá levar a atrasos pontuais na implementação de projetos estratégicos, aumento controlado dos custos operacionais e redução parcial da eficiência, impactando na capacidade dos portos brasileiros de responder com agilidade adequada a incidentes e inovações tecnológicas do mercado.
 
@@ -364,17 +362,30 @@ A análise temporal tecnológica exige investimentos estratégicos:
 
 ## Análise Temporal Comparativa
 
-A análise comparativa entre os horizontes temporais revela importantes padrões:
+A análise comparativa da percepção dos riscos ao longo dos três horizontes temporais (Imediato, Curto Prazo e Longo Prazo) revela uma evolução clara na natureza das preocupações do setor portuário, permitindo a identificação de tendências e a formulação de insights estratégicos direcionados.
 
 ### Tendências Identificadas
 
--   **Riscos Imediatos**: Maior preocupação com ataques cibernéticos e ransomware
--   **Riscos de Curto Prazo**: Destaque para obsolescência de sistemas e falhas em automação
--   **Riscos de Longo Prazo**: Preocupação crescente com dependência de fornecedores e falta de mão de obra qualificada
+A percepção de risco evolui de ameaças operacionais e imediatas para vulnerabilidades estruturais e estratégicas ao longo do tempo.
+
+-   No horizonte imediato (2025), a principal preocupação se concentra nos riscos mais visíveis e de impacto direto, como a falta de segurança computacional e as vulnerabilidades em sistemas de IoT. Isso reflete um foco na defesa contra ameaças cibernéticas, como ataques de ransomware e interrupções de serviço, que representam o perigo mais tangível e imediato para a continuidade das operações.
+
+-   No curto prazo (2026-2027), a atenção se desloca para as dores do crescimento da digitalização. Riscos como os desafios de interoperabilidade e as falhas em sistemas de automação ganham destaque. Isso indica que, após a fase inicial de adoção de tecnologias, os problemas de integração entre sistemas legados e novos, bem como a complexidade de gerenciar ambientes automatizados, tornam-se as principais fontes de preocupação.
+
+-   No longo prazo (até 2035), a perspectiva se torna eminentemente estratégica. A escassez de mão de obra qualificada e a concentração de direitos sobre tecnologias (dependência de fornecedores) emergem como os riscos mais críticos. Isso demonstra uma compreensão madura de que, no futuro, a maior ameaça não será um ataque específico, mas sim a falta de capacidade interna (capital humano) e de autonomia (soberania tecnológica) para inovar e se defender de forma sustentável.
 
 ### Insights Estratégicos
 
-1.  **Segurança Digital**: Necessidade de investir em cibersegurança robusta e contínua
-2.  **Modernização Tecnológica**: Planejar atualização sistemática de sistemas legados
-3.  **Capacitação Humana**: Investir em treinamento e desenvolvimento de talentos tecnológicos
-4.  **Autonomia Tecnológica**: Reduzir dependência de fornecedores externos críticos
+A evolução das tendências de risco exige uma resposta estratégica, dinâmica e multifacetada, que vá além da simples mitigação de ameaças imediatas:
+
+1.  Segurança Digital como Alicerce: A preocupação persistente com a segurança cibernética em todos os horizontes reforça a necessidade de tratar o investimento em segurança não como um custo, mas como um pilar fundamental e contínuo para a operação. A segurança digital robusta é a base sobre a qual toda a transformação tecnológica deve ser construída.
+2.   Modernização Tecnológica Planejada: O destaque para os riscos de interoperabilidade e automação no curto prazo evidencia que a modernização não pode ser um processo desordenado. É crucial planejar a atualização sistemática de sistemas legados e adotar padrões que garantam a integração segura e eficiente, evitando a criação de um ambiente tecnológico fragmentado e vulnerável.
+3.   Capacitação Humana como Prioridade Estratégica: A ascensão da escassez de mão de obra como o risco mais crítico no longo prazo é um alerta claro. O investimento em treinamento, desenvolvimento e atração de talentos em tecnologia e cibersegurança não é mais uma questão de RH, mas uma prioridade estratégica para a sobrevivência e competitividade do setor.
+4.  Busca pela Autonomia Tecnológica: A crescente preocupação com a dependência de fornecedores sinaliza a necessidade de uma estratégia nacional para reduzir a vulnerabilidade a riscos geopolíticos e de aprisionamento tecnológico (vendor lock-in). Fomentar um ecossistema de inovação local e diversificar as fontes de tecnologia são ações cruciais para garantir a soberania e a resiliência do setor portuário brasileiro no longo prazo.
+
+::: {.content-visible when-format="docx"}
+```{=openxml}
+<w:p><w:r><w:br w:type="page"/></w:r></w:p>
+```
+:::
+

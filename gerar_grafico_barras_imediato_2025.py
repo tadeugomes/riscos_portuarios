@@ -75,6 +75,9 @@ DIMENSIONS: Dict[str, Dict[str, object]] = {
     },
 }
 
+# Recorte temporal utilizado em todos os graficos: respostas do periodo "Imediato 2025".
+# Em conjunto com os calculos abaixo, consideramos apenas os percentuais das notas 4 e 5
+# (classificados como risco alto), explicando explicitamente o filtro aplicado nos dados.
 PERIODO_TARGET = "imediato_2025"
 
 
@@ -120,7 +123,7 @@ def gerar_grafico_barras_imediato(
     mapeamento: Dict[str, Dict[str, List[str]]],
     dimensao: str,
 ) -> Path | None:
-    """Cria o grafico horizontal para a dimensao informada."""
+    """Cria o grafico horizontal focado no periodo "Imediato 2025" com o percentual das notas 4-5."""
     config = DIMENSIONS[dimensao]
     friendly = config["friendly"]
     ylabel = config["ylabel"]

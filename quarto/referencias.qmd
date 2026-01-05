@@ -1,0 +1,40 @@
+﻿---
+title: "Referências"
+---
+
+
+
+APLICAÇÃO de um dispositivo não tripulado para monitoramento de poluição de água e sedimento no Porto de Gdynia. **Water**, [s.l.], v. 15, n. 4, 2023.
+
+ARGYRIOU, I.; TSOUTSOS, T. Assessing critical entities: risk management for IoT devices in ports. **Journal of Marine Science and Engineering**, [s.l.], v. 12, n. 9, art. 1593, 2024. DOI: https://doi.org/10.3390/jmse12091593.
+
+ASARIOTIS, R. et al. Climate change and seaports: hazards, impacts, and policies and legislation for adaptation. **Anthropocene Coasts**, [s.l.], v. 7, n. 1, art. 14, 2024. DOI: https://doi.org/10.1007/s44218-024-00047-9.
+
+CHANG, W. et al. Resilience of regional container port network: based on projection correlation and dynamic spatial Markov chain. **Maritime Policy & Management**, [s.l.], v. 51, n. 2, p. 207-226, 2024.
+
+DEMIREL, H. et al. A comprehensive risk assessment framework for mooring risks at hydrocarbon berths using fuzzy rule-based Bayesian network and multi-attribute decision-making. **Stochastic Environmental Research and Risk Assessment**, [s.l.], v. 38, n. 11, p. 4393-4414, 2024. DOI: https://doi.org/10.1007/s00477-024-02809-w.
+
+ELMAKIS, O. et al. OS-BREEZE: oil spills boundary red emission zone estimation using unmanned surface vehicles. **Sensors**, [s.l.], v. 24, n. 2, art. 703, 2024. DOI: https://doi.org/10.3390/s24020703.
+
+HOU, L. et al. Reshaping port-city relationships through underground logistics system: a mixed qualitative approach. **Cities**, [s.l.], v. 154, art. 105395, 2024. DOI: https://doi.org/10.1016/j.cities.2024.105395.
+
+KHAN, R. U. et al. Seaport hazardous cargo loading and unloading risk assessment using interval type-2 fuzzy sets and Bayesian networks. **ASCE-ASME Journal of Risk and Uncertainty in Engineering Systems, Part A: Civil Engineering**, [s.l.], v. 10, n. 1, 2024.
+
+ROAD accident risk analysis of at- and near-port areas reflecting regional heterogeneous characteristics. **Maritime Policy & Management**, [s.l.], v. 52, n. 4, p. 627-641, 2025.
+
+RODRIGUES, T. A. et al. Assessing risk dimensions in dry port projects: prioritization, interdependence and heterogeneity. **Maritime Business Review**, [s.l.], v. 9, n. 4, p. 311-330, 2024. DOI: https://doi.org/10.1108/MABR-09-2023-0064.
+
+ROZIRWAN et al. Ecological risk assessment of heavy metal (Pb, Cu) contamination in water, sediment, and polychaeta (*Neoleanira tetragona*) from coastal areas affected by aquaculture, urban rivers, and ports in South Sumatra. **Journal of Ecological Engineering**, [s.l.], v. 25, n. 1, p. 303-319, 2024.
+
+SPATIAL analysis and risk evaluation for port crisis management using integrated soft computing and GIS-based models: a case study of Jazan Port, Saudi Arabia. **Sustainability**, [s.l.], v. 16, n. 12, art. 5131, 2024.
+
+SYSTEMIC risk capability assessment methodology: a new approach for evaluating inter-connected risks in seaport ecosystems. **Progress in Disaster Science**, [s.l.], v. 16, 2023.
+
+ZHOU, W.; XUE, J. et al. Composition and distribution of bacteria, pathogens, and antibiotic resistance genes at Shanghai Port, China. **Water**, [s.l.], v. 16, n. 18, 2024.
+
+::: {.content-visible when-format="docx"}
+```{=openxml}
+<w:p><w:r><w:br w:type="page"/></w:r></w:p>
+```
+:::
+

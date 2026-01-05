@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+﻿#!/usr/bin/env python3
 """
 Gera o grafico de dispersao temporal ampliado utilizando todas as variaveis disponiveis,
 com distribuicao de pontos sem sobreposicao e analises estatisticas detalhadas.
@@ -71,20 +71,20 @@ def resumir_label_grafico(texto: str, limite: int = 35) -> str:
     selecionadas: List[str] = []
     for palavra in palavras:
         candidato = " ".join(selecionadas + [palavra])
-        if len(candidato) <= limite - 3:
+        if len(candidato) <= limite:
             selecionadas.append(palavra)
             continue
 
         if palavra.lower() in {"risco", "impacto", "crise", "piora", "aumento", "mudancas"}:
             selecionadas.append(palavra)
 
-        if len(candidato) > limite - 3:
+        if len(candidato) > limite:
             break
 
     if not selecionadas:
         selecionadas = palavras[:max(1, min(3, len(palavras)))]
 
-    return " ".join(selecionadas)[: limite - 3].rstrip() + "..."
+    return " ".join(selecionadas)[: limite].rstrip()
 
 
 def gerar_labels_variavel(
@@ -220,7 +220,7 @@ def distribuir_pontos_sem_superposicao(
 ) -> Dict[Tuple[float, float], List[Dict]]:
     """
     Distribui os pontos ao redor da coordenada original para evitar sobreposicao.
-    Aumenta o raio base e usa distribuição otimizada para melhor espaçamento.
+    Aumenta o raio base e usa distribuiÃ§Ã£o otimizada para melhor espaÃ§amento.
 
     Retorna um dicionario com os clusters originais (coordenada base -> lista de itens).
     """
@@ -242,17 +242,17 @@ def distribuir_pontos_sem_superposicao(
             elementos[0]["cluster_tamanho"] = 1
             continue
 
-        # Aumenta o raio base para melhor separação visual
+        # Aumenta o raio base para melhor separaÃ§Ã£o visual
         raio = min(0.45, raio_base + (n - 1) * 0.04)
         
-        # Usa espiral para melhor distribuição quando há muitos pontos
+        # Usa espiral para melhor distribuiÃ§Ã£o quando hÃ¡ muitos pontos
         if n <= 6:
             angulos = np.linspace(0, 2 * np.pi, n, endpoint=False)
         else:
-            # Distribuição em espiral para muitos pontos
+            # DistribuiÃ§Ã£o em espiral para muitos pontos
             angulos = []
             for i in range(n):
-                angulo = (i * 2 * np.pi / n) + (i * 0.3)  # Adiciona rotação progressiva
+                angulo = (i * 2 * np.pi / n) + (i * 0.3)  # Adiciona rotaÃ§Ã£o progressiva
                 angulos.append(angulo)
 
         for i, elemento in enumerate(elementos):
@@ -261,7 +261,7 @@ def distribuir_pontos_sem_superposicao(
             else:
                 angulo = (i * 2 * np.pi / n)
             
-            # Varia o raio ligeiramente para criar mais separação
+            # Varia o raio ligeiramente para criar mais separaÃ§Ã£o
             raio_variado = raio * (0.8 + 0.4 * (i / n))
             
             desloc_x = raio_variado * math.cos(angulo)
@@ -269,7 +269,7 @@ def distribuir_pontos_sem_superposicao(
             scatter_x = base_x + desloc_x
             scatter_y = base_y + desloc_y
 
-            # Garante que o ponto permaneça dentro da escala Likert com margem
+            # Garante que o ponto permaneÃ§a dentro da escala Likert com margem
             elemento["scatter_x"] = float(np.clip(scatter_x, 1.2, 4.8))
             elemento["scatter_y"] = float(np.clip(scatter_y, 1.2, 4.8))
             elemento["cluster_tamanho"] = n
@@ -310,14 +310,14 @@ def selecionar_pontos_para_rotular(
     max_por_quadrante: int = 6,
     limite_total: int = 30,
 ) -> List[Dict]:
-    """Seleciona um conjunto equilibrado de pontos para rotulagem com mais rótulos e melhor distribuição."""
+    """Seleciona um conjunto equilibrado de pontos para rotulagem com mais rÃ³tulos e melhor distribuiÃ§Ã£o."""
     quadrantes = gerar_resumo_quadrantes(dados, limiar_x, limiar_y)
     selecionados: List[Dict] = []
 
-    # Critérios de seleção mais refinados por quadrante
+    # CritÃ©rios de seleÃ§Ã£o mais refinados por quadrante
     ordenadores = {
         "Q1": lambda item: (
-            (item["stats_curto"]["mediana"] + item["stats_longo"]["mediana"]) / 2,  # Média mais alta
+            (item["stats_curto"]["mediana"] + item["stats_longo"]["mediana"]) / 2,  # MÃ©dia mais alta
             item["variabilidade_media"],  # Maior variabilidade
             item.get("cluster_tamanho", 1),  # Maiores clusters
         ),
@@ -327,7 +327,7 @@ def selecionar_pontos_para_rotular(
             item.get("cluster_tamanho", 1),  # Maiores clusters
         ),
         "Q3": lambda item: (
-            -item["delta_absoluto"],  # Menor mudança (mais estáveis)
+            -item["delta_absoluto"],  # Menor mudanÃ§a (mais estÃ¡veis)
             item["variabilidade_media"],  # Maior variabilidade
             item.get("cluster_tamanho", 1),  # Maiores clusters
         ),
@@ -338,12 +338,12 @@ def selecionar_pontos_para_rotular(
         ),
     }
 
-    # Seleção balanceada por quadrante
+    # SeleÃ§Ã£o balanceada por quadrante
     for nome_quadrante, itens in quadrantes.items():
         if not itens:
             continue
             
-        # Ordena por múltiplos critérios
+        # Ordena por mÃºltiplos critÃ©rios
         itens_ordenados = sorted(
             itens,
             key=ordenadores[nome_quadrante],
@@ -352,14 +352,14 @@ def selecionar_pontos_para_rotular(
         
         # Seleciona mais pontos em quadrantes mais populosos
         ajuste_max = max_por_quadrante
-        if len(itens) > 15:  # Quadrantes muito densos ganham mais rótulos
+        if len(itens) > 15:  # Quadrantes muito densos ganham mais rÃ³tulos
             ajuste_max = max_por_quadrante + 2
         elif len(itens) < 5:  # Quadrantes esparsos ganham menos
             ajuste_max = max(2, max_por_quadrante - 2)
             
         selecionados.extend(itens_ordenados[:ajuste_max])
 
-    # Se ainda tiver espaço, adiciona pontos importantes restantes
+    # Se ainda tiver espaÃ§o, adiciona pontos importantes restantes
     if len(selecionados) < limite_total:
         restantes = [
             item for item in dados if item not in selecionados
@@ -371,7 +371,7 @@ def selecionar_pontos_para_rotular(
             key=lambda item: (
                 item.get("cluster_tamanho", 1) * 2,  # Dobra peso para clusters
                 item["variabilidade_media"] * 1.5,  # 1.5x peso para variabilidade
-                item["delta_absoluto"],  # Mudanças temporais
+                item["delta_absoluto"],  # MudanÃ§as temporais
             ),
             reverse=True,
         )
@@ -483,7 +483,7 @@ def gerar_grafico_dispersao_temporal_ampliado() -> Optional[Path]:
     # Seleciona rotulos equilibrados por quadrante
     itens_rotulados = selecionar_pontos_para_rotular(dados_completos, limiar_x, limiar_y)
     
-    # Configuração expandida de offsets para melhor espaçamento - DISTÂNCIA AUMENTADA
+    # ConfiguraÃ§Ã£o expandida de offsets para melhor espaÃ§amento - DISTÃ‚NCIA AUMENTADA
     offset_config = {
         "Q1": [
             (60, 45), (-65, 48), (55, -35), (-58, -32), (45, 55), (-50, 55),
@@ -537,18 +537,18 @@ def gerar_grafico_dispersao_temporal_ampliado() -> Optional[Path]:
         ha = "left" if offset[0] >= 0 else "right"
         va = "bottom" if offset[1] >= 0 else "top"
 
-        # Ajuste fino baseado na posição para evitar bordas
-        if x_pos + offset[0]/100 > 4.8:  # Próximo da borda direita
+        # Ajuste fino baseado na posiÃ§Ã£o para evitar bordas
+        if x_pos + offset[0]/100 > 4.8:  # PrÃ³ximo da borda direita
             offset = (-abs(offset[0]), offset[1])
             ha = "right"
-        elif x_pos + offset[0]/100 < 1.2:  # Próximo da borda esquerda
+        elif x_pos + offset[0]/100 < 1.2:  # PrÃ³ximo da borda esquerda
             offset = (abs(offset[0]), offset[1])
             ha = "left"
             
-        if y_pos + offset[1]/100 > 4.8:  # Próximo da borda superior
+        if y_pos + offset[1]/100 > 4.8:  # PrÃ³ximo da borda superior
             offset = (offset[0], -abs(offset[1]))
             va = "top"
-        elif y_pos + offset[1]/100 < 1.2:  # Próximo da borda inferior
+        elif y_pos + offset[1]/100 < 1.2:  # PrÃ³ximo da borda inferior
             offset = (offset[0], abs(offset[1]))
             va = "bottom"
 
@@ -557,7 +557,7 @@ def gerar_grafico_dispersao_temporal_ampliado() -> Optional[Path]:
             (x_pos, y_pos),
             xytext=offset,
             textcoords="offset points",
-            fontsize=8.5,  # Fonte ligeiramente menor para caber mais rótulos
+            fontsize=9,  # Fonte ligeiramente menor para caber mais rÃ³tulos
             ha=ha,
             va=va,
             bbox=dict(
@@ -604,9 +604,9 @@ def gerar_grafico_dispersao_temporal_ampliado() -> Optional[Path]:
         loc="upper left",
         bbox_to_anchor=(1.02, 0.78),
         framealpha=0.95,
-        fontsize=11,
+        fontsize=8,
         title="Quadrantes",
-        title_fontsize=12,
+        title_fontsize=9,
     )
     ax.add_artist(legenda_quadrantes)
 
@@ -874,3 +874,4 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+

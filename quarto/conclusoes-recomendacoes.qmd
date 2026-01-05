@@ -2,6 +2,8 @@
 title: "Conclusões e Recomendações"
 ---
 
+
+
 A presente análise de riscos portuários, baseada em pesquisa com 125 gestores do setor brasileiro, revela um cenário complexo e dinâmico que exige ações coordenadas e imediatas. Os achados demonstram a interconexão crítica entre diferentes dimensões de risco, com implicações diretas para a competitividade e sustentabilidade do setor portuário nacional.
 
 ## Síntese dos Achados
@@ -23,7 +25,7 @@ Criar célula integrada para monitoramento conjunto de instabilidade política, 
 - Centro de monitoramento conjunto entre autoridades portuárias, ANTAQ e representantes do setor privado
 - Inventário completo de ativos críticos e vulnerabilidades associadas
 - Desenvolvimento de playbooks de resposta rápida para cenários de crise
-- Mecanismos de diálogo permanente com órgãos reguladores e legislativos
+- Mecanismos de diálogo permanente com órgãos reguladores e legislativos.
 
 ### 2. Plano de Adaptação Climática Portuária (Médio Prazo - 2026-2027)
 
@@ -32,7 +34,7 @@ Priorizar obras resilientes e protocolos para eventos extremos nas áreas com ma
 - Infraestrutura de proteção contra aumento do nível do mar e eventos climáticos extremos
 - Sistemas de gestão de resíduos perigosos e controle de agentes patogênicos
 - Planos de evacuação e contingência para comunidades portuárias
-- Formação de equipes multidisciplinares para resposta a incidentes ambientais
+- Formação de equipes multidisciplinares para resposta a incidentes ambientais.
 
 ### 3. Resiliência Digital e Capital Humano (Longo Prazo - até 2035)
 
@@ -41,7 +43,7 @@ Acelerar redundâncias tecnológicas e programas de qualificação, contemplando
 - Plataforma de dados compartilhada entre todos os atores portuários
 - Investimentos em sistemas de backup e recuperação de desastres digitais
 - Programas massivos de capacitação tecnológica para força de trabalho
-- Revisão regulatória baseada em risco e fundos de adaptação climática
+- Revisão regulatória baseada em risco e fundos de adaptação climática.
 
 ## Ações recomendadas
 
@@ -56,3 +58,10 @@ Acelerar redundâncias tecnológicas e programas de qualificação, contemplando
 - **Integrar análise de riscos ao planejamento estratégico** de cada autoridade portuária, garantindo que as decisões de investimento e expansão considerem sistematicamente as vulnerabilidades identificadas.
 
 A análise revela que os portos brasileiros enfrentam uma encruzilhada crítica: a necessidade de modernização e expansão convive com riscos crescentes e interconectados. O sucesso na navegação deste cenário dependerá da capacidade de coordenar ações entre diferentes dimensões, antecipar mudanças e construir resiliência sistêmica. As recomendações apresentadas oferecem um roteiro prático para transformar os desafios identificados em oportunidades de fortalecimento do setor portuário nacional.
+
+::: {.content-visible when-format="docx"}
+```{=openxml}
+<w:p><w:r><w:br w:type="page"/></w:r></w:p>
+```
+:::
+

@@ -16,7 +16,16 @@ import numpy as np
 import pandas as pd
 import seaborn as sns
 
-from analise_likert_riscos import AnalisadorRiscosLikert
+from analise_likert_riscos import AnalisadorRiscosLikert, formatar_decimal_br
+
+# Configurar locale brasileiro para formatação de números com vírgula
+try:
+    import locale
+    locale.setlocale(locale.LC_NUMERIC, 'pt_BR.UTF-8')
+    plt.rcParams['axes.formatter.use_locale'] = True
+except (locale.Error, AttributeError):
+    # Fallback caso não seja possível configurar locale
+    plt.rcParams['axes.formatter.use_locale'] = False
 
 # Configuracao de cores por dimensao
 CORES_DIMENSAO = {
@@ -76,8 +85,6 @@ def gerar_label_sucinto_dispersao(nome_variavel: str) -> str:
                     palavras_chave.append(palavra)
             
             sucinto = ' '.join(palavras_chave)
-            if len(palavras) > len(palavras_chave):
-                sucinto += '...'
         
         return f"{numero} - {sucinto}"
     
@@ -323,9 +330,9 @@ def gerar_analise_estatistica_dispersao(dados_filtrados: List[Dict]):
     
     print(f"\nESTATÍSTICAS GERAIS:")
     print(f"Total de variáveis analisadas: {len(dados_filtrados)}")
-    print(f"Mediana curto prazo - Média: {np.mean(x_vals):.2f} | Desvio: {np.std(x_vals):.2f}")
-    print(f"Mediana longo prazo - Média: {np.mean(y_vals):.2f} | Desvio: {np.std(y_vals):.2f}")
-    print(f"Delta temporal médio: {np.mean(deltas):.2f}")
+    print(f"Mediana curto prazo - Média: {formatar_decimal_br(np.mean(x_vals), 2)} | Desvio: {formatar_decimal_br(np.std(x_vals), 2)}")
+    print(f"Mediana longo prazo - Média: {formatar_decimal_br(np.mean(y_vals), 2)} | Desvio: {formatar_decimal_br(np.std(y_vals), 2)}")
+    print(f"Delta temporal médio: {formatar_decimal_br(np.mean(deltas), 2)}")
     
     # Análise por dimensão
     analise_dimensoes = {}
@@ -356,9 +363,9 @@ def gerar_analise_estatistica_dispersao(dados_filtrados: List[Dict]):
         
         print(f"\n{NOMES_DIMENSAO[dimensao]}:")
         print(f"  Quantidade: {dados['count']} riscos")
-        print(f"  Média curto prazo: {media_x:.2f}")
-        print(f"  Média longo prazo: {media_y:.2f}")
-        print(f"  Delta médio: {media_delta:.2f}")
+        print(f"  Média curto prazo: {formatar_decimal_br(media_x, 2)}")
+        print(f"  Média longo prazo: {formatar_decimal_br(media_y, 2)}")
+        print(f"  Delta médio: {formatar_decimal_br(media_delta, 2)}")
         
         # Classificar tendência
         if media_delta > 0.5:
@@ -376,7 +383,7 @@ def gerar_analise_estatistica_dispersao(dados_filtrados: List[Dict]):
         riscos_ordenados = sorted(dados['riscos'], key=lambda x: x['variabilidade_media'], reverse=True)
         print(f"  Top 3 por variabilidade:")
         for i, risco in enumerate(riscos_ordenados[:3], 1):
-            print(f"    {i}. {risco['label']}: Δ={risco['delta_temporal']:.2f}")
+            print(f"    {i}. {risco['label']}: Δ={formatar_decimal_br(risco['delta_temporal'], 2)}")
     
     # Análise dos quadrantes
     print(f"\nANÁLISE DOS QUADRANTES:")
@@ -410,14 +417,14 @@ def gerar_analise_estatistica_dispersao(dados_filtrados: List[Dict]):
     if q2:
         top_q2 = sorted(q2, key=lambda x: x['delta_temporal'], reverse=True)[:3]
         for i, risco in enumerate(top_q2, 1):
-            print(f"  {i}. {risco['label']} ({risco['nome_dimensao']}) - Δ={risco['delta_temporal']:.2f}")
+            print(f"  {i}. {risco['label']} ({risco['nome_dimensao']}) - Δ={formatar_decimal_br(risco['delta_temporal'], 2)}")
     
     print(f"\nQ3 - Riscos Controlados (Baixo-Baixo): {len(q3)} variáveis")
     print(f"\nQ4 - Riscos em Melhoria (Alto-Baixo): {len(q4)} variáveis")
     if q4:
         top_q4 = sorted(q4, key=lambda x: -x['delta_temporal'], reverse=True)[:3]
         for i, risco in enumerate(top_q4, 1):
-            print(f"  {i}. {risco['label']} ({risco['nome_dimensao']}) - Δ={risco['delta_temporal']:.2f}")
+            print(f"  {i}. {risco['label']} ({risco['nome_dimensao']}) - Δ={formatar_decimal_br(risco['delta_temporal'], 2)}")
     
     # Correlação geral
     if len(x_vals) > 1 and len(y_vals) > 1:

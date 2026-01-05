@@ -3,7 +3,7 @@ RELATÓRIO CONSOLIDADO DE ANÁLISE DE RISCOS PORTUÁRIOS
 
 SUMÁRIO EXECUTIVO
 --------------------
-Data da análise: 06/11/2025 21:24:56
+Data da análise: 11/11/2025 16:58:26
 Total de respondentes: 125
 Dimensões analisadas: 5
 
@@ -12,12 +12,12 @@ COMPARAÇÃO ENTRE DIMENSÕES
 
 Economica:
   Mediana geral: 3.00
-  Percentual médio risco alto: 38.4%
-  Total de riscos críticos: 8
+  Percentual médio risco alto: 38.1%
+  Total de riscos críticos: 9
 
 Ambiental:
   Mediana geral: 2.00
-  Percentual médio risco alto: 27.7%
+  Percentual médio risco alto: 28.2%
   Total de riscos críticos: 1
 
 Geopolitica:
@@ -27,7 +27,7 @@ Geopolitica:
 
 Social:
   Mediana geral: 3.00
-  Percentual médio risco alto: 28.2%
+  Percentual médio risco alto: 29.5%
   Total de riscos críticos: 0
 
 Tecnologica:

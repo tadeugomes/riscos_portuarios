@@ -7,15 +7,15 @@ language:
     fig: "Figura"
 
 book:
-  title: "Analise de Riscos Portuarios"
-  author: "Equipe de Pesquisa"
+  title: "Análise de Riscos Portuários"
+  author: "ANTAQ/UFMA"
   date: today
   chapters:
     - index.qmd
     - sumario-executivo.qmd
     - prefacio.qmd
-    - equipe.qmd
     - metodologia.qmd
+    - riscos-globais-portuarios.qmd
     - interconexao-riscos.qmd
     - economic.qmd
     - ambiental.qmd
@@ -23,6 +23,8 @@ book:
     - social.qmd
     - tecnologico.qmd
     - conclusoes-recomendacoes.qmd
+    - referencias.qmd
+    - glossario.qmd
     - apendices.qmd
   page-navigation: true
 
