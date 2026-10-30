@@ -317,11 +317,6 @@ def main():
         h.set_info(title="Revisão LabPortos", subject=f"Emenda {i}",
                    content=f"PROBLEMA: {e['motivo']}\n\nTEXTO CORRIGIDO:\n{novo}")
         h.update()
-        n = page.add_text_annot(fitz.Point(548, area.y0 + 2), f"Emenda {i}: {e['motivo']}\n\nTEXTO CORRIGIDO:\n{novo}",
-                                icon="Comment")
-        n.set_colors(stroke=amarelo)
-        n.set_info(title="Revisão LabPortos", subject=f"Emenda {i}")
-        n.update()
     for s in SINALIZACOES:
         page = prova[s["pag"] - 1]
         area = fitz.Rect(s["area"])
@@ -342,9 +337,6 @@ def main():
         a.set_border(width=1.5)
         a.set_info(title="Revisão LabPortos", subject="Figura substituída", content=im["motivo"])
         a.update()
-        n = page.add_text_annot(fitz.Point(548, r.y0 + 2), "FIGURA: " + im["motivo"], icon="Comment")
-        n.set_colors(stroke=vermelho)
-        n.update()
     capa = prova[0]
     resumo = (f"PROVA DE REVISÃO (30/10/2026). {len(esperados)} emendas de texto (amarelo), "
               f"{len(IMAGENS)} figuras substituídas (vermelho)"
