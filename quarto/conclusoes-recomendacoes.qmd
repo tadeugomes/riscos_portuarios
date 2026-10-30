@@ -8,13 +8,13 @@ A presente análise de riscos portuários, baseada em pesquisa com 125 gestores 
 
 ## Síntese dos Achados
 
-- **Seis riscos imediatos críticos** foram identificados com percepção acima de 40% em níveis altos (4-5), concentrados em instabilidade política (50,4%), excesso regulatório (46,4%), aumento de impostos (45,6%), conflitos geoeconômicos (46,4%), disrupções em infraestruturas críticas digitais (44,8%) e falhas em cadeias de suprimentos (40,0%).
+- **Nove riscos imediatos críticos** foram identificados com pelo menos 40% das respostas em níveis altos (4-5): instabilidade política (50,4%), excesso regulatório e conflitos geoeconômicos (46,4% cada), aumento de impostos e corrupção (45,6% cada), disrupções em infraestruturas críticas (44,8%), falta de segurança computacional e escassez de mão de obra em tecnologia (41,6% cada) e falhas em cadeias de suprimentos (40,0%).
 
-- **Cronicidade elevada dos riscos**: 73,7% das variáveis analisadas permanecem crônicas em curto e longo prazo, indicando que a maioria dos desafios identificados não é transitória, mas sim estrutural e persistente.
+- **Cronicidade elevada dos riscos**: 73,7% das variáveis (56 de 76) permanecem crônicas em curto e longo prazo, indicando que a maioria dos desafios identificados não é transitória, mas sim estrutural e persistente.
 
-- **Divergência temporal preocupante**: A dimensão ambiental apresenta a maior piora temporal (+0,56), enquanto a tecnológica mantém estabilidade (delta 0,00), expondo uma lacuna crítica entre pressão climática crescente e maturidade digital insuficiente.
+- **Divergência temporal preocupante**: As dimensões geopolítica (+0,57) e ambiental (+0,53) apresentam a maior piora temporal, enquanto a tecnológica tem apenas leve alta (delta +0,19), expondo uma lacuna crítica entre pressão climática crescente e maturidade digital insuficiente.
 
-- **Concentração econômica de riscos**: Treze dos vinte maiores riscos imediatos pertencem à dimensão econômica, com média de 39% das respostas em níveis altos, configurando um cenário de vulnerabilidade sistêmica.
+- **Concentração econômica de riscos**: Doze dos vinte maiores riscos imediatos são econômicos, com média de 40,3% das respostas em níveis altos, configurando um cenário de vulnerabilidade sistêmica.
 
 ## Recomendações Prioritárias
 

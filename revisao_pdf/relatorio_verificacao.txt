@@ -1,0 +1,177 @@
+Fonte: RELATORIO DE RISCO GLOBAL COMPLETO-DIGITAL.pdf
+Corrigido: RELATORIO DE RISCO GLOBAL COMPLETO-DIGITAL - CORRIGIDO.pdf
+Prova: RELATORIO DE RISCO GLOBAL COMPLETO-DIGITAL - PROVA.pdf
+Emendas: 36 | Figuras: 2 | Sinalizações: 3
+Glifos: cada caractere novo foi renderizado na fonte embutida da sua sequência (sem falhas).
+Espaço: nenhuma composição ultrapassou o limite declarado da sua área.
+
+   E25 p.47: 3 faixa(s) de título removida(s) e 3 redesenhada(s)
+   E26 p.48: 2 faixa(s) de título removida(s) e 3 redesenhada(s)
+ToUnicode do hífen corrigido em 5 fontes inseridas
+OK p.22: 36 linhas fora das áreas emendadas idênticas ao original
+OK p.34: 7 linhas fora das áreas emendadas idênticas ao original
+OK p.35: 55 linhas fora das áreas emendadas idênticas ao original
+OK p.38: 11 linhas fora das áreas emendadas idênticas ao original
+OK p.39: 14 linhas fora das áreas emendadas idênticas ao original
+OK p.40: 50 linhas fora das áreas emendadas idênticas ao original
+OK p.42: 56 linhas fora das áreas emendadas idênticas ao original
+OK p.44: 8 linhas fora das áreas emendadas idênticas ao original
+OK p.45: 10 linhas fora das áreas emendadas idênticas ao original
+OK p.46: 6 linhas fora das áreas emendadas idênticas ao original
+OK p.47: 4 linhas fora das áreas emendadas idênticas ao original
+OK p.48: 4 linhas fora das áreas emendadas idênticas ao original
+OK p.53: 11 linhas fora das áreas emendadas idênticas ao original
+OK p.54: 29 linhas fora das áreas emendadas idênticas ao original
+OK p.82: 32 linhas fora das áreas emendadas idênticas ao original
+OK p.106: 28 linhas fora das áreas emendadas idênticas ao original
+OK p.142: 32 linhas fora das áreas emendadas idênticas ao original
+OK p.162: 17 linhas fora das áreas emendadas idênticas ao original
+OK p.163: 26 linhas fora das áreas emendadas idênticas ao original
+OK E01 p.22: texto extraído = texto composto (221 caracteres)
+   número '76 pares' = n_pares_temporais -> [76] conferido
+OK E02 p.34: texto extraído = texto composto (196 caracteres)
+   número '9 riscos' = n_criticos_imediatos_ge40 -> [9] conferido
+OK E03 p.34: texto extraído = texto composto (258 caracteres)
+   número '73,7%' = pct_cronicos -> [73.7] conferido
+   número '56 de 76' = quadrantes.cronicos -> [56] conferido
+   número '+0,57' = por_dimensao.Geopolítica.delta_medio -> [0.57] conferido
+   número '+0,53' = por_dimensao.Ambiental.delta_medio -> [0.53] conferido
+   número '+0,19' = por_dimensao.Tecnológica.delta_medio -> [0.19] conferido
+OK E04 p.34: texto extraído = texto composto (275 caracteres)
+   número '(0,00)' = por_dimensao.Econômica.delta_medio -> [0.0] conferido
+   número '12 dos 20' = top20.economicos -> [12] conferido
+   número '40,3%' = top20.media_economicos -> [40.3] conferido
+OK E05 p.34: texto extraído = texto composto (137 caracteres)
+   número '+0,53' = por_dimensao.Ambiental.delta_medio -> [0.53] conferido
+   número 'nove variáveis' = por_dimensao.Ambiental.pioras_1 -> [9] conferido
+OK E06 p.34: texto extraído = texto composto (361 caracteres)
+   número '+0,57' = por_dimensao.Geopolítica.delta_medio -> [0.57] conferido
+OK E07 p.34: texto extraído = texto composto (409 caracteres)
+   número '+0,07' = por_dimensao.Social.delta_medio -> [0.07] conferido
+OK E08 p.34: texto extraído = texto composto (190 caracteres)
+   número '+0,19' = por_dimensao.Tecnológica.delta_medio -> [0.19] conferido
+   número '41,6%' = pct.5.4 -> [41.6] conferido
+OK E09 p.35: texto extraído = texto composto (43 caracteres)
+   número '12/20' = top20.economicos -> [12] conferido
+OK E10 p.35: texto extraído = texto composto (39 caracteres)
+   número '0,00' = por_dimensao.Econômica.delta_medio -> [0.0] conferido
+OK E11 p.35: texto extraído = texto composto (46 caracteres)
+   número '+0,53' = por_dimensao.Ambiental.delta_medio -> [0.53] conferido
+   número '9 variáveis' = por_dimensao.Ambiental.pioras_1 -> [9] conferido
+OK E12 p.35: texto extraído = texto composto (49 caracteres)
+   número '+0,57' = por_dimensao.Geopolítica.delta_medio -> [0.57] conferido
+OK E13 p.35: texto extraído = texto composto (46 caracteres)
+   número '+0,07' = por_dimensao.Social.delta_medio -> [0.07] conferido
+OK E14 p.35: texto extraído = texto composto (45 caracteres)
+   número '41,6%' = pct.5.4 -> [41.6] conferido
+OK E15 p.35: texto extraído = texto composto (50 caracteres)
+   número '+0,19' = por_dimensao.Tecnológica.delta_medio -> [0.19] conferido
+OK E16 p.38: texto extraído = texto composto (501 caracteres)
+   número '9 riscos críticos' = n_criticos_imediatos_ge40 -> [9] conferido
+   número '50,4%' = pct.1.15 -> [50.4] conferido
+   número '46,4%' = pct.1.16 -> [46.4] conferido
+   número '45,6%' = pct.1.14 -> [45.6] conferido
+   número '44,8%' = pct.1.7 -> [44.8] conferido
+   número '41,6%' = pct.5.16 -> [41.6] conferido
+   número '40,0%' = pct.1.6 -> [40.0] conferido
+OK E17 p.39: texto extraído = texto composto (144 caracteres)
+   número '12' = top20.economicos -> [12] conferido
+   número '40,3%' = top20.media_economicos -> [40.3] conferido
+OK E18 p.40: texto extraído = texto composto (119 caracteres)
+   número '14 riscos' = curto_ge40.total -> [14] conferido
+   número '10 econômicos' = curto_ge40.Econômica -> [10] conferido
+   número '3 tecnológicos' = curto_ge40.Tecnológica -> [3] conferido
+   número '1 geopolítico' = curto_ge40.Geopolítica -> [1] conferido
+OK E19 p.42: texto extraído = texto composto (145 caracteres)
+   número '31 riscos' = longo_ge40.total -> [31] conferido
+   número '13 econômicos' = longo_ge40.Econômica -> [13] conferido
+   número '6 tecnológicos' = longo_ge40.Tecnológica -> [6] conferido
+   número '5 ambientais' = longo_ge40.Ambiental -> [5] conferido
+   número '4 sociais' = longo_ge40.Social -> [4] conferido
+   número '3 geopolíticos' = longo_ge40.Geopolítica -> [3] conferido
+OK E20 p.44: texto extraído = texto composto (337 caracteres)
+   número '0,57' = correlacao_medianas -> [0.57] conferido
+   número '+0,22' = delta_medio_geral -> [0.22] conferido
+   número '73,7%' = pct_cronicos -> [73.7] conferido
+   número '56 das 76' = quadrantes.cronicos -> [56] conferido
+OK E21 p.45: texto extraído = texto composto (194 caracteres)
+   número '56 variáveis' = quadrantes.cronicos -> [56] conferido
+   número '16 variáveis' = quadrantes.emergentes -> [16] conferido
+OK E22 p.45: texto extraído = texto composto (413 caracteres)
+   número '+0,53' = por_dimensao.Ambiental.delta_medio -> [0.53] conferido
+   número '9 variáveis' = por_dimensao.Ambiental.pioras_1 -> [9] conferido
+   número '0,00' = por_dimensao.Econômica.delta_medio -> [0.0] conferido
+   número '+0,57' = por_dimensao.Geopolítica.delta_medio -> [0.57] conferido
+   número '4 variáveis' = por_dimensao.Geopolítica.pioras_1 -> [4] conferido
+   número '+0,07' = por_dimensao.Social.delta_medio -> [0.07] conferido
+   número '+0,19' = por_dimensao.Tecnológica.delta_medio -> [0.19] conferido
+   número '3 variáveis' = por_dimensao.Tecnológica.pioras_1 -> [3] conferido
+OK E23 p.46: texto extraído = texto composto (259 caracteres)
+OK E24 p.46: texto extraído = texto composto (269 caracteres)
+   número '23 variáveis' = grafico9_n -> [23] conferido
+OK E25 p.47: texto extraído = texto composto (1548 caracteres)
+   número '(17 variáveis)' = por_dimensao.Ambiental.n -> [17] conferido
+   número '(21 variáveis)' = por_dimensao.Econômica.n -> [21] conferido
+   número '(7 variáveis)' = por_dimensao.Geopolítica.n -> [7] conferido
+   número '(15 variáveis)' = por_dimensao.Social.n -> [15] conferido
+   número '(16 variáveis)' = por_dimensao.Tecnológica.n -> [16] conferido
+   número '18 variáveis' = n_pioras_1 -> [18] conferido
+   número '(9 variáveis)' = por_dimensao.Ambiental.pioras_1 -> [9] conferido
+   número '(4 variáveis)' = por_dimensao.Geopolítica.pioras_1 -> [4] conferido
+   número '(3 variáveis)' = por_dimensao.Tecnológica.pioras_1 -> [3] conferido
+   número '57 variáveis' = estaveis -> [57] conferido
+   número '53 em níveis' = subconjunto_mediana_curto_ge3.estaveis -> [53] conferido
+   número '13 de 16' = por_dimensao.Tecnológica.estaveis -> [13] conferido
+   número '14 de 15' = por_dimensao.Social.estaveis -> [14] conferido
+   número '56 variáveis' = subconjunto_mediana_curto_ge3.n -> [56] conferido
+   número '(73,7% do total)' = subconjunto_mediana_curto_ge3.pct -> [73.7] conferido
+   número '0,02' = subconjunto_mediana_curto_ge3.delta_medio -> [0.02] conferido
+   número '0,23' = subconjunto_mediana_curto_ge3.desvio -> [0.23] conferido
+   número 'piora: 2' = subconjunto_mediana_curto_ge3.pioras -> [2] conferido
+   número 'melhoria: 1' = subconjunto_mediana_curto_ge3.melhorias -> [1] conferido
+   número 'estáveis: 53' = subconjunto_mediana_curto_ge3.estaveis -> [53] conferido
+OK E26 p.48: texto extraído = texto composto (1466 caracteres)
+   número '53 variáveis' = subconjunto_mediana_curto_ge3.estaveis -> [53] conferido
+   número '19 variáveis' = subconjunto_mediana_curto_ge3.estaveis_por_dim.Econômica -> [19] conferido
+   número '(11 e 13)' = subconjunto_mediana_curto_ge3.estaveis_por_dim.Social|Tecnológica -> [11, 13] conferido
+   número '7 variáveis' = subconjunto_mediana_curto_ge3.estaveis_por_dim.Ambiental -> [7] conferido
+   número '3 variáveis' = subconjunto_mediana_curto_ge3.estaveis_por_dim.Geopolítica -> [3] conferido
+   número '95%' = subconjunto_mediana_curto_ge3.pct_estaveis -> [94.6] conferido
+OK E27 p.53: texto extraído = texto composto (71 caracteres)
+   número '21 variáveis' = eco_media_curto_gt25 -> [21] conferido
+OK E28 p.54: texto extraído = texto composto (60 caracteres)
+   número '0,00' = por_dimensao.Econômica.delta_medio -> [0.0] conferido
+OK E29 p.54: texto extraído = texto composto (90 caracteres)
+OK E30 p.82: texto extraído = texto composto (69 caracteres)
+   número '+0,53' = por_dimensao.Ambiental.delta_medio -> [0.53] conferido
+   número '+0,57' = por_dimensao.Geopolítica.delta_medio -> [0.57] conferido
+OK E31 p.82: texto extraído = texto composto (93 caracteres)
+OK E32 p.106: texto extraído = texto composto (162 caracteres)
+   número '+0,57' = por_dimensao.Geopolítica.delta_medio -> [0.57] conferido
+   número '4 variáveis' = por_dimensao.Geopolítica.pioras_1 -> [4] conferido
+OK E33 p.142: texto extraído = texto composto (258 caracteres)
+   número '+0,19' = por_dimensao.Tecnológica.delta_medio -> [0.19] conferido
+   número '3 variáveis' = por_dimensao.Tecnológica.pioras_1 -> [3] conferido
+OK E34 p.162: texto extraído = texto composto (1923 caracteres)
+   número 'Nove riscos' = n_criticos_imediatos_ge40 -> [9] conferido
+   número '50,4%' = pct.1.15 -> [50.4] conferido
+   número '46,4%' = pct.3.3 -> [46.4] conferido
+   número '45,6%' = pct.1.19 -> [45.6] conferido
+   número '44,8%' = pct.1.7 -> [44.8] conferido
+   número '41,6%' = pct.5.4 -> [41.6] conferido
+   número '40,0%' = pct.1.6 -> [40.0] conferido
+   número '73,7%' = pct_cronicos -> [73.7] conferido
+   número '56 de 76' = quadrantes.cronicos -> [56] conferido
+   número '+0,57' = por_dimensao.Geopolítica.delta_medio -> [0.57] conferido
+   número '+0,53' = por_dimensao.Ambiental.delta_medio -> [0.53] conferido
+   número '+0,19' = por_dimensao.Tecnológica.delta_medio -> [0.19] conferido
+   número 'Doze' = top20.economicos -> [12] conferido
+   número '40,3%' = top20.media_economicos -> [40.3] conferido
+OK E35 p.163: texto extraído = texto composto (370 caracteres)
+   número '+0,19' = por_dimensao.Tecnológica.delta_medio -> [0.19] conferido
+   número '+0,53' = por_dimensao.Ambiental.delta_medio -> [0.53] conferido
+OK E36 p.163: texto extraído = texto composto (353 caracteres)
+   número '73,7%' = pct_cronicos -> [73.7] conferido
+   número '56 de 76' = quadrantes.cronicos -> [56] conferido
+OK p.45: imagem substituída (2 imagem(ns) na página)
+OK p.46: imagem substituída (2 imagem(ns) na página)

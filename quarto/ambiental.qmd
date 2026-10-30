@@ -42,13 +42,13 @@ A análise temporal dos riscos ambientais revela o padrão mais preocupante entr
 
 #### Piora Ambiental Significativa
 
--   **Delta médio de +0,56**: Maior piora entre todas as dimensões
+-   **Delta médio de +0,53**: Segunda maior piora, após a geopolítica (+0,57)
 -   **9 variáveis com piora crítica (+1.0 ponto)**: Mudanças climáticas, aumento do nível do mar, poluição, espécies exóticas, resíduos, desmatamento, ruídos, patógenos, produtos perigosos
 -   **Tendência de deterioração acelerada**: A maioria dos riscos ambientais mostra piora progressiva.
 
 #### Padrões Específicos Identificados
 
--   **Mudanças Climáticas como Principal Risco**: Evolui de mediana 2.0 para 4.0, tornando-se crítica
+-   **Mudanças Climáticas como Principal Risco**: Evolui de mediana 3,0 para 4,0, tornando-se crítica
 -   **Riscos Costeiros em Ascensão**: Aumento do nível do mar e erosão costeira mostram piora significativa
 -   **Pressão Regulatória Crescente**: Licenciamento ambiental e descarbonização tornam-se mais críticos.
 

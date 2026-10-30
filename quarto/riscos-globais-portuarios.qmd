@@ -301,23 +301,23 @@ table tbody tr:last-child {
 
 ## Destaques estratégicos
 
--   Os participantes da pesquisa confirmam 6 riscos imediatos críticos (percepção acima de 40% em níveis 4-5), concentrados em instabilidade política, excesso regulatório e conflitos geoeconômicos.
+-   Os participantes da pesquisa apontam 9 riscos imediatos críticos (pelo menos 40% das respostas nos níveis 4-5), liderados por instabilidade política, excesso regulatório e conflitos geoeconômicos.
 
--   73,7% das variáveis permanecem crônicas em curto e longo prazo;
+-   73,7% das variáveis (56 de 76) permanecem crônicas em curto e longo prazo;
 
--   Ambiental lidera a piora temporal (+0,56) enquanto Tecnologia mantém estabilidade (delta 0,00), expondo uma lacuna entre pressão climática crescente e maturidade digital.
+-   Geopolítica (+0,57) e Ambiental (+0,53) lideram a piora temporal, enquanto Tecnologia tem leve alta (+0,19), expondo uma lacuna entre pressão climática crescente e maturidade digital.
 
 ## Visão geral por dimensão
 
--   **Econômica:** 13 dos 20 riscos imediatos pertencem a esta dimensão, com média de 39% das respostas em níveis altos; o delta temporal (-0,05) indica estabilidade na percepção sobre a dimensão.
+-   **Econômica:** 12 dos 20 riscos imediatos com maior avaliação pertencem a esta dimensão, com média de 40,3% das respostas em níveis altos; o delta temporal (0,00) indica estabilidade na percepção sobre a dimensão.
 
--   **Ambiental:** Maior aumento médio (+0,56) e cinco variáveis com salto de +1,0 ponto, puxadas por eventos climáticos extremos e gestão de resíduos.
+-   **Ambiental:** Aumento médio de +0,53 e nove variáveis com salto de +1,0 ponto, puxadas por eventos climáticos extremos e gestão de resíduos.
 
--   **Geopolítica:** Menos variáveis, com concentração elevada em conflitos geoeconômicos e biológicos; delta +0,40 aponta reforço da pressão externa.
+-   **Geopolítica:** Menos variáveis, com concentração elevada em conflitos geoeconômicos e biológicos; delta +0,57, o maior entre as dimensões, aponta reforço da pressão externa.
 
--   **Social:** Riscos de direitos humanos e pressões trabalhistas permanecem moderados, mas com leve alta (+0,08) e dependem de ações coordenadas com capacitação.
+-   **Social:** Riscos de direitos humanos e pressões trabalhistas permanecem moderados, mas com leve alta (+0,07) e dependem de ações coordenadas com capacitação.
 
--   **Tecnológica:** Disrupções em infraestruturas críticas digitais aparecem entre os seis riscos prioritários, embora a trajetória temporal esteja estável (delta 0,00).
+-   **Tecnológica:** Falta de segurança computacional e escassez de mão de obra qualificada em tecnologia (41,6% cada) estão entre os nove riscos prioritários, com leve piora temporal (delta +0,19).
 
 ## Principais indicadores
 
@@ -325,11 +325,11 @@ table tbody tr:last-child {
 
 | **Dimensão** | **Indicadores-chave** | **Situação Atual** | **Tendência** |
 |------------------|------------------|------------------|------------------|
-| **Econômica** | 13/20 maiores riscos imediatos; médias \>2,5 | Instabilidade política, excesso regulatório e impostos concentram \>45% em níveis altos | Estável em patamar crítico (delta -0,05) |
-| **Ambiental** | Delta médio +0,56; 5 variáveis pioram +1 ponto | Eventos climáticos, resíduos e biodiversidade em escalada | Tendência de piora acelerada e entrada em Quadrante 2 |
-| **Geopolítica** | Conflitos geoeconômicos \>46% em níveis altos | Pressões externas persistem mesmo com poucas variáveis | Piora moderada (delta +0,40) e alta interdependência |
-| **Social** | Direitos humanos e segurança do trabalho | Risco moderado com percepções acima de 3,0 | Leve alta (+0,08) mantendo vigilância contínua |
-| **Tecnológica** | Disrupções digitais 44,8% em níveis altos | Dependência crescente de ativos digitais críticos | Estabilidade (delta 0,00) mas com vulnerabilidade latente |
+| **Econômica** | 12/20 maiores riscos imediatos; médias \>2,5 | Instabilidade política, excesso regulatório e impostos concentram \>45% em níveis altos | Estável em patamar crítico (delta 0,00) |
+| **Ambiental** | Delta médio +0,53; 9 variáveis pioram +1 ponto | Eventos climáticos, resíduos e biodiversidade em escalada | Tendência de piora acelerada e entrada em Quadrante 2 |
+| **Geopolítica** | Conflitos geoeconômicos \>46% em níveis altos | Pressões externas persistem mesmo com poucas variáveis | Maior piora (delta +0,57) e alta interdependência |
+| **Social** | Direitos humanos e segurança do trabalho | Risco moderado com percepções acima de 3,0 | Leve alta (+0,07) mantendo vigilância contínua |
+| **Tecnológica** | Segurança computacional 41,6% em níveis altos | Dependência crescente de ativos digitais críticos | Leve piora (delta +0,19) e vulnerabilidade latente |
 
 *Fonte: elaboração própria*
 

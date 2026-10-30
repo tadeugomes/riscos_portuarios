@@ -157,7 +157,7 @@ A abordagem metodológica adotada segue as melhores práticas para análise de d
 
 ### Análise Estatística de Dispersão Temporal
 
-Para avaliar a evolução percebida dos riscos entre horizontes temporais, foi estruturado um pipeline estatístico de dispersão com manutenção integral dos 57 pares curto vs. longo prazo.
+Para avaliar a evolução percebida dos riscos entre horizontes temporais, foi estruturado um pipeline estatístico de dispersão com os 76 pares de comparação entre curto e longo prazo, um para cada variável do questionário.
 
 #### Metodologia de Correspondência Temporal
 

@@ -36,8 +36,8 @@ A análise temporal dos riscos tecnológicos revela padrões de evolução digit
 
 #### Piora Tecnológica Controlada
 
--   **Delta médio de +0,20**: Piora moderada em comparação com outras dimensões
--   **1 variável com piora crítica (+1.0 ponto)**: Ataques cibernéticos e ransomware
+-   **Delta médio de +0,19**: Piora moderada em comparação com outras dimensões
+-   **3 variáveis com piora crítica (+1,0 ponto)**: Consequências adversas de tecnologias avançadas, práticas de censura e vigilância adversa e riscos associados à introdução de navios autônomos
 -   **Tendência de deterioração gradual**: A maioria dos riscos mostra piora progressiva.
 
 #### Padrões Específicos Identificados

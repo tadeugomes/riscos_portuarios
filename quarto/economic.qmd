@@ -29,7 +29,7 @@ Os riscos econômicos foram avaliados em três horizontes temporais:
 
 ![Evolução Temporal dos Riscos Econômicos](assets/slopegraphs_por_dimensao/slopegraph_econômica.png){#fig-slopegraph-economicos}
 
-A dimensão econômica apresenta 19 variáveis com médias superiores a 2.5 no curto prazo, demonstrando a preocupação significativa com fatores financeiros e de mercado. Os slopegraphs revelam as trajetórias individuais de cada risco econômico, permitindo identificar quais tendências apresentam maior ou menor resiliência temporal.
+A dimensão econômica apresenta 21 variáveis com médias superiores a 2,5 no curto prazo, demonstrando a preocupação significativa com fatores financeiros e de mercado. Os slopegraphs revelam as trajetórias individuais de cada risco econômico, permitindo identificar quais tendências apresentam maior ou menor resiliência temporal.
 
 ### Insights da Análise Temporal Econômica
 
@@ -37,14 +37,14 @@ A análise temporal dos riscos econômicos revela padrões distintos em compara�
 
 #### Estabilidade Relativa dos Riscos Econômicos
 
-- **Delta médio de -0,05**: Única dimensão com melhoria média percebida
+- **Delta médio de 0,00**: Menor variação média entre as dimensões
 - **19 variáveis estáveis**: A maioria dos riscos mantém-se constante entre períodos
 - **Ausência de volatilidade extrema**: Mudanças limitadas a ±1.0 ponto na maioria dos casos.
 
 #### Padrões Específicos Identificados
 
 - **Riscos Crônicos Elevados**: Instabilidade política, excesso regulatório e aumento de impostos mantêm-se persistentemente altos
-- **Melhoria Significativa**: Falhas em infraestruturas críticas digitais apresenta melhoria de -1.0 ponto
+- **Melhoria Significativa**: Falhas em cadeias de suprimentos apresentam melhoria de -1,0 ponto
 - **Estabilidade em Níveis Críticos**: A maioria das variáveis mantém-se em mediana 3.0-4.0.
 
 #### Destaques da Evolução Temporal
@@ -59,7 +59,7 @@ A análise temporal econômica sugere:
 
 1\. **Foco em Governança**: Priorizar estabilidade política e ambiente regulatório previsível
 
-2\. **Resiliência Digital**: Fortalecer infraestruturas críticas como área de sucesso
+2\. **Resiliência Digital**: Fortalecer infraestruturas críticas
 
 3\. **Gestão de Custos**: Monitorar pressões inflacionárias e tributárias
 

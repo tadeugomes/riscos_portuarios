@@ -1,0 +1,341 @@
+{
+ "top20": {
+  "economicos": 12,
+  "media_economicos": 40.3,
+  "media_geral": 38.9
+ },
+ "pct": {
+  "1.1": 28.0,
+  "1.2": 22.4,
+  "1.3": 36.0,
+  "1.4": 21.6,
+  "1.5": 26.4,
+  "1.6": 40.0,
+  "1.7": 44.8,
+  "1.8": 33.6,
+  "1.9": 36.0,
+  "1.10": 32.0,
+  "1.11": 27.2,
+  "1.12": 23.2,
+  "1.13": 35.2,
+  "1.14": 45.6,
+  "1.15": 50.4,
+  "1.16": 46.4,
+  "1.17": 24.8,
+  "1.18": 22.4,
+  "1.19": 45.6,
+  "1.20": 30.4,
+  "1.21": 38.4,
+  "2.1": 16.0,
+  "2.2": 24.0,
+  "2.3": 26.4,
+  "2.4": 22.4,
+  "2.5": 15.2,
+  "2.6": 19.2,
+  "2.7": 24.0,
+  "2.8": 24.0,
+  "2.9": 27.2,
+  "2.10": 24.0,
+  "2.11": 18.4,
+  "2.12": 17.6,
+  "2.13": 19.2,
+  "2.14": 12.8,
+  "2.15": 28.8,
+  "2.16": 14.4,
+  "2.17": 21.6,
+  "3.1": 16.8,
+  "3.2": 20.8,
+  "3.3": 46.4,
+  "3.4": 31.2,
+  "3.5": 28.0,
+  "3.6": 30.4,
+  "3.7": 24.0,
+  "4.1": 20.8,
+  "4.2": 21.6,
+  "4.3": 28.0,
+  "4.4": 28.0,
+  "4.5": 24.0,
+  "4.6": 30.4,
+  "4.7": 26.4,
+  "4.8": 26.4,
+  "4.9": 34.4,
+  "4.10": 27.2,
+  "4.11": 19.2,
+  "4.12": 14.4,
+  "4.13": 16.8,
+  "4.14": 23.2,
+  "4.15": 26.4,
+  "5.1": 18.4,
+  "5.2": 16.0,
+  "5.3": 15.2,
+  "5.4": 41.6,
+  "5.5": 19.2,
+  "5.6": 32.8,
+  "5.7": 33.6,
+  "5.8": 20.0,
+  "5.9": 20.0,
+  "5.10": 21.6,
+  "5.11": 26.4,
+  "5.12": 30.4,
+  "5.13": 30.4,
+  "5.14": 29.6,
+  "5.15": 32.0,
+  "5.16": 41.6
+ },
+ "curto_ge40": {
+  "total": 14,
+  "Econômica": 10,
+  "Tecnológica": 3,
+  "Geopolítica": 1
+ },
+ "longo_ge40": {
+  "total": 31,
+  "Econômica": 13,
+  "Tecnológica": 6,
+  "Ambiental": 5,
+  "Social": 4,
+  "Geopolítica": 3
+ },
+ "n_pioras_1": 18,
+ "grafico9_n": 23,
+ "eco_media_curto_gt25": 21,
+ "n_variaveis": 76,
+ "n_pares_temporais": 76,
+ "n_respondentes": 125,
+ "quadrantes": {
+  "cronicos": 56,
+  "emergentes": 16,
+  "controlados": 4,
+  "em_melhoria": 0
+ },
+ "pct_cronicos": 73.7,
+ "delta_medio_geral": 0.22,
+ "correlacao_medianas": 0.57,
+ "correlacao_medias": 0.89,
+ "por_dimensao": {
+  "Econômica": {
+   "n": 21,
+   "media_pct_alto_imediato": 33.8,
+   "delta_medio": 0.0,
+   "pioras_1": 1,
+   "melhorias_1": 1,
+   "estaveis": 19
+  },
+  "Ambiental": {
+   "n": 17,
+   "media_pct_alto_imediato": 20.9,
+   "delta_medio": 0.53,
+   "pioras_1": 9,
+   "melhorias_1": 0,
+   "estaveis": 8
+  },
+  "Geopolítica": {
+   "n": 7,
+   "media_pct_alto_imediato": 28.2,
+   "delta_medio": 0.57,
+   "pioras_1": 4,
+   "melhorias_1": 0,
+   "estaveis": 3
+  },
+  "Social": {
+   "n": 15,
+   "media_pct_alto_imediato": 24.5,
+   "delta_medio": 0.07,
+   "pioras_1": 1,
+   "melhorias_1": 0,
+   "estaveis": 14
+  },
+  "Tecnológica": {
+   "n": 16,
+   "media_pct_alto_imediato": 26.8,
+   "delta_medio": 0.19,
+   "pioras_1": 3,
+   "melhorias_1": 0,
+   "estaveis": 13
+  }
+ },
+ "pioras_1": [
+  {
+   "codigo": "1.13",
+   "dimensao": "Econômica",
+   "nome": "Risco de competitividade portuária"
+  },
+  {
+   "codigo": "2.3",
+   "dimensao": "Ambiental",
+   "nome": "Mudanças climáticas (intensificação e aumento da frequência de fenômenos relacionados"
+  },
+  {
+   "codigo": "2.6",
+   "dimensao": "Ambiental",
+   "nome": "Aumento do nível do mar e processos erosivos costeiros."
+  },
+  {
+   "codigo": "2.7",
+   "dimensao": "Ambiental",
+   "nome": "Poluição da água e sedimentos em áreas portuárias por contaminantes orgânicos e inorgânicos, tais como hidrocarbonetos, metais, pesticidas e nutrientes."
+  },
+  {
+   "codigo": "2.8",
+   "dimensao": "Ambiental",
+   "nome": "Movimentação de produtos perigosos."
+  },
+  {
+   "codigo": "2.9",
+   "dimensao": "Ambiental",
+   "nome": "Presença de agentes patogênicos. Deficiência no tratamento de esgoto ou saneamento."
+  },
+  {
+   "codigo": "2.10",
+   "dimensao": "Ambiental",
+   "nome": "Introdução de espécies exóticas, organismos aquáticos nocivos e agentes patogênicos."
+  },
+  {
+   "codigo": "2.12",
+   "dimensao": "Ambiental",
+   "nome": "Ruídos e vibrações."
+  },
+  {
+   "codigo": "2.13",
+   "dimensao": "Ambiental",
+   "nome": "Gerenciamento inadequado dos resíduos sólidos."
+  },
+  {
+   "codigo": "2.14",
+   "dimensao": "Ambiental",
+   "nome": "Desmatamento."
+  },
+  {
+   "codigo": "3.1",
+   "dimensao": "Geopolítica",
+   "nome": "Liberação intencional ou acidental de contaminante biológico, químico, nuclear ou radiológico."
+  },
+  {
+   "codigo": "3.2",
+   "dimensao": "Geopolítica",
+   "nome": "Alterações em condições de sistemas terrestres"
+  },
+  {
+   "codigo": "3.6",
+   "dimensao": "Geopolítica",
+   "nome": "Terrorismo."
+  },
+  {
+   "codigo": "3.7",
+   "dimensao": "Geopolítica",
+   "nome": "Migração ou deslocamento forçado"
+  },
+  {
+   "codigo": "4.1",
+   "dimensao": "Social",
+   "nome": "Ameaças aos direitos humanos e/ou às liberdades individuais ou de grupo."
+  },
+  {
+   "codigo": "5.2",
+   "dimensao": "Tecnológica",
+   "nome": "Consequências adversas de tecnologias avançadas (física, biotecnologia, geoengenharia)."
+  },
+  {
+   "codigo": "5.3",
+   "dimensao": "Tecnológica",
+   "nome": "Práticas de censura e vigilância adversa"
+  },
+  {
+   "codigo": "5.9",
+   "dimensao": "Tecnológica",
+   "nome": "Riscos associados à introdução de navios autônomos"
+  }
+ ],
+ "melhorias_1": [
+  {
+   "codigo": "1.6",
+   "dimensao": "Econômica",
+   "nome": "Falhas, interrupções ou disrupções em cadeias de suprimentos relevantes.",
+   "med_curto": 4.0,
+   "med_longo": 3.0
+  }
+ ],
+ "estaveis": 57,
+ "subconjunto_mediana_curto_ge3": {
+  "n": 56,
+  "pct": 73.7,
+  "delta_medio": 0.02,
+  "desvio": 0.23,
+  "pioras": 2,
+  "melhorias": 1,
+  "estaveis": 53,
+  "pct_estaveis": 94.6,
+  "lista_pioras": [
+   {
+    "codigo": "1.13",
+    "nome": "Risco de competitividade portuária",
+    "med_curto": 3.0,
+    "med_longo": 4.0
+   },
+   {
+    "codigo": "2.3",
+    "nome": "Mudanças climáticas (intensificação e aumento da frequência de fenômenos relacionados",
+    "med_curto": 3.0,
+    "med_longo": 4.0
+   }
+  ],
+  "estaveis_por_dim": {
+   "Ambiental": 7,
+   "Econômica": 19,
+   "Geopolítica": 3,
+   "Social": 11,
+   "Tecnológica": 13
+  }
+ },
+ "criticos_imediatos_gt40": [
+  {
+   "codigo": "1.15",
+   "dimensao": "Econômica",
+   "nome": "Instabilidade política.",
+   "pct_alto_imediato": 50.4
+  },
+  {
+   "codigo": "1.16",
+   "dimensao": "Econômica",
+   "nome": "Excesso regulatório.",
+   "pct_alto_imediato": 46.4
+  },
+  {
+   "codigo": "3.3",
+   "dimensao": "Geopolítica",
+   "nome": "Conflitos geoeconômicos (bloqueios, sanções, restrições tarifárias, redução de investimentos).",
+   "pct_alto_imediato": 46.4
+  },
+  {
+   "codigo": "1.14",
+   "dimensao": "Econômica",
+   "nome": "Aumento de impostos.",
+   "pct_alto_imediato": 45.6
+  },
+  {
+   "codigo": "1.19",
+   "dimensao": "Econômica",
+   "nome": "Corrupção.",
+   "pct_alto_imediato": 45.6
+  },
+  {
+   "codigo": "1.7",
+   "dimensao": "Econômica",
+   "nome": "Disrupções em infraestruturas críticas (físicas e digitais)",
+   "pct_alto_imediato": 44.8
+  },
+  {
+   "codigo": "5.4",
+   "dimensao": "Tecnológica",
+   "nome": "Falta de segurança computacional e de comunicação.",
+   "pct_alto_imediato": 41.6
+  },
+  {
+   "codigo": "5.16",
+   "dimensao": "Tecnológica",
+   "nome": "Escassez de mão de obra qualificada na área de tecnologia",
+   "pct_alto_imediato": 41.6
+  }
+ ],
+ "n_criticos_imediatos_ge40": 9
+}

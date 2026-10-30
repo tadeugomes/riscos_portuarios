@@ -6,6 +6,7 @@ e longo prazo (eixo y) utilizando filtros estatisticos robustos.
 
 from __future__ import annotations
 
+import re
 import sys
 import unicodedata
 from pathlib import Path
@@ -150,15 +151,15 @@ def gerar_grafico_dispersao_temporal() -> Path:
         
         # Encontrar correspondências
         for var_curto in variaveis_curto:
-            # Extrair base da variável (sem o período)
-            base_variavel = var_curto.split(' [')[0]
-            
-            # Procurar correspondente no longo prazo
+            # Parear pelo código da variável (ex.: 5.16), imune a diferenças de grafia
+            codigo = re.match(r'^\s*(\d+\.\d+)', str(var_curto))
             var_longo = None
-            for vl in variaveis_longo:
-                if vl.startswith(base_variavel):
-                    var_longo = vl
-                    break
+            if codigo:
+                for vl in variaveis_longo:
+                    cl = re.match(r'^\s*(\d+\.\d+)', str(vl))
+                    if cl and cl.group(1) == codigo.group(1):
+                        var_longo = vl
+                        break
             
             if var_longo and var_curto in analisador.dados_brutos and var_longo in analisador.dados_brutos:
                 # Calcular estatísticas

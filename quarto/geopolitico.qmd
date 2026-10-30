@@ -42,7 +42,7 @@ A análise temporal dos riscos geopolíticos revela padrões de volatilidade e c
 
 #### Piora Geopolítica Moderada
 
-- **Delta médio de +0,40**: Segunda maior piora entre as dimensões
+- **Delta médio de +0,57**: Maior piora entre as dimensões
 - **2 variáveis com piora crítica (+1.0 ponto)**: Terrorismo, liberação de agentes biológicos
 - **Tendência de deterioração consistente**: A maioria dos riscos mostra piora progressiva.
 
