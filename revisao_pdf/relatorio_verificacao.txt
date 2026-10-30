@@ -1,7 +1,7 @@
 Fonte: RELATORIO DE RISCO GLOBAL COMPLETO-DIGITAL.pdf
 Corrigido: RELATORIO DE RISCO GLOBAL COMPLETO-DIGITAL - CORRIGIDO.pdf
 Prova: RELATORIO DE RISCO GLOBAL COMPLETO-DIGITAL - PROVA.pdf
-Emendas: 36 | Figuras: 2 | Sinalizações: 3
+Emendas: 36 | Figuras: 2 | Sinalizações: 0
 Glifos: cada caractere novo foi renderizado na fonte embutida da sua sequência (sem falhas).
 Espaço: nenhuma composição ultrapassou o limite declarado da sua área.
 

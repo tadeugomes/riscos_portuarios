@@ -347,8 +347,9 @@ def main():
         n.update()
     capa = prova[0]
     resumo = (f"PROVA DE REVISÃO (30/10/2026). {len(esperados)} emendas de texto (amarelo), "
-              f"{len(IMAGENS)} figuras substituídas (vermelho) e {len(SINALIZACOES)} trechos a verificar "
-              "sem emenda (laranja). Base de referência: questionario.xlsx, 125 respondentes, 76 variáveis; "
+              f"{len(IMAGENS)} figuras substituídas (vermelho)"
+              + (f" e {len(SINALIZACOES)} trechos a verificar sem emenda (laranja)" if SINALIZACOES else "")
+              + ". Base de referência: questionario.xlsx, 125 respondentes, 76 variáveis; "
               "números recalculados por validacao/numeros_referencia.py.")
     n = capa.add_text_annot(fitz.Point(20, 20), resumo, icon="Note")
     n.set_info(title="Revisão LabPortos", subject="Resumo da revisão")

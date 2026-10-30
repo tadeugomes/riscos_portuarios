@@ -360,20 +360,8 @@ EMENDAS = [
 ]
 
 # Trechos sem correção no PDF limpo: dependem de decisão do autor. Viram notas na prova.
-SINALIZACOES = [
-    dict(pag=82, area=(130, 413, 525, 520),
-         motivo="Seção 6.2.1.3: 'Aumento da temperatura média' não é variável do questionário; os "
-                "crescimentos de +119% (desmatamento) e +161% (descarbonização) não têm base de cálculo "
-                "indicada e não foram reproduzidos. Reescrever com dados da base ou suprimir."),
-    dict(pag=106, area=(130, 292, 525, 505),
-         motivo="Seções 7.2.1.2 e 7.2.1.3: 'Instabilidade política' é variável econômica (1.15, mediana 4 "
-                "nos dois horizontes), não geopolítica; 'pirataria e crimes marítimos' e 'instabilidade "
-                "política em países parceiros (60%)' não existem no questionário. Reescrever com as variáveis 3.1 a 3.7."),
-    dict(pag=142, area=(130, 337, 525, 565),
-         motivo="Seções 9.2.1.2 e 9.2.1.3: 'Ataques cibernéticos e ransomware' e 'Falhas em sistemas de "
-                "automação e controle (45%)' não existem no questionário (ver variáveis 5.1 a 5.16). "
-                "Reescrever com dados da base."),
-]
+# Trechos sinalizados anteriormente (pp. 82, 106 e 142) foram retirados da prova a pedido do autor.
+SINALIZACOES = []
 
 IMAGENS = [
     dict(pag=45, xref=687, arquivo="quarto/assets/graficos_agrupados/matriz_riscos_quadrantes.png",
