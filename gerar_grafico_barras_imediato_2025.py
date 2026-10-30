@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Gera graficos de barras horizontais com os maiores riscos (niveis 4-5)
-para o periodo Imediato 2025 em cada dimensao analisada.
+para os periodos imediato, curto e longo prazo em cada dimensao analisada.
 """
 
 from __future__ import annotations
@@ -20,50 +20,42 @@ from analise_likert_riscos import AnalisadorRiscosLikert
 DIMENSIONS: Dict[str, Dict[str, object]] = {
     "Economica": {
         "slug": "economica",
+        "asset_dir": "economicos",
+        "grouped_slug": "economicos",
         "friendly": "Riscos Economicos",
         "ylabel": "Variaveis Economicas",
-        "output_files": [
-            Path("quarto/assets/economicos/grafico_barras_imediato_2025.png"),
-            Path("quarto/assets/graficos_agrupados/grafico_barras_economicos_imediato_2025.png"),
-        ],
     },
     "Ambiental": {
         "slug": "ambiental",
+        "asset_dir": "ambientais",
+        "grouped_slug": "ambientais",
         "friendly": "Riscos Ambientais",
         "ylabel": "Variaveis Ambientais",
-        "output_files": [
-            Path("quarto/assets/ambientais/grafico_barras_imediato_2025.png"),
-            Path("quarto/assets/graficos_agrupados/grafico_barras_ambientais_imediato_2025.png"),
-        ],
     },
     "Geopolitica": {
         "slug": "geopolitica",
+        "asset_dir": "geopoliticos",
+        "grouped_slug": "geopoliticos",
         "friendly": "Riscos Geopoliticos",
         "ylabel": "Variaveis Geopoliticas",
-        "output_files": [
-            Path("quarto/assets/geopoliticos/grafico_barras_imediato_2025.png"),
-            Path("quarto/assets/graficos_agrupados/grafico_barras_geopoliticos_imediato_2025.png"),
-        ],
     },
     "Tecnologica": {
         "slug": "tecnologica",
+        "asset_dir": "tecnologicos",
+        "grouped_slug": "tecnologicos",
         "friendly": "Riscos Tecnologicos",
         "ylabel": "Variaveis Tecnologicas",
-        "output_files": [
-            Path("quarto/assets/tecnologicos/grafico_barras_imediato_2025.png"),
-            Path("quarto/assets/graficos_agrupados/grafico_barras_tecnologicos_imediato_2025.png"),
-        ],
     },
     "Social": {
         "slug": "social",
+        "asset_dir": "social",
+        "grouped_slug": "social",
         "friendly": "Riscos Sociais",
         "ylabel": "Variaveis Sociais",
-        "output_files": [
-            Path("quarto/assets/social/grafico_barras_imediato_2025.png"),
-            Path("quarto/assets/graficos_agrupados/grafico_barras_social_imediato_2025.png"),
+        "legacy_files": {
             # Caminho original utilizado no livro (mantido por compatibilidade)
-            Path("quarto/assets/graficos_agrupados/grafico_barras_imediato_2025.png"),
-        ],
+            "imediato_2025": [Path("quarto/assets/graficos_agrupados/grafico_barras_imediato_2025.png")],
+        },
         # Ajustes especificos para nomes longos frequentes na dimensao social
         "abreviacoes": {
             "Insuficiencia de servicos publicos essenciais, como saude, saneamento, transporte, seguranca e educacao, que impacta diretamente a qualidade de vida da populacao e a forca de trabalho vinculada ao setor portuario": "Insuficiencia de servicos publicos essenciais",
@@ -75,10 +67,24 @@ DIMENSIONS: Dict[str, Dict[str, object]] = {
     },
 }
 
-# Recorte temporal utilizado em todos os graficos: respostas do periodo "Imediato 2025".
-# Em conjunto com os calculos abaixo, consideramos apenas os percentuais das notas 4 e 5
-# (classificados como risco alto), explicando explicitamente o filtro aplicado nos dados.
-PERIODO_TARGET = "imediato_2025"
+PERIODS: Dict[str, Dict[str, object]] = {
+    "imediato_2025": {
+        "aliases": ["imediato", "imediato_2025", "2025"],
+        "label": "Imediato 2025",
+        "suffix": "imediato_2025",
+    },
+    "curto_prazo_2026_2027": {
+        "aliases": ["curto", "curto_prazo", "curto_prazo_2026_2027", "2026-2027", "2026_2027"],
+        "label": "Curto prazo (2026 a 2027)",
+        "suffix": "curto_prazo_2026_2027",
+    },
+    "longo_prazo_2035": {
+        "aliases": ["longo", "longo_prazo", "longo_prazo_2035", "2035"],
+        "label": "Longo prazo (ate 2035)",
+        "suffix": "longo_prazo_2035",
+    },
+}
+PERIODO_PADRAO = "imediato_2025"
 
 
 def ascii_safe(texto: str) -> str:
@@ -88,6 +94,26 @@ def ascii_safe(texto: str) -> str:
         for caractere in unicodedata.normalize("NFKD", texto)
         if not unicodedata.combining(caractere)
     )
+
+
+def separar_argumentos(argumentos: Iterable[str]) -> tuple[list[str], list[str]]:
+    """Separa argumentos de dimensoes e periodos."""
+    dimensoes_args: list[str] = []
+    periodos_args: list[str] = []
+    alias_map = {
+        alias: periodo
+        for periodo, info in PERIODS.items()
+        for alias in info["aliases"]  # type: ignore[union-attr]
+    }
+
+    for argumento in argumentos:
+        chave = argumento.strip().lower()
+        if chave in alias_map:
+            periodos_args.append(alias_map[chave])
+        else:
+            dimensoes_args.append(argumento)
+
+    return dimensoes_args, list(dict.fromkeys(periodos_args))
 
 
 def selecionar_dimensoes(argumentos: Iterable[str]) -> List[str]:
@@ -118,22 +144,60 @@ def selecionar_dimensoes(argumentos: Iterable[str]) -> List[str]:
     return list(dict.fromkeys(selecionadas))
 
 
+def selecionar_periodos(argumentos: Iterable[str]) -> List[str]:
+    """Seleciona os periodos a processar a partir dos argumentos de linha de comando."""
+    if not argumentos:
+        return list(PERIODS.keys())
+
+    selecionados: list[str] = []
+    for argumento in argumentos:
+        chave = argumento.strip().lower()
+        if chave in PERIODS:
+            selecionados.append(chave)
+            continue
+        # Aceita aliases adicionais se vierem aqui
+        for periodo, info in PERIODS.items():
+            aliases = info["aliases"]  # type: ignore[assignment]
+            if chave in aliases:
+                selecionados.append(periodo)
+                break
+
+    return list(dict.fromkeys(selecionados))
+
+
+def montar_arquivos_saida(dimensao: str, periodo_key: str) -> List[Path]:
+    """Monta os caminhos de saida para cada grafico."""
+    config = DIMENSIONS[dimensao]
+    asset_dir = config["asset_dir"]
+    grouped_slug = config["grouped_slug"]
+    suffix = PERIODS[periodo_key]["suffix"]
+
+    arquivos = [
+        Path(f"quarto/assets/{asset_dir}/grafico_barras_{suffix}.png"),
+        Path(f"quarto/assets/graficos_agrupados/grafico_barras_{grouped_slug}_{suffix}.png"),
+    ]
+
+    legacy_files = config.get("legacy_files", {}).get(periodo_key, [])
+    return arquivos + legacy_files
+
+
 def gerar_grafico_barras_imediato(
     analisador: AnalisadorRiscosLikert,
     mapeamento: Dict[str, Dict[str, List[str]]],
     dimensao: str,
+    periodo_key: str = PERIODO_PADRAO,
 ) -> Path | None:
-    """Cria o grafico horizontal focado no periodo "Imediato 2025" com o percentual das notas 4-5."""
+    """Cria o grafico horizontal por periodo com o percentual das notas 4-5."""
     config = DIMENSIONS[dimensao]
     friendly = config["friendly"]
     ylabel = config["ylabel"]
-    arquivos_saida: List[Path] = config["output_files"]  # type: ignore[assignment]
     abreviacoes: Dict[str, str] = config.get("abreviacoes", {})  # type: ignore[assignment]
+    periodo_label = PERIODS[periodo_key]["label"]
 
-    print(f"\nGerando grafico de barras - {ascii_safe(friendly)}...")
+    print(f"\nGerando grafico de barras - {ascii_safe(friendly)} | {periodo_label}...")
 
     dados_dimensao = mapeamento.get(dimensao, {})
-    variaveis_periodo = dados_dimensao.get(PERIODO_TARGET, [])
+    variaveis_periodo = dados_dimensao.get(periodo_key, [])
 
     if not variaveis_periodo:
         print("  Nenhum dado encontrado para o periodo alvo. Grafico nao gerado.")
@@ -181,7 +245,7 @@ def gerar_grafico_barras_imediato(
     plt.xlabel("Percentual de respostas em niveis altos (4-5)", fontsize=12, fontweight="bold")
     plt.ylabel(ylabel, fontsize=12, fontweight="bold")
     plt.title(
-        f"{friendly} - Imediato 2025\nPercentual de respostas em niveis altos (4-5)",
+        f"{friendly} - {periodo_label}\nPercentual de respostas em niveis altos (4-5)",
         fontsize=14,
         fontweight="bold",
         pad=20,
@@ -205,6 +269,7 @@ def gerar_grafico_barras_imediato(
 
     plt.tight_layout()
 
+    arquivos_saida = montar_arquivos_saida(dimensao, periodo_key)
     destino_principal = arquivos_saida[0]
     destino_principal.parent.mkdir(parents=True, exist_ok=True)
     plt.savefig(destino_principal, dpi=300, bbox_inches="tight", facecolor="white")
@@ -238,13 +303,19 @@ def gerar_grafico_barras_imediato_2025() -> Path | None:
     analisador = AnalisadorRiscosLikert()
     analisador.carregar_dados()
     mapeamento = analisador.mapear_variaveis_por_dimensao()
-    return gerar_grafico_barras_imediato(analisador, mapeamento, "Social")
+    return gerar_grafico_barras_imediato(analisador, mapeamento, "Social", PERIODO_PADRAO)
 
 
 def main() -> None:
-    dimensoes = selecionar_dimensoes(sys.argv[1:])
+    args_dimensoes, args_periodos = separar_argumentos(sys.argv[1:])
+    dimensoes = selecionar_dimensoes(args_dimensoes)
     if not dimensoes:
         print("Nenhuma dimensao valida informada. Encerrando.")
+        return
+
+    periodos = selecionar_periodos(args_periodos)
+    if not periodos:
+        print("Nenhum periodo valido informado. Encerrando.")
         return
 
     analisador = AnalisadorRiscosLikert()
@@ -252,7 +323,8 @@ def main() -> None:
     mapeamento = analisador.mapear_variaveis_por_dimensao()
 
     for dimensao in dimensoes:
-        gerar_grafico_barras_imediato(analisador, mapeamento, dimensao)
+        for periodo_key in periodos:
+            gerar_grafico_barras_imediato(analisador, mapeamento, dimensao, periodo_key)
 
 
 if __name__ == "__main__":

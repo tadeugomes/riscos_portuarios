@@ -48,6 +48,25 @@ NOMES_DIMENSAO = {
     "Tecnologica": "Tecnologica",
 }
 
+# Configuracao de periodos para os graficos de interconexao
+PERIODOS_INTERCONEXAO = {
+    "imediato_2025": {
+        "titulo": "Maiores Riscos Imediatos",
+        "periodo": "Periodo Imediato 2025",
+        "arquivo": "grafico_interconexao_riscos_imediato_2025.png",
+    },
+    "curto_prazo_2026_2027": {
+        "titulo": "Maiores Riscos de Curto Prazo",
+        "periodo": "Periodo Curto Prazo 2026-2027",
+        "arquivo": "grafico_interconexao_riscos_curto_prazo_2026_2027.png",
+    },
+    "longo_prazo_2035": {
+        "titulo": "Maiores Riscos de Longo Prazo",
+        "periodo": "Periodo Longo Prazo ate 2035",
+        "arquivo": "grafico_interconexao_riscos_longo_prazo_2035.png",
+    },
+}
+
 def ascii_safe(texto: str) -> str:
     """Remove acentuacao para evitar erros em consoles Windows."""
     return "".join(
@@ -92,27 +111,33 @@ def gerar_label_sucinto_interconexao(nome_variavel: str) -> str:
     
     return nome_variavel
 
-def gerar_grafico_interconexao_riscos() -> Path:
+def gerar_grafico_interconexao_riscos(periodo_key: str = "imediato_2025") -> Path | None:
     """
-    Gera grafico consolidado com os maiores riscos imediatos de todas as dimensoes.
+    Gera grafico consolidado com os maiores riscos por periodo de todas as dimensoes.
     
     Returns:
         Path do arquivo gerado
     """
-    print("Gerando grafico de interconexao de riscos...")
+    if periodo_key not in PERIODOS_INTERCONEXAO:
+        print(f"Periodo desconhecido: {periodo_key}")
+        return None
+
+    periodo_info = PERIODOS_INTERCONEXAO[periodo_key]
+
+    print(f"Gerando grafico de interconexao de riscos ({periodo_info['periodo']})...")
     
     # Inicializar analisador
     analisador = AnalisadorRiscosLikert()
     analisador.carregar_dados()
     mapeamento = analisador.mapear_variaveis_por_dimensao()
     
-    # Coletar todos os riscos do periodo imediato_2025
+    # Coletar todos os riscos do periodo selecionado
     todos_riscos = []
     
     for dimensao, periodos in mapeamento.items():
         print(f"Processando dimensao: {ascii_safe(dimensao)}")
         
-        variaveis_periodo = periodos.get("imediato_2025", [])
+        variaveis_periodo = periodos.get(periodo_key, [])
         
         for variavel in variaveis_periodo:
             if variavel not in analisador.dados_brutos:
@@ -153,7 +178,7 @@ def gerar_grafico_interconexao_riscos() -> Path:
     top_riscos = todos_riscos[:40]
     
     print(f"Total de riscos analisados: {len(todos_riscos)}")
-    print(f"Top 20 riscos selecionados para visualizacao")
+    print(f"Top {len(top_riscos)} riscos selecionados para visualizacao")
     
     # Preparar dados para o grafico
     labels = [risco['label'] for risco in top_riscos][::-1]  # Inverter para barras horizontais
@@ -185,8 +210,8 @@ def gerar_grafico_interconexao_riscos() -> Path:
     plt.xlabel("Percentual de Respostas em Niveis Altos (4-5)", fontsize=14, fontweight='bold')
     plt.ylabel("Riscos por Dimensao", fontsize=14, fontweight='bold')
     plt.title(
-        "Maiores Riscos Imediatos (Niveis 4-5) - Todas as Dimensoes\n"
-        "Periodo Imediato 2025 | Ordenado do Maior para Menor Risco",
+        f"{periodo_info['titulo']} (Niveis 4-5) - Todas as Dimensoes\n"
+        f"{periodo_info['periodo']} | Ordenado do Maior para Menor Risco",
         fontsize=16,
         fontweight='bold',
         pad=25
@@ -223,7 +248,7 @@ def gerar_grafico_interconexao_riscos() -> Path:
     plt.tight_layout()
     
     # Salvar grafico
-    caminho_saida = Path("quarto/assets/graficos_agrupados/grafico_interconexao_riscos_imediato_2025.png")
+    caminho_saida = Path("quarto/assets/graficos_agrupados") / periodo_info["arquivo"]
     caminho_saida.parent.mkdir(parents=True, exist_ok=True)
     
     plt.savefig(caminho_saida, dpi=300, bbox_inches='tight', facecolor='white')
@@ -232,11 +257,11 @@ def gerar_grafico_interconexao_riscos() -> Path:
     print(f"Grafico salvo em: {caminho_saida}")
     
     # Gerar analise estatistica
-    gerar_analise_estatistica(top_riscos, media_geral)
+    gerar_analise_estatistica(top_riscos, media_geral, periodo_info["periodo"])
     
     return caminho_saida
 
-def gerar_analise_estatistica(top_riscos: List[Dict], media_geral: float):
+def gerar_analise_estatistica(top_riscos: List[Dict], media_geral: float, periodo_label: str):
     """
     Gera analise estatistica dos top riscos para inclusao no relatorio.
     
@@ -245,7 +270,7 @@ def gerar_analise_estatistica(top_riscos: List[Dict], media_geral: float):
         media_geral: Media geral de percentuais
     """
     print("\n" + "="*60)
-    print("Analise Estatistica - Top Riscos imediatos")
+    print(f"Analise Estatistica - {periodo_label}")
     print("="*60)
     
     # Analise por dimensao
@@ -296,14 +321,24 @@ def gerar_analise_estatistica(top_riscos: List[Dict], media_geral: float):
 def main():
     """Funcao principal."""
     try:
-        caminho_grafico = gerar_grafico_interconexao_riscos()
-        if caminho_grafico:
-            print(f"\n Grafico de interconexao de riscos gerado com sucesso!")
-            print(f" Arquivo: {caminho_grafico}")
-            print("\n Pronto para integracao com o capitulo interconexao-riscos.qmd")
-        else:
-            print(" Falha ao gerar grafico de interconexao de riscos")
-            
+        periodos = list(PERIODOS_INTERCONEXAO.keys())
+        args = [arg.strip().lower() for arg in sys.argv[1:] if arg.strip()]
+        if args:
+            periodos = [arg for arg in args if arg in PERIODOS_INTERCONEXAO]
+            if not periodos:
+                print("Nenhum periodo valido informado. Encerrando.")
+                return
+
+        for periodo_key in periodos:
+            caminho_grafico = gerar_grafico_interconexao_riscos(periodo_key)
+            if caminho_grafico:
+                print(f"\n Grafico de interconexao de riscos gerado com sucesso!")
+                print(f" Arquivo: {caminho_grafico}")
+            else:
+                print(" Falha ao gerar grafico de interconexao de riscos")
+
+        print("\n Pronto para integracao com o capitulo interconexao-riscos.qmd")
+
     except Exception as e:
         print(f"Erro ao executar analise: {e}")
         import traceback

@@ -12,7 +12,6 @@ book:
   date: today
   chapters:
     - index.qmd
-    - sumario-executivo.qmd
     - prefacio.qmd
     - metodologia.qmd
     - riscos-globais-portuarios.qmd

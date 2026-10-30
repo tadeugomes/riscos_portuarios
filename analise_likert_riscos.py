@@ -88,6 +88,8 @@ class AnalisadorRiscosLikert:
         self.label_overrides = {
             '1.12': 'Riscos Reputacionais',
             '1.13': 'Risco de Competitividade Portuária',
+            '5.1': 'Consequências indesejáveis pela aplicação de tecnologias ou IA (geral)',
+            '5.8': 'Consequências indesejáveis pela aplicação de tecnologias ou IA',
         }
         self.periodos_temporais = {
             'imediato_2025': ['Imediato (2025)', '2025'],
@@ -159,6 +161,10 @@ class AnalisadorRiscosLikert:
         """
         match = re.match(r'^(\d+\.\d+)\s*(.+?)\s*\[.*?\]\s*$', coluna_original)
         if match:
+            numero = match.group(1)
+            override = self.label_overrides.get(numero)
+            if override:
+                return override
             return self._limpar_reticencias(match.group(2).strip())
         return self._limpar_reticencias(str(coluna_original).strip())
 

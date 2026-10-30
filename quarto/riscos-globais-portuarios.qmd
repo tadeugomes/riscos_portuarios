@@ -28,48 +28,71 @@ table tbody tr:last-child {
 
 **Tabela 1: Análise Estatística dos Riscos Econômicos por Horizonte Temporal**
 
-| Risco | Período | Média | Mediana | Moda | Desvio Padrão | \% Risco Alto | \% Risco Baixo | Nível de Risco |
+| Risco | Per?odo | M?dia | Mediana | Moda | Desvio Padr?o | % Risco Alto | % Risco Baixo | N?vel de Risco |
 |--------|--------|--------|--------|--------|--------|--------|--------|--------|
 | Especulação e crise no mercado de ativos financeiros | Imediato (2025) | 2,66 | 3 | 1 | 1,32 | 28,0 | 45,6 | Moderado |
-|  | Curto Prazo (2026–2027) | 2,81 | 3 | 3 | 1,04 | 24,8 | 36,8 | Moderado |
+|  | Curto Prazo (2026-2027) | 2,81 | 3 | 3 | 1,04 | 24,8 | 36,8 | Moderado |
 |  | Longo Prazo (2035) | 2,93 | 3 | 3 | 1,21 | 32,0 | 37,6 | Moderado-alto |
+| Concentração de recursos estrategicamente importantes (minerais, materiais, tecnologias) entre um pequeno número de indivíduos | Imediato (2025) | 2,56 | 3 | 3 | 1,25 | 22,4 | 47,2 | Moderado |
+|  | Curto Prazo (2026-2027) | 2,90 | 3 | 3 | 1,11 | 33,6 | 35,2 | Moderado-alto |
+|  | Longo Prazo (2035) | 3,18 | 3 | 3 | 1,27 | 42,4 | 28,0 | Moderado-alto |
+| Endividamento público | Imediato (2025) | 2,86 | 3 | 1 | 1,40 | 36,0 | 41,6 | Moderado-alto |
+|  | Curto Prazo (2026-2027) | 3,12 | 3 | 3 | 1,25 | 41,6 | 29,6 | Moderado-alto |
+|  | Longo Prazo (2035) | 3,16 | 3 | 3 | 1,24 | 40,8 | 28,0 | Moderado-alto |
+| Endividamento empresarial | Imediato (2025) | 2,62 | 3 | 3 | 1,18 | 21,6 | 43,2 | Moderado |
+|  | Curto Prazo (2026-2027) | 2,87 | 3 | 3 | 1,05 | 27,2 | 32,8 | Moderado |
+|  | Longo Prazo (2035) | 2,98 | 3 | 3 | 1,09 | 32,0 | 33,6 | Moderado-alto |
+| Endividamento das pessoas | Imediato (2025) | 2,52 | 2 | 1 | 1,35 | 26,4 | 53,6 | Moderado |
+|  | Curto Prazo (2026-2027) | 2,75 | 3 | 2 | 1,26 | 31,2 | 48,8 | Moderado-alto |
+|  | Longo Prazo (2035) | 2,87 | 3 | 3 | 1,22 | 30,4 | 36,8 | Moderado-alto |
+| Falhas, interrupções ou disrupções em cadeias de suprimentos relevantes | Imediato (2025) | 2,97 | 3 | 4 | 1,40 | 40,0 | 38,4 | Moderado-alto |
+|  | Curto Prazo (2026-2027) | 3,29 | 4 | 4 | 1,20 | 50,4 | 28,0 | Cr?tico |
+|  | Longo Prazo (2035) | 3,30 | 3 | 3 | 1,17 | 44,8 | 24,0 | Moderado-alto |
+| Disrupções em infraestruturas críticas (físicas e digitais) | Imediato (2025) | 3,11 | 3 | 4 | 1,37 | 44,8 | 34,4 | Moderado-alto |
+|  | Curto Prazo (2026-2027) | 3,19 | 3 | 4 | 1,15 | 43,2 | 28,0 | Moderado-alto |
+|  | Longo Prazo (2035) | 3,28 | 3 | 3 | 1,25 | 40,0 | 28,8 | Moderado-alto |
+| Diminuição (estagnação) do ritmo e da dinâmica das atividades econômicas | Imediato (2025) | 2,84 | 3 | 3 | 1,29 | 33,6 | 41,6 | Moderado-alto |
+|  | Curto Prazo (2026-2027) | 3,15 | 3 | 3 | 1,12 | 36,8 | 25,6 | Moderado-alto |
+|  | Longo Prazo (2035) | 3,28 | 3 | 3 | 1,14 | 44,0 | 23,2 | Moderado-alto |
+| Ação do crime organizado e atividades ilícitas de empresas e pessoas | Imediato (2025) | 3,04 | 3 | 3 | 1,36 | 36,0 | 36,0 | Moderado-alto |
+|  | Curto Prazo (2026-2027) | 3,19 | 3 | 3 | 1,28 | 42,4 | 32,8 | Moderado-alto |
+|  | Longo Prazo (2035) | 3,28 | 3 | 3 | 1,27 | 44,8 | 26,4 | Moderado-alto |
 | Aumento da inflação | Imediato (2025) | 2,84 | 3 | 3 | 1,24 | 32,0 | 36,8 | Moderado-alto |
-|  | Curto Prazo (2026–2027) | 3,17 | 3 | 3 | 1,11 | 38,4 | 27,2 | Moderado-alto |
+|  | Curto Prazo (2026-2027) | 3,17 | 3 | 3 | 1,11 | 38,4 | 27,2 | Moderado-alto |
 |  | Longo Prazo (2035) | 3,30 | 3 | 3 | 1,09 | 43,2 | 24,8 | Moderado-alto |
-| Dificuldades de financiamento para investimento | Imediato (2025) | 2,70 | 3 | 3 | 1,31 | 27,2 | 44,0 | Moderado |
-|  | Curto Prazo (2026–2027) | 3,01 | 3 | 3 | 1,23 | 34,4 | 33,6 | Moderado-alto |
+| Dificuldades de financiamento e obtenção de recursos financeiros para investimento | Imediato (2025) | 2,70 | 3 | 3 | 1,31 | 27,2 | 44,0 | Moderado |
+|  | Curto Prazo (2026-2027) | 3,01 | 3 | 3 | 1,23 | 34,4 | 33,6 | Moderado-alto |
 |  | Longo Prazo (2035) | 3,16 | 3 | 3 | 1,19 | 39,2 | 28,8 | Moderado-alto |
 | Riscos reputacionais | Imediato (2025) | 2,60 | 3 | 3 | 1,30 | 23,2 | 46,4 | Moderado |
-|  | Curto Prazo (2026–2027) | 2,85 | 3 | 3 | 1,24 | 29,6 | 36,0 | Moderado |
+|  | Curto Prazo (2026-2027) | 2,85 | 3 | 3 | 1,24 | 29,6 | 36,0 | Moderado |
 |  | Longo Prazo (2035) | 2,86 | 3 | 3 | 1,23 | 29,6 | 38,4 | Moderado |
 | Risco de competitividade portuária | Imediato (2025) | 2,83 | 3 | 4 | 1,29 | 35,2 | 42,4 | Moderado-alto |
-|  | Curto Prazo (2026–2027) | 3,19 | 3 | 3 | 1,17 | 40,8 | 28,8 | Moderado-alto |
-|  | Longo Prazo (2035) | 3,42 | 4 | 4 | 1,25 | 51,2 | 21,6 | Crítico |
+|  | Curto Prazo (2026-2027) | 3,19 | 3 | 3 | 1,17 | 40,8 | 28,8 | Moderado-alto |
+|  | Longo Prazo (2035) | 3,42 | 4 | 4 | 1,25 | 51,2 | 21,6 | Cr?tico |
 | Aumento de impostos | Imediato (2025) | 3,11 | 3 | 4 | 1,36 | 45,6 | 32,8 | Moderado-alto |
-|  | Curto Prazo (2026–2027) | 3,34 | 4 | 4 | 1,19 | 51,2 | 27,2 | Crítico |
-|  | Longo Prazo (2035) | 3,45 | 4 | 4 | 1,19 | 52,0 | 24,0 | Crítico |
-| Instabilidade política | Imediato (2025) | 3,42 | 4 | 5 | 1,36 | 50,4 | 26,4 | Crítico |
-|  | Curto Prazo (2026–2027) | 3,74 | 4 | 4 | 1,08 | 60,8 | 12,8 | Crítico |
-|  | Longo Prazo (2035) | 3,62 | 4 | 3 | 1,08 | 53,6 | 15,2 | Crítico |
+|  | Curto Prazo (2026-2027) | 3,34 | 4 | 4 | 1,19 | 51,2 | 27,2 | Cr?tico |
+|  | Longo Prazo (2035) | 3,45 | 4 | 4 | 1,19 | 52,0 | 24,0 | Cr?tico |
+| Instabilidade política | Imediato (2025) | 3,42 | 4 | 5 | 1,36 | 50,4 | 26,4 | Cr?tico |
+|  | Curto Prazo (2026-2027) | 3,74 | 4 | 4 | 1,08 | 60,8 | 12,8 | Cr?tico |
+|  | Longo Prazo (2035) | 3,62 | 4 | 3 | 1,08 | 53,6 | 15,2 | Cr?tico |
 | Excesso regulatório | Imediato (2025) | 3,26 | 3 | 3 | 1,29 | 46,4 | 27,2 | Moderado-alto |
-|  | Curto Prazo (2026–2027) | 3,49 | 4 | 4 | 1,09 | 53,6 | 18,4 | Crítico |
-|  | Longo Prazo (2035) | 3,54 | 4 | 4 | 1,15 | 52,8 | 20,8 | Crítico |
+|  | Curto Prazo (2026-2027) | 3,49 | 4 | 4 | 1,09 | 53,6 | 18,4 | Cr?tico |
+|  | Longo Prazo (2035) | 3,54 | 4 | 4 | 1,15 | 52,8 | 20,8 | Cr?tico |
 | Déficit regulatório | Imediato (2025) | 2,55 | 3 | 1 | 1,30 | 24,8 | 49,6 | Moderado |
-|  | Curto Prazo (2026–2027) | 2,75 | 3 | 3 | 1,20 | 27,2 | 40,8 | Moderado |
+|  | Curto Prazo (2026-2027) | 2,75 | 3 | 3 | 1,20 | 27,2 | 40,8 | Moderado |
 |  | Longo Prazo (2035) | 2,89 | 3 | 3 | 1,25 | 33,6 | 39,2 | Moderado-alto |
 | Desemprego | Imediato (2025) | 2,42 | 2 | 1 | 1,23 | 22,4 | 56,8 | Moderado |
-|  | Curto Prazo (2026–2027) | 2,79 | 3 | 3 | 1,20 | 27,2 | 40,8 | Moderado |
+|  | Curto Prazo (2026-2027) | 2,79 | 3 | 3 | 1,20 | 27,2 | 40,8 | Moderado |
 |  | Longo Prazo (2035) | 2,99 | 3 | 3 | 1,18 | 32,0 | 34,4 | Moderado-alto |
 | Corrupção | Imediato (2025) | 3,17 | 3 | 5 | 1,46 | 45,6 | 36,0 | Moderado-alto |
-|  | Curto Prazo (2026–2027) | 3,31 | 3 | 5 | 1,31 | 47,2 | 29,6 | Moderado-alto |
+|  | Curto Prazo (2026-2027) | 3,31 | 3 | 5 | 1,31 | 47,2 | 29,6 | Moderado-alto |
 |  | Longo Prazo (2035) | 3,39 | 3 | 3 | 1,29 | 48,0 | 24,0 | Moderado-alto |
-| Falhas em cadeias de suprimentos | Imediato (2025) | 2,97 | 3 | 4 | 1,40 | 40,0 | 38,4 | Moderado-alto |
-|  | Curto Prazo (2026–2027) | 3,29 | 4 | 4 | 1,20 | 50,4 | 28,0 | Crítico |
-|  | Longo Prazo (2035) | 3,30 | 3 | 3 | 1,17 | 44,8 | 24,0 | Moderado-alto |
-| Ação do crime organizado | Imediato (2025) | 3,04 | 3 | 3 | 1,36 | 36,0 | 36,0 | Moderado-alto |
-|  | Curto Prazo (2026–2027) | 3,19 | 3 | 3 | 1,28 | 42,4 | 32,8 | Moderado-alto |
-|  | Longo Prazo (2035) | 3,28 | 3 | 3 | 1,27 | 44,8 | 26,4 | Moderado-alto |
-
+| Desequilíbrio econômico regional | Imediato (2025) | 2,77 | 3 | 3 | 1,23 | 30,4 | 41,6 | Moderado-alto |
+|  | Curto Prazo (2026-2027) | 3,06 | 3 | 3 | 1,09 | 36,0 | 31,2 | Moderado-alto |
+|  | Longo Prazo (2035) | 3,19 | 3 | 3 | 1,15 | 40,0 | 28,8 | Moderado-alto |
+| Conflito ou instabilidade institucional do Estado | Imediato (2025) | 2,88 | 3 | 1 | 1,41 | 38,4 | 38,4 | Moderado-alto |
+|  | Curto Prazo (2026-2027) | 3,22 | 3 | 4 | 1,26 | 45,6 | 30,4 | Moderado-alto |
+|  | Longo Prazo (2035) | 3,22 | 3 | 3 | 1,23 | 37,6 | 26,4 | Moderado-alto |
 *Fonte: elaboração própria*
 
 ### Riscos ambientais

@@ -4,27 +4,24 @@ format: html
 editor: visual
 ---
 
-
-
 Esta seção apresenta a análise detalhada dos riscos ambientais identificados no questionário, organizados por horizontes temporais e variáveis específicas.
 
 ## Visão Geral dos Riscos Ambientais
 
 Os riscos ambientais foram avaliados em três horizontes temporais:
 
-- **Imediato (2025)**: Riscos que requerem atenção imediata
-- **Curto Prazo (2026-2027)**: Riscos emergentes que demandam planejamento
-- **Longo Prazo (até 2035)**: Riscos estratégicos que requerem visão de futuro.
+-   **Imediato (2025)**: Riscos que requerem atenção imediata
+-   **Curto Prazo (2026-2027)**: Riscos emergentes que demandam planejamento
+-   **Longo Prazo (até 2035)**: Riscos estratégicos que requerem visão de futuro.
 
 ## Panorama do Período Imediato
 
 ![](assets/ambientais/grafico_barras_imediato_2025.png)
 
 ::: {.callout-note title="Destaques do período Imediato de 2025"}
-- **Licenciamento ambiental**: 29% em níveis altos
-- **Presença de agentes patogênicos**: 27% em níveis altos
-- **Mudanças climáticas (eventos extremos)**: 26% em níveis altos.
-Os resultados mostram que os principais focos de atenção estão ligados à gestão institucional, aos riscos sanitários e aos eventos climáticos extremos, evidenciando a necessidade de controles robustos e operações resilientes.
+-   **Licenciamento ambiental**: 29% em níveis altos
+-   **Presença de agentes patogênicos**: 27% em níveis altos
+-   **Mudanças climáticas (eventos extremos)**: 26% em níveis altos. Os resultados mostram que os principais focos de atenção estão ligados à gestão institucional, aos riscos sanitários e aos eventos climáticos extremos, evidenciando a necessidade de controles robustos e operações resilientes.
 
 O licenciamento ambiental aparece como o risco mais expressivo, com 29% das respostas em níveis altos (4-5). A percepção de atrasos ou não conformidades indica risco direto para suspensão de obras, imposição de medidas compensatórias e incertezas regulatórias, comprometendo planejamento e execução.
 
@@ -45,21 +42,21 @@ A análise temporal dos riscos ambientais revela o padrão mais preocupante entr
 
 #### Piora Ambiental Significativa
 
-- **Delta médio de +0,56**: Maior piora entre todas as dimensões
-- **9 variáveis com piora crítica (+1.0 ponto)**: Mudanças climáticas, aumento do nível do mar, poluição, espécies exóticas, resíduos, desmatamento, ruídos, patógenos, produtos perigosos
-- **Tendência de deterioração acelerada**: A maioria dos riscos ambientais mostra piora progressiva.
+-   **Delta médio de +0,56**: Maior piora entre todas as dimensões
+-   **9 variáveis com piora crítica (+1.0 ponto)**: Mudanças climáticas, aumento do nível do mar, poluição, espécies exóticas, resíduos, desmatamento, ruídos, patógenos, produtos perigosos
+-   **Tendência de deterioração acelerada**: A maioria dos riscos ambientais mostra piora progressiva.
 
 #### Padrões Específicos Identificados
 
-- **Mudanças Climáticas como Principal Risco**: Evolui de mediana 2.0 para 4.0, tornando-se crítica
-- **Riscos Costeiros em Ascensão**: Aumento do nível do mar e erosão costeira mostram piora significativa
-- **Pressão Regulatória Crescente**: Licenciamento ambiental e descarbonização tornam-se mais críticos.
+-   **Mudanças Climáticas como Principal Risco**: Evolui de mediana 2.0 para 4.0, tornando-se crítica
+-   **Riscos Costeiros em Ascensão**: Aumento do nível do mar e erosão costeira mostram piora significativa
+-   **Pressão Regulatória Crescente**: Licenciamento ambiental e descarbonização tornam-se mais críticos.
 
 #### Destaques da Evolução Temporal
 
-- **Risco Mais Crítico em 2035**: Aumento da temperatura média (52% em risco alto)
-- **Maior Crescimento Relativo**: Desmatamento (+119% no risco alto)
-- **Transformação Regulatória**: Descarbonização do transporte marítimo (+161% no risco alto).
+-   **Risco Mais Crítico em 2035**: Aumento da temperatura média (52% em risco alto)
+-   **Maior Crescimento Relativo**: Desmatamento (+119% no risco alto)
+-   **Transformação Regulatória**: Descarbonização do transporte marítimo (+161% no risco alto).
 
 #### Implicações Estratégicas para a Dimensão Ambiental
 
@@ -203,18 +200,17 @@ A análise temporal ambiental exige ação imediata:
 ![](assets/ambientais/grafico_agrupado_2_8_temporal.png)
 
 ::: {.callout-tip title="Destaques"}
-**Evolução da Percepção de Risco:** O gráfico demonstra uma tendência crescente de percepção de risco associada à introdução de espécies exóticas invasoras, organismos aquáticos nocivos e agentes patogênicos, fenômeno frequentemente vinculado à descarga de água de lastro. Essa evolução sugere maior reconhecimento dos riscos ambientais e regulatórios para o setor portuário. 
+**Evolucao da Percepcao de Risco:** O grafico indica aumento moderado na percepcao de risco associada a movimentacao de produtos perigosos, refletindo maior sensibilidade a falhas de contencao, vazamentos e acidentes durante transporte, armazenagem e operacoes portuarias.
 
-**Contexto Detalhado por Período:**
+**Contexto Detalhado por Periodo:**
 
-**Período Imediato (2025):** A percepção de risco é moderada, com 24% das respostas classificando o risco como alto (4) ou muito alto (5), e mediana igual a 2, indicando que, no horizonte mais próximo, os impactos são percebidos como pontuais ou de baixa probabilidade.
+**Periodo Imediato (2025):** 24% das respostas em niveis altos (4-5), com mediana 2, indicando percepcao ainda moderada no curto horizonte.
 
-**Curto Prazo (2026–2027):** Observa-se elevação gradual da preocupação, com 27% dos respondentes avaliando o risco como alto ou muito alto, mantendo mediana em 2, refletindo maior atenção às exigências regulatórias internacionais e à gestão de águas de lastro.
+**Curto Prazo (2026-2027):** 27,2% em niveis altos, mediana mantida em 2, sugerindo aumento gradual de preocupacao com exposicao operacional e regulatoria.
 
-**Longo Prazo (até 2035):** A percepção de risco se intensifica expressivamente, alcançando 35% das respostas nos níveis alto (4) e muito alto (5), e mediana igual a 3, evidenciando reconhecimento de que a proliferação de espécies invasoras representa ameaça crescente à biodiversidade marinha e às atividades portuárias.
+**Longo Prazo (ate 2035):** 29,6% em niveis altos, com mediana 3, indicando reconhecimento crescente do risco e de seus impactos potenciais.
 
-\
-**Implicações Estratégica:** A introdução de espécies exóticas invasoras, organismos aquáticos nocivos e agentes patogênicos, seja por descarga de água de lastro ou outro tipo de descarte pode causar desequilíbrios ecológicos graves, com competição entre espécies nativas e invasoras, alteração de habitats e danos irreversíveis à biodiversidade local. Essas ocorrências podem demandar ações corretivas onerosas e restrições adicionais de atracação e manuseio de embarcações, impactando diretamente a conformidade ambiental e a reputação institucional do porto. Entre as medidas preventivas prioritárias destacam-se: monitoramento e registro contínuo das operações de lastro, adoção de tecnologias de tratamento de água de lastro a bordo e  capacitação das equipes para resposta rápida a incidentes ambientais. Essas ações são fundamentais para assegurar a conformidade com normas internacionais, preservar os ecossistemas costeiros e fortalecer a governança ambiental do complexo portuário.
+**Implicacoes Estrategicas:** A movimentacao de produtos perigosos eleva o risco de contaminacao ambiental, danos a infraestrutura e riscos ocupacionais. A mitigacao exige protocolos rigorosos de seguranca, planos de emergencia atualizados, treinamento continuado das equipes, monitoramento de cargas e reforco de barreiras de contencao e resposta rapida. Essas medidas reduzem a probabilidade de incidentes e fortalecem a conformidade ambiental e a continuidade operacional.
 :::
 
 ### Presença de agentes patogênicos (Deficiência no tratamento de esgoto ou saneamento)
@@ -405,20 +401,19 @@ A análise comparativa entre os horizontes temporais revela importantes padrões
 
 ### Tendências Identificadas
 
-- **Riscos Imediatos**: Maior preocupação com eventos climáticos extremos e desastres naturais
-- **Riscos de Curto Prazo**: Destaque para escassez hídrica e poluição atmosférica
-- **Riscos de Longo Prazo**: Preocupação crescente com aumento do nível do mar e descarbonização.
+-   **Riscos Imediatos**: Maior preocupação com eventos climáticos extremos e desastres naturais
+-   **Riscos de Curto Prazo**: Destaque para escassez hídrica e poluição atmosférica
+-   **Riscos de Longo Prazo**: Preocupação crescente com aumento do nível do mar e descarbonização.
 
 ### Insights Estratégicos
 
-1. **Adaptação Climática**: Necessidade de investir em infraestrutura resiliente a eventos extremos
-2. **Gestão Ambiental**: Implementar sistemas de monitoramento e controle
-3. **Sustentabilidade**: Desenvolver práticas operacionais ambientalmente responsáveis
-4. **Inovação Verde**: Investir em tecnologias limpas e processos sustentáveis.
+1.  **Adaptação Climática**: Necessidade de investir em infraestrutura resiliente a eventos extremos
+2.  **Gestão Ambiental**: Implementar sistemas de monitoramento e controle
+3.  **Sustentabilidade**: Desenvolver práticas operacionais ambientalmente responsáveis
+4.  **Inovação Verde**: Investir em tecnologias limpas e processos sustentáveis.
 
 ::: {.content-visible when-format="docx"}
 ```{=openxml}
 <w:p><w:r><w:br w:type="page"/></w:r></w:p>
 ```
 :::
-
